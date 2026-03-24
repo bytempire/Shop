@@ -325,12 +325,15 @@
     else goHome();
   });
 
-  document.querySelectorAll(".brand-card").forEach((card) => {
-    card.addEventListener("click", () => {
-      const brand = card.getAttribute("data-brand");
-      goSub(brand);
+  var brandGrid = document.querySelector(".brand-grid");
+  if (brandGrid) {
+    brandGrid.addEventListener("click", function (e) {
+      var card = e.target.closest(".brand-card");
+      if (!card || !brandGrid.contains(card)) return;
+      var brand = card.getAttribute("data-brand");
+      if (brand) goSub(brand);
     });
-  });
+  }
 
   els.search.addEventListener("input", () => {
     state.query = els.search.value;
