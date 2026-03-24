@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>62 ЯБЛОКА — каталог</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-pattern" aria-hidden="true"></div>
+  <header class="header glass">
+    <div class="header-inner">
+      <h1 class="logo">62 ЯБЛОКА</h1>
+      <p class="tagline">Apple · каталог</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="toolbar glass">
+      <input type="search" id="search" class="search" placeholder="Поиск по названию или артикулу…" autocomplete="off" />
+      <div class="chips" id="chips"></div>
+    </div>
+
+    <p class="meta" id="count"></p>
+    <ul class="grid" id="grid"></ul>
+  </main>
+
+  <div class="cart-bar glass" id="cartBar" hidden>
+    <div class="cart-info">
+      <span class="cart-label">В корзине</span>
+      <strong id="cartTotal">0 ₽</strong>
+    </div>
+    <button type="button" class="btn-pill" id="orderBtn">Оформить в Telegram</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
