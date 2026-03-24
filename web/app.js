@@ -77,6 +77,7 @@
     siteHeader: document.getElementById("siteHeader"),
     headerBanner: document.getElementById("headerBanner"),
     headerLogo: document.getElementById("headerLogo"),
+    headerRow: document.getElementById("headerRow"),
     backBtn: document.getElementById("backBtn"),
     tagline: document.getElementById("tagline"),
     viewHome: document.getElementById("viewHome"),
@@ -137,8 +138,13 @@
     els.viewHome.hidden = name !== "home";
     els.viewSub.hidden = name !== "sub";
     els.viewCatalog.hidden = name !== "catalog";
-    els.backBtn.hidden = name === "home";
     var onHome = name === "home";
+    if (els.backBtn) {
+      els.backBtn.hidden = onHome;
+      els.backBtn.setAttribute("aria-hidden", onHome ? "true" : "false");
+    }
+    if (els.headerRow)
+      els.headerRow.classList.toggle("header-row--home", onHome);
     if (els.headerBanner) els.headerBanner.hidden = !onHome;
     if (els.siteHeader) els.siteHeader.classList.toggle("site-header--inner", !onHome);
     if (els.headerLogo) els.headerLogo.hidden = onHome;

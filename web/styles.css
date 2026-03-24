@@ -146,6 +146,19 @@ body {
   gap: 8px;
 }
 
+/* Главная: без колонок под «Назад», только заголовок по центру */
+.header-row--home {
+  grid-template-columns: 1fr;
+}
+
+.header-row--home .header-spacer {
+  display: none !important;
+}
+
+.back-btn[hidden] {
+  display: none !important;
+}
+
 .header-inner {
   text-align: center;
   min-width: 0;
