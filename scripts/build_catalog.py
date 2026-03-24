@@ -94,18 +94,19 @@ def parse_products(xlsx_path: str) -> list:
             if not kind:
                 continue
             brand, family, cat_label = kind
-            products.append(
-                {
-                    "id": f"{sku or 'n'}-{r}",
-                    "brand": brand,
-                    "family": family,
-                    "category": cat_label,
-                    "sku": sku,
-                    "name": name,
-                    "country": str(c_).strip() if c_ else "",
-                    "price": price,
-                }
-            )
+            row = {
+                "id": f"{sku or 'n'}-{r}",
+                "brand": brand,
+                "family": family,
+                "category": cat_label,
+                "sku": sku,
+                "name": name,
+                "country": str(c_).strip() if c_ else "",
+                "price": price,
+            }
+            if "iPhone 13" in name and "iPhone 13 Pro" not in name:
+                row["image"] = "images/iphone13.png"
+            products.append(row)
     return products
 
 

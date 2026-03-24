@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var path = location.pathname;
+      var dir =
+        path.endsWith("/")
+          ? path
+          : /\.html$/i.test(path)
+            ? path.replace(/[^/]+$/, "")
+            : path + "/";
+      var b = document.createElement("base");
+      b.href = location.origin + dir;
+      var charset = document.querySelector("meta[charset]");
+      if (charset && charset.parentNode) {
+        charset.parentNode.insertBefore(b, charset.nextSibling);
+      } else {
+        document.head.prepend(b);
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Админ — фото товаров</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="bg-pattern" aria-hidden="true"></div>
+  <main class="main admin-main">
+    <div id="denyPanel" class="admin-panel admin-deny glass" hidden></div>
+    <div id="adminPanel" class="admin-panel" hidden>
+      <header class="admin-header">
+        <h1 class="admin-title">Фото в карточках</h1>
+        <p class="admin-sub">
+          <strong>Важно:</strong> «Сохранить» пишет в память этого устройства. Для всех клиентов добавляйте
+          <code>image</code> в JSON каталога или скачайте привязки ниже.
+        </p>
+        <p class="admin-export">
+          <button type="button" class="admin-row__btn secondary" id="exportBtn">Скачать JSON id → url</button>
+        </p>
+      </header>
+      <div class="toolbar glass admin-toolbar">
+        <input type="search" id="adminSearch" class="search" placeholder="Поиск…" autocomplete="off" />
+      </div>
+      <p class="admin-meta" id="adminMeta"></p>
+      <ul class="admin-list" id="adminList"></ul>
+      <p class="admin-toast" id="adminToast" hidden></p>
+    </div>
+  </main>
+  <script src="images-store.js"></script>
+  <script src="catalog-data.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

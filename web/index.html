@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var path = location.pathname;
+      var dir =
+        path.endsWith("/")
+          ? path
+          : /\.html$/i.test(path)
+            ? path.replace(/[^/]+$/, "")
+            : path + "/";
+      var b = document.createElement("base");
+      b.href = location.origin + dir;
+      var charset = document.querySelector("meta[charset]");
+      if (charset && charset.parentNode) {
+        charset.parentNode.insertBefore(b, charset.nextSibling);
+      } else {
+        document.head.prepend(b);
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>62 ЯБЛОКА — каталог</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-pattern" aria-hidden="true"></div>
+  <header class="site-header" id="siteHeader">
+    <div class="header-banner" id="headerBanner">
+      <img
+        class="header-banner__img"
+        src="banner.png"
+        width="1200"
+        height="400"
+        alt="62 ЯБЛОКА — магазин техники и аксессуаров"
+      />
+      <div class="header-banner__mask" aria-hidden="true"></div>
+      <a class="header-banner__phone" href="tel:+79269888598">
+        <span class="header-banner__phone-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span class="header-banner__phone-text">+7 (926) 988-85-98</span>
+      </a>
+    </div>
+    <div class="header-bar glass">
+      <div class="header-row header-row--home" id="headerRow">
+        <button type="button" class="back-btn" id="backBtn" hidden aria-label="Назад">←</button>
+        <div class="header-inner">
+          <h1 class="logo" id="headerLogo">62 ЯБЛОКА</h1>
+          <p class="tagline" id="tagline">Выберите бренд</p>
+        </div>
+        <span class="header-spacer" aria-hidden="true"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="view" id="viewHome" aria-label="Бренды">
+      <p class="home-hint">Каталог техники</p>
+      <p class="home-load-error" id="homeLoadError" hidden>
+        Не удалось загрузить каталог. Проверьте <code>catalog-data.js</code> / <code>products.json</code>.
+      </p>
+      <div class="brand-grid">
+        <button type="button" class="brand-card brand-card--apple" data-brand="apple">
+          <span class="brand-card__name">Apple</span>
+          <span class="brand-card__hint">iPhone, Watch</span>
+        </button>
+        <button type="button" class="brand-card brand-card--samsung" data-brand="samsung">
+          <span class="brand-card__name">Samsung</span>
+          <span class="brand-card__hint">Смартфоны, умные часы</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="view" id="viewSub" hidden aria-label="Категории">
+      <h2 class="sub-head" id="subHead">Apple</h2>
+      <div class="sub-grid" id="subGrid"></div>
+    </section>
+
+    <section class="view" id="viewCatalog" hidden aria-label="Товары">
+      <div class="toolbar glass">
+        <input type="search" id="search" class="search" placeholder="Поиск по названию или артикулу…" autocomplete="off" />
+        <div class="chips" id="chips"></div>
+      </div>
+      <p class="meta" id="count"></p>
+      <ul class="grid" id="grid"></ul>
+    </section>
+  </main>
+
+  <div class="cart-bar glass" id="cartBar" hidden>
+    <div class="cart-info">
+      <span class="cart-label">В корзине</span>
+      <strong id="cartTotal">0 ₽</strong>
+    </div>
+    <button type="button" class="btn-pill" id="orderBtn">Оформить в Telegram</button>
+  </div>
+
+  <script src="images-store.js"></script>
+  <script src="catalog-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
