@@ -7,7 +7,8 @@
     "sku": "10298-1",
     "name": "Apple iPhone 13 128GB Midnight 1sim",
     "country": "Индия",
-    "price": 41000
+    "price": 41000,
+    "image": "images/iphone13.png"
   },
   {
     "id": "10298-3-6",
@@ -17,7 +18,8 @@
     "sku": "10298-3",
     "name": "Apple iPhone 13 128GB Starlight 1sim",
     "country": "Индия",
-    "price": 43000
+    "price": 43000,
+    "image": "images/iphone13.png"
   },
   {
     "id": "10298-4-7",
@@ -27,7 +29,8 @@
     "sku": "10298-4",
     "name": "Apple iPhone 13 128GB Pink 1sim",
     "country": "Индия",
-    "price": 43000
+    "price": 43000,
+    "image": "images/iphone13.png"
   },
   {
     "id": "n-8",
@@ -37,7 +40,8 @@
     "sku": "",
     "name": "Apple iPhone 13 128GB Red eSIM",
     "country": "США",
-    "price": 43500
+    "price": 43500,
+    "image": "images/iphone13.png"
   },
   {
     "id": "n-9",
@@ -47,7 +51,8 @@
     "sku": "",
     "name": "Apple iPhone 13 512GB Midnight eSIM",
     "country": "США",
-    "price": 53500
+    "price": 53500,
+    "image": "images/iphone13.png"
   },
   {
     "id": "n-10",
@@ -57,7 +62,8 @@
     "sku": "",
     "name": "Apple iPhone 13 512GB Starlight eSIM",
     "country": "США",
-    "price": 52500
+    "price": 52500,
+    "image": "images/iphone13.png"
   },
   {
     "id": "10300-5-11",
@@ -67,7 +73,8 @@
     "sku": "10300-5",
     "name": "Apple iPhone 13 512GB Red 1sim",
     "country": "Индия",
-    "price": 49900
+    "price": 49900,
+    "image": "images/iphone13.png"
   },
   {
     "id": "n-13",
