@@ -13,20 +13,48 @@
 <body>
   <div class="bg-pattern" aria-hidden="true"></div>
   <header class="header glass">
-    <div class="header-inner">
-      <h1 class="logo">62 ЯБЛОКА</h1>
-      <p class="tagline">Apple · каталог</p>
+    <div class="header-row">
+      <button type="button" class="back-btn" id="backBtn" hidden aria-label="Назад">←</button>
+      <div class="header-inner">
+        <h1 class="logo">62 ЯБЛОКА</h1>
+        <p class="tagline" id="tagline">Выберите бренд</p>
+      </div>
+      <span class="header-spacer" aria-hidden="true"></span>
     </div>
   </header>
 
   <main class="main">
-    <div class="toolbar glass">
-      <input type="search" id="search" class="search" placeholder="Поиск по названию или артикулу…" autocomplete="off" />
-      <div class="chips" id="chips"></div>
-    </div>
+    <section class="view" id="viewHome" aria-label="Бренды">
+      <p class="home-hint">Каталог техники</p>
+      <p class="home-load-error" id="homeLoadError" hidden>
+        Не удалось загрузить каталог. Проверьте, что в папке с приложением есть файл
+        <code>products.json</code>, и обновите страницу.
+      </p>
+      <div class="brand-grid">
+        <button type="button" class="brand-card brand-card--apple" data-brand="apple">
+          <span class="brand-card__name">Apple</span>
+          <span class="brand-card__hint">iPhone, Watch</span>
+        </button>
+        <button type="button" class="brand-card brand-card--samsung" data-brand="samsung">
+          <span class="brand-card__name">Samsung</span>
+          <span class="brand-card__hint">Смартфоны, умные часы</span>
+        </button>
+      </div>
+    </section>
 
-    <p class="meta" id="count"></p>
-    <ul class="grid" id="grid"></ul>
+    <section class="view" id="viewSub" hidden aria-label="Категории">
+      <h2 class="sub-head" id="subHead">Apple</h2>
+      <div class="sub-grid" id="subGrid"></div>
+    </section>
+
+    <section class="view" id="viewCatalog" hidden aria-label="Товары">
+      <div class="toolbar glass">
+        <input type="search" id="search" class="search" placeholder="Поиск по названию или артикулу…" autocomplete="off" />
+        <div class="chips" id="chips"></div>
+      </div>
+      <p class="meta" id="count"></p>
+      <ul class="grid" id="grid"></ul>
+    </section>
   </main>
 
   <div class="cart-bar glass" id="cartBar" hidden>

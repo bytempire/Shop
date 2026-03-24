@@ -7,14 +7,41 @@
     tg.setBackgroundColor("#0a0e0c");
   }
 
+  const APPLE_SUBS = [
+    { family: "iphone", label: "iPhone" },
+    { family: "apple_watch", label: "Watch" },
+  ];
+  const SAMSUNG_SUBS = [
+    { family: "samsung_phone", label: "Смартфоны" },
+    { family: "samsung_watch", label: "Умные часы" },
+  ];
+
   const state = {
     products: [],
+    screen: "home",
+    brand: null,
+    family: null,
     filterCat: null,
     query: "",
     cart: {},
   };
 
+  function productsJsonUrl() {
+    var s = document.querySelector('script[src*="app.js"]');
+    if (s && s.src) {
+      return new URL("products.json", s.src).href;
+    }
+    return new URL("products.json", location.href).href;
+  }
+
   const els = {
+    backBtn: document.getElementById("backBtn"),
+    tagline: document.getElementById("tagline"),
+    viewHome: document.getElementById("viewHome"),
+    viewSub: document.getElementById("viewSub"),
+    viewCatalog: document.getElementById("viewCatalog"),
+    subHead: document.getElementById("subHead"),
+    subGrid: document.getElementById("subGrid"),
     grid: document.getElementById("grid"),
     chips: document.getElementById("chips"),
     search: document.getElementById("search"),
@@ -22,10 +49,15 @@
     cartBar: document.getElementById("cartBar"),
     cartTotal: document.getElementById("cartTotal"),
     orderBtn: document.getElementById("orderBtn"),
+    homeLoadError: document.getElementById("homeLoadError"),
   };
 
   function formatPrice(n) {
     return new Intl.NumberFormat("ru-RU").format(n) + " ₽";
+  }
+
+  function countInFamily(brand, family) {
+    return state.products.filter((p) => p.brand === brand && p.family === family).length;
   }
 
   function categories(list) {
@@ -37,6 +69,7 @@
   function filtered() {
     const q = state.query.trim().toLowerCase();
     return state.products.filter((p) => {
+      if (p.brand !== state.brand || p.family !== state.family) return false;
       if (state.filterCat && p.category !== state.filterCat) return false;
       if (!q) return true;
       const hay = (p.name + " " + p.sku + " " + p.country).toLowerCase();
@@ -57,8 +90,79 @@
     return { sum: s, count: n };
   }
 
+  function showScreen(name) {
+    state.screen = name;
+    els.viewHome.hidden = name !== "home";
+    els.viewSub.hidden = name !== "sub";
+    els.viewCatalog.hidden = name !== "catalog";
+    els.backBtn.hidden = name === "home";
+  }
+
+  function goHome() {
+    state.brand = null;
+    state.family = null;
+    state.query = "";
+    state.filterCat = null;
+    els.search.value = "";
+    els.tagline.textContent = "Выберите бренд";
+    showScreen("home");
+  }
+
+  function goSub(brand) {
+    state.brand = brand;
+    state.family = null;
+    const subs = brand === "apple" ? APPLE_SUBS : SAMSUNG_SUBS;
+    const title = brand === "apple" ? "Apple" : "Samsung";
+    els.subHead.textContent = title;
+    els.tagline.textContent = title;
+    els.subGrid.innerHTML = "";
+    subs.forEach((s) => {
+      const n = countInFamily(brand, s.family);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "sub-card";
+      btn.innerHTML =
+        '<span class="sub-card__title"></span><span class="sub-card__note"></span>';
+      btn.querySelector(".sub-card__title").textContent = s.label;
+      const noteEl = btn.querySelector(".sub-card__note");
+      if (n === 0) {
+        noteEl.textContent = "Пока нет позиций в прайсе";
+      } else {
+        noteEl.textContent = n + " " + plural(n, "позиция", "позиции", "позиций");
+      }
+      btn.addEventListener("click", () => goCatalog(brand, s.family, s.label));
+      els.subGrid.appendChild(btn);
+    });
+    showScreen("sub");
+  }
+
+  function plural(n, a, b, c) {
+    const m10 = n % 10;
+    const m100 = n % 100;
+    if (m100 >= 11 && m100 <= 14) return c;
+    if (m10 === 1) return a;
+    if (m10 >= 2 && m10 <= 4) return b;
+    return c;
+  }
+
+  function goCatalog(brand, family, label) {
+    state.brand = brand;
+    state.family = family;
+    state.query = "";
+    state.filterCat = null;
+    els.search.value = "";
+    els.tagline.textContent = label;
+    renderChips();
+    renderGrid();
+    updateCartBar();
+    showScreen("catalog");
+  }
+
   function renderChips() {
-    const cats = categories(state.products);
+    const list = state.products.filter(
+      (p) => p.brand === state.brand && p.family === state.family
+    );
+    const cats = categories(list);
     els.chips.innerHTML = "";
     if (cats.length <= 1) {
       els.chips.style.display = "none";
@@ -80,8 +184,7 @@
       const b = document.createElement("button");
       b.type = "button";
       b.className = "chip" + (state.filterCat === c ? " active" : "");
-      b.textContent = c.replace(/^Apple iPhone\s*/i, "").trim() || c;
-      b.title = c;
+      b.textContent = c;
       b.addEventListener("click", () => {
         state.filterCat = state.filterCat === c ? null : c;
         renderChips();
@@ -93,16 +196,24 @@
 
   function renderGrid() {
     const list = filtered();
-    els.count.textContent = list.length + " поз." + (state.filterCat ? " · " + state.filterCat : "");
+    els.count.textContent =
+      list.length +
+      " поз." +
+      (state.filterCat ? " · " + state.filterCat : "");
     els.grid.innerHTML = "";
     if (!list.length) {
       const li = document.createElement("li");
       li.className = "empty";
-      li.textContent = "Ничего не найдено — смените фильтр или запрос.";
+      li.textContent =
+        "В этой категории пока нет товаров в прайсе — загляните позже или выберите другой раздел.";
       els.grid.appendChild(li);
       return;
     }
-    const showCategory = categories(state.products).length > 1;
+    const showCategory = categories(
+      state.products.filter(
+        (p) => p.brand === state.brand && p.family === state.family
+      )
+    ).length > 1;
     list.forEach((p) => {
       const qty = state.cart[p.id] || 0;
       const li = document.createElement("li");
@@ -209,6 +320,18 @@
     alert(text + "\n\n(Подключите бота: обработка web_app_data или вставьте этот текст менеджеру.)");
   }
 
+  els.backBtn.addEventListener("click", () => {
+    if (state.screen === "catalog") goSub(state.brand);
+    else goHome();
+  });
+
+  document.querySelectorAll(".brand-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const brand = card.getAttribute("data-brand");
+      goSub(brand);
+    });
+  });
+
   els.search.addEventListener("input", () => {
     state.query = els.search.value;
     renderGrid();
@@ -218,19 +341,22 @@
   if (tg) tg.MainButton.onClick(submitOrder);
 
   loadCart();
-  fetch("products.json")
+  goHome();
+  if (els.homeLoadError) els.homeLoadError.hidden = true;
+
+  fetch(productsJsonUrl())
     .then((r) => {
       if (!r.ok) throw new Error("products.json");
       return r.json();
     })
     .then((data) => {
-      state.products = data;
-      renderChips();
-      renderGrid();
-      updateCartBar();
+      state.products = Array.isArray(data) ? data : [];
+      goHome();
+      if (els.homeLoadError) els.homeLoadError.hidden = true;
     })
     .catch(() => {
-      els.grid.innerHTML =
-        '<li class="empty">Не загружен products.json. Запустите: <code>python3 scripts/build_catalog.py</code></li>';
+      state.products = [];
+      goHome();
+      if (els.homeLoadError) els.homeLoadError.hidden = false;
     });
 })();

@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
-"""Читает Excel и пишет web/products.json для мини-приложения."""
+"""Опциональный импорт каталога из .xlsx в web/products.json.
+
+Основной источник данных для мини-приложения — файл web/products.json
+(редактирование вручную или любой другой способ). Скрипт нужен только
+если снова выгружаете прайс из Excel в том же формате, что раньше.
+"""
 import json
 import re
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
 from collections import defaultdict
+from typing import Optional, Tuple
 
 NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
-DEFAULT_XLSX = "/Users/user/Desktop/Apple(IPhone, Watch).xlsx"
 
 
 def col_row(ref: str):
@@ -27,6 +32,20 @@ def load_strings(z: zipfile.ZipFile) -> list:
             parts = [x.text or "" for x in si.findall(".//m:t", NS)]
             out.append("".join(parts))
     return out
+
+
+def classify(name: str) -> Optional[Tuple[str, str, str]]:
+    """(brand, family, category_label) или None — строка не товар каталога."""
+    n = name.lower()
+    if "iphone" in n:
+        return "apple", "iphone", "iPhone"
+    if "watch" in n or "apple watch" in n:
+        return "apple", "apple_watch", "Watch"
+    if "samsung" in n or "galaxy" in n:
+        if "watch" in n or "gear s" in n:
+            return "samsung", "samsung_watch", "Galaxy Watch"
+        return "samsung", "samsung_phone", "Galaxy"
+    return None
 
 
 def parse_products(xlsx_path: str) -> list:
@@ -55,7 +74,6 @@ def parse_products(xlsx_path: str) -> list:
     z.close()
 
     max_row = max(rows) if rows else 0
-    current_category = None
     products = []
     for r in range(1, max_row + 1):
         d = rows.get(r, {})
@@ -63,7 +81,6 @@ def parse_products(xlsx_path: str) -> list:
         if r <= 3:
             continue
         if b and isinstance(b, str) and b.strip().endswith(":") and not a:
-            current_category = b.strip().rstrip(":").strip()
             continue
         if b and d_ is not None:
             try:
@@ -72,12 +89,16 @@ def parse_products(xlsx_path: str) -> list:
                 continue
             sku = str(a).strip() if a else ""
             name = str(b).strip()
-            if "iphone" not in name.lower():
+            kind = classify(name)
+            if not kind:
                 continue
+            brand, family, cat_label = kind
             products.append(
                 {
                     "id": f"{sku or 'n'}-{r}",
-                    "category": "iPhone",
+                    "brand": brand,
+                    "family": family,
+                    "category": cat_label,
                     "sku": sku,
                     "name": name,
                     "country": str(c_).strip() if c_ else "",
@@ -88,7 +109,15 @@ def parse_products(xlsx_path: str) -> list:
 
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_XLSX
+    if len(sys.argv) < 2:
+        print(
+            "Импорт из Excel (по желанию):\n"
+            "  python3 scripts/build_catalog.py <прайс.xlsx> [web/products.json]\n\n"
+            "Каталог в приложении — это web/products.json; остальное можно добавлять туда позже.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    path = sys.argv[1]
     out = sys.argv[2] if len(sys.argv) > 2 else "web/products.json"
     products = parse_products(path)
     with open(out, "w", encoding="utf-8") as f:
