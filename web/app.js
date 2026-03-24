@@ -386,19 +386,31 @@
   goHome();
   if (els.homeLoadError) els.homeLoadError.hidden = true;
 
-  fetch(productsJsonUrl(), { cache: "no-store" })
-    .then((r) => {
-      if (!r.ok) throw new Error("products.json");
-      return r.json();
-    })
-    .then((data) => {
-      state.products = normalizeProducts(data);
-      goHome();
-      if (els.homeLoadError) els.homeLoadError.hidden = true;
-    })
-    .catch(() => {
-      state.products = [];
-      goHome();
-      if (els.homeLoadError) els.homeLoadError.hidden = false;
-    });
+  function applyCatalog(data) {
+    state.products = normalizeProducts(data);
+    goHome();
+    if (els.homeLoadError)
+      els.homeLoadError.hidden = state.products.length > 0;
+  }
+
+  var embedded =
+    typeof window.__SHOP_CATALOG__ !== "undefined" &&
+    Array.isArray(window.__SHOP_CATALOG__) &&
+    window.__SHOP_CATALOG__.length > 0;
+
+  if (embedded) {
+    applyCatalog(window.__SHOP_CATALOG__);
+  } else {
+    fetch(productsJsonUrl(), { cache: "no-store" })
+      .then((r) => {
+        if (!r.ok) throw new Error("products.json");
+        return r.json();
+      })
+      .then(applyCatalog)
+      .catch(function () {
+        state.products = [];
+        goHome();
+        if (els.homeLoadError) els.homeLoadError.hidden = false;
+      });
+  }
 })();

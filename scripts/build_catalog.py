@@ -11,6 +11,7 @@ import sys
 import zipfile
 import xml.etree.ElementTree as ET
 from collections import defaultdict
+from pathlib import Path
 from typing import Optional, Tuple
 
 NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
@@ -113,16 +114,23 @@ def main():
         print(
             "Импорт из Excel (по желанию):\n"
             "  python3 scripts/build_catalog.py <прайс.xlsx> [web/products.json]\n\n"
-            "Каталог в приложении — это web/products.json; остальное можно добавлять туда позже.",
+            "Пишет web/products.json и web/catalog-data.js (данные для мини-приложения).",
             file=sys.stderr,
         )
         sys.exit(1)
     path = sys.argv[1]
     out = sys.argv[2] if len(sys.argv) > 2 else "web/products.json"
     products = parse_products(path)
-    with open(out, "w", encoding="utf-8") as f:
+    out_p = Path(out)
+    out_p.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_p, "w", encoding="utf-8") as f:
         json.dump(products, f, ensure_ascii=False, indent=2)
-    print(f"OK: {len(products)} товаров -> {out}")
+    js_p = out_p.with_name("catalog-data.js")
+    with open(js_p, "w", encoding="utf-8") as f:
+        f.write("window.__SHOP_CATALOG__ = ")
+        json.dump(products, f, ensure_ascii=False, separators=(",", ":"))
+        f.write(";\n")
+    print(f"OK: {len(products)} товаров -> {out_p} и {js_p}")
 
 
 if __name__ == "__main__":
