@@ -1,10 +1,40 @@
 (function () {
   var tg = window.Telegram && window.Telegram.WebApp;
+
+  function hideTgActionButtons() {
+    if (!tg) return;
+    try {
+      if (tg.MainButton) {
+        tg.MainButton.hide();
+        if (typeof tg.MainButton.setParams === "function") {
+          tg.MainButton.setParams({ is_visible: false });
+        }
+      }
+      if (tg.SecondaryButton) {
+        tg.SecondaryButton.hide();
+        if (typeof tg.SecondaryButton.setParams === "function") {
+          tg.SecondaryButton.setParams({ is_visible: false });
+        }
+      }
+    } catch (e) {}
+  }
+
   if (tg) {
     tg.ready();
     tg.expand();
     tg.setHeaderColor("#0a0e0c");
     tg.setBackgroundColor("#0a0e0c");
+    hideTgActionButtons();
+    [0, 50, 200, 500].forEach(function (ms) {
+      setTimeout(hideTgActionButtons, ms);
+    });
+    if (typeof tg.onEvent === "function") {
+      ["viewportChanged", "themeChanged", "safeAreaChanged"].forEach(function (ev) {
+        try {
+          tg.onEvent(ev, hideTgActionButtons);
+        } catch (e) {}
+      });
+    }
   }
 
   var APPLE_SUBS = [
@@ -346,15 +376,12 @@
     var t = cartSum();
     if (t.count === 0) {
       els.cartBar.hidden = true;
-      if (tg) tg.MainButton.hide();
+      hideTgActionButtons();
       return;
     }
     els.cartBar.hidden = false;
     els.cartTotal.textContent = formatPrice(t.sum);
-    if (tg) {
-      tg.MainButton.setText("Оформить · " + formatPrice(t.sum));
-      tg.MainButton.show();
-    }
+    hideTgActionButtons();
   }
 
   function saveCart() {
@@ -445,16 +472,17 @@
   });
 
   els.orderBtn.addEventListener("click", submitOrder);
-  if (tg) tg.MainButton.onClick(submitOrder);
 
   loadCart();
   goHome();
+  updateCartBar();
   if (els.homeLoadError) els.homeLoadError.hidden = true;
 
   function applyCatalog(data) {
     state.products = normalizeProducts(data);
     goHome();
     if (els.homeLoadError) els.homeLoadError.hidden = state.products.length > 0;
+    updateCartBar();
   }
 
   var embedded =
@@ -475,6 +503,7 @@
         state.products = [];
         goHome();
         if (els.homeLoadError) els.homeLoadError.hidden = false;
+        updateCartBar();
       });
   }
 })();
