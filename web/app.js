@@ -60,6 +60,12 @@
   function renderChips() {
     const cats = categories(state.products);
     els.chips.innerHTML = "";
+    if (cats.length <= 1) {
+      els.chips.style.display = "none";
+      state.filterCat = null;
+      return;
+    }
+    els.chips.style.display = "";
     const all = document.createElement("button");
     all.type = "button";
     all.className = "chip" + (!state.filterCat ? " active" : "");
@@ -96,6 +102,7 @@
       els.grid.appendChild(li);
       return;
     }
+    const showCategory = categories(state.products).length > 1;
     list.forEach((p) => {
       const qty = state.cart[p.id] || 0;
       const li = document.createElement("li");
@@ -111,7 +118,7 @@
       const meta = [];
       if (p.sku) meta.push("Арт. " + p.sku);
       if (p.country) meta.push(p.country);
-      meta.push(p.category);
+      if (showCategory) meta.push(p.category);
       li.querySelector(".card-meta").textContent = meta.join(" · ");
       const btn = li.querySelector(".add-btn");
       btn.textContent = qty ? "В корзине ×" + qty + " · +1" : "В корзину";

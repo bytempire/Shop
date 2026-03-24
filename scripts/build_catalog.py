@@ -71,12 +71,15 @@ def parse_products(xlsx_path: str) -> list:
             except (TypeError, ValueError):
                 continue
             sku = str(a).strip() if a else ""
+            name = str(b).strip()
+            if "iphone" not in name.lower():
+                continue
             products.append(
                 {
                     "id": f"{sku or 'n'}-{r}",
-                    "category": current_category or "Прочее",
+                    "category": "iPhone",
                     "sku": sku,
-                    "name": str(b).strip(),
+                    "name": name,
                     "country": str(c_).strip() if c_ else "",
                     "price": price,
                 }

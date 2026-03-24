@@ -1,7 +1,7 @@
 [
   {
     "id": "10298-1-5",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "10298-1",
     "name": "Apple iPhone 13 128GB Midnight 1sim",
     "country": "Индия",
@@ -9,7 +9,7 @@
   },
   {
     "id": "10298-3-6",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "10298-3",
     "name": "Apple iPhone 13 128GB Starlight 1sim",
     "country": "Индия",
@@ -17,7 +17,7 @@
   },
   {
     "id": "10298-4-7",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "10298-4",
     "name": "Apple iPhone 13 128GB Pink 1sim",
     "country": "Индия",
@@ -25,7 +25,7 @@
   },
   {
     "id": "n-8",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 13 128GB Red eSIM",
     "country": "США",
@@ -33,7 +33,7 @@
   },
   {
     "id": "n-9",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 13 512GB Midnight eSIM",
     "country": "США",
@@ -41,7 +41,7 @@
   },
   {
     "id": "n-10",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 13 512GB Starlight eSIM",
     "country": "США",
@@ -49,7 +49,7 @@
   },
   {
     "id": "10300-5-11",
-    "category": "Apple iPhone 13",
+    "category": "iPhone",
     "sku": "10300-5",
     "name": "Apple iPhone 13 512GB Red 1sim",
     "country": "Индия",
@@ -57,7 +57,7 @@
   },
   {
     "id": "n-13",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 128GB Yellow eSIM",
     "country": "США",
@@ -65,7 +65,7 @@
   },
   {
     "id": "10312-1-14",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10312-1",
     "name": "Apple iPhone 14 128GB Midnight 1sim",
     "country": "Индия",
@@ -73,7 +73,7 @@
   },
   {
     "id": "10312-3-15",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10312-3",
     "name": "Apple iPhone 14 128GB Starlight 1sim",
     "country": "Индия",
@@ -81,7 +81,7 @@
   },
   {
     "id": "10312-2-16",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10312-2",
     "name": "Apple iPhone 14 128GB Blue 1sim",
     "country": "Индия",
@@ -89,7 +89,7 @@
   },
   {
     "id": "n-17",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 256GB Purple eSIM",
     "country": "США",
@@ -97,7 +97,7 @@
   },
   {
     "id": "10313-1-18",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10313-1",
     "name": "Apple iPhone 14 256GB Midnight 1sim",
     "country": "Индия",
@@ -105,7 +105,7 @@
   },
   {
     "id": "10313-3-19",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10313-3",
     "name": "Apple iPhone 14 256GB Starlight 1sim",
     "country": "Индия",
@@ -113,7 +113,7 @@
   },
   {
     "id": "10313-4-20",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10313-4",
     "name": "Apple iPhone 14 256GB Purple 1sim",
     "country": "Индия",
@@ -121,7 +121,7 @@
   },
   {
     "id": "n-21",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 512GB Blue eSIM",
     "country": "США",
@@ -129,7 +129,7 @@
   },
   {
     "id": "n-22",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 512GB Midnight eSIM",
     "country": "США",
@@ -137,7 +137,7 @@
   },
   {
     "id": "n-23",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 512GB Starlight eSIM",
     "country": "США",
@@ -145,7 +145,7 @@
   },
   {
     "id": "n-24",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 512GB Purple eSIM",
     "country": "США",
@@ -153,7 +153,7 @@
   },
   {
     "id": "n-25",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 512GB Midnight 1sim",
     "country": "Индия",
@@ -161,7 +161,7 @@
   },
   {
     "id": "10314-3-26",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10314-3",
     "name": "Apple iPhone 14 512GB Starlight 1sim",
     "country": "Индия",
@@ -169,7 +169,7 @@
   },
   {
     "id": "10314-2-27",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10314-2",
     "name": "Apple iPhone 14 512GB Blue 1sim",
     "country": "Индия",
@@ -177,7 +177,7 @@
   },
   {
     "id": "n-28",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 512GB Purple 1sim",
     "country": "Индия",
@@ -185,7 +185,7 @@
   },
   {
     "id": "10314-5-29",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10314-5",
     "name": "Apple iPhone 14 512GB Red 1sim",
     "country": "Индия",
@@ -193,7 +193,7 @@
   },
   {
     "id": "10314-6-30",
-    "category": "Apple iPhone 14",
+    "category": "iPhone",
     "sku": "10314-6",
     "name": "Apple iPhone 14 512GB Yellow 1sim",
     "country": "Индия",
@@ -201,7 +201,7 @@
   },
   {
     "id": "n-32",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 128GB Red eSIM",
     "country": "США",
@@ -209,7 +209,7 @@
   },
   {
     "id": "n-33",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 128GB Yellow eSIM",
     "country": "США",
@@ -217,7 +217,7 @@
   },
   {
     "id": "n-34",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 128GB Yellow 2Sim",
     "country": "Китай",
@@ -225,7 +225,7 @@
   },
   {
     "id": "10323-6-35",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "10323-6",
     "name": "Apple iPhone 14 Plus 128GB Yellow 1sim",
     "country": "Индия",
@@ -233,7 +233,7 @@
   },
   {
     "id": "n-36",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Blue eSIM",
     "country": "США",
@@ -241,7 +241,7 @@
   },
   {
     "id": "n-37",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Purple eSIM",
     "country": "США",
@@ -249,7 +249,7 @@
   },
   {
     "id": "n-38",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Midnight eSIM",
     "country": "США",
@@ -257,7 +257,7 @@
   },
   {
     "id": "n-39",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Starlight eSIM",
     "country": "США",
@@ -265,7 +265,7 @@
   },
   {
     "id": "n-40",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Red eSIM",
     "country": "США",
@@ -273,7 +273,7 @@
   },
   {
     "id": "n-41",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Red 1sim",
     "country": "ЕС",
@@ -281,7 +281,7 @@
   },
   {
     "id": "n-42",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Yellow 1sim",
     "country": "Индия",
@@ -289,7 +289,7 @@
   },
   {
     "id": "n-43",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Yellow eSIM",
     "country": "США",
@@ -297,7 +297,7 @@
   },
   {
     "id": "n-44",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Yellow 1sim",
     "country": "Гонконг",
@@ -305,7 +305,7 @@
   },
   {
     "id": "n-45",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Midnight 1sim",
     "country": "Индия",
@@ -313,7 +313,7 @@
   },
   {
     "id": "n-46",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Starlight 1sim",
     "country": "Индия",
@@ -321,7 +321,7 @@
   },
   {
     "id": "n-47",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Blue 1sim",
     "country": "Индия",
@@ -329,7 +329,7 @@
   },
   {
     "id": "n-48",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Purple 1sim",
     "country": "Индия",
@@ -337,7 +337,7 @@
   },
   {
     "id": "10325-3-49",
-    "category": "Apple iPhone 14 Plus",
+    "category": "iPhone",
     "sku": "10325-3",
     "name": "Apple iPhone 14 Plus 512GB Red 1sim",
     "country": "Индия",
@@ -345,7 +345,7 @@
   },
   {
     "id": "10326-1-51",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10326-1",
     "name": "Apple iPhone 15 128GB Black 1sim",
     "country": "Индия",
@@ -353,7 +353,7 @@
   },
   {
     "id": "10326-2-52",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10326-2",
     "name": "Apple iPhone 15 128GB Blue 1sim",
     "country": "Индия",
@@ -361,7 +361,7 @@
   },
   {
     "id": "10326-5-53",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10326-5",
     "name": "Apple iPhone 15 128GB Pink 1sim",
     "country": "Индия",
@@ -369,7 +369,7 @@
   },
   {
     "id": "10326-3-54",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10326-3",
     "name": "Apple iPhone 15 128GB Green 1sim",
     "country": "Индия",
@@ -377,7 +377,7 @@
   },
   {
     "id": "10326-4-55",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10326-4",
     "name": "Apple iPhone 15 128GB Yellow 1sim",
     "country": "Индия",
@@ -385,7 +385,7 @@
   },
   {
     "id": "n-56",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 256GB Black eSIM",
     "country": "США",
@@ -393,7 +393,7 @@
   },
   {
     "id": "10327-1-57",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10327-1",
     "name": "Apple iPhone 15 256GB Black 1sim",
     "country": "Индия",
@@ -401,7 +401,7 @@
   },
   {
     "id": "10327-2-58",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10327-2",
     "name": "Apple iPhone 15 256GB Blue 1sim",
     "country": "Индия",
@@ -409,7 +409,7 @@
   },
   {
     "id": "10327-5-59",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10327-5",
     "name": "Apple iPhone 15 256GB Pink 1sim",
     "country": "Индия",
@@ -417,7 +417,7 @@
   },
   {
     "id": "10327-3-60",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "10327-3",
     "name": "Apple iPhone 15 256GB Green 1sim",
     "country": "Индия",
@@ -425,7 +425,7 @@
   },
   {
     "id": "n-61",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Black eSIM",
     "country": "США",
@@ -433,7 +433,7 @@
   },
   {
     "id": "n-62",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Blue eSIM",
     "country": "США",
@@ -441,7 +441,7 @@
   },
   {
     "id": "n-63",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Green eSIM",
     "country": "США",
@@ -449,7 +449,7 @@
   },
   {
     "id": "n-64",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Yellow eSIM",
     "country": "США",
@@ -457,7 +457,7 @@
   },
   {
     "id": "n-65",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Green 1sim",
     "country": "Индия",
@@ -465,7 +465,7 @@
   },
   {
     "id": "n-66",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Yellow 1sim",
     "country": "ОАЭ",
@@ -473,7 +473,7 @@
   },
   {
     "id": "n-67",
-    "category": "Apple iPhone 15",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 512GB Yellow 1sim",
     "country": "ЕС",
@@ -481,7 +481,7 @@
   },
   {
     "id": "10329-2-69",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10329-2",
     "name": "Apple iPhone 15 Plus 128GB Blue 1sim",
     "country": "Индия",
@@ -489,7 +489,7 @@
   },
   {
     "id": "10329-3-70",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10329-3",
     "name": "Apple iPhone 15 Plus 128GB Green 1sim",
     "country": "Индия",
@@ -497,7 +497,7 @@
   },
   {
     "id": "10329-5-71",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10329-5",
     "name": "Apple iPhone 15 Plus 128GB Pink 1sim",
     "country": "Индия",
@@ -505,7 +505,7 @@
   },
   {
     "id": "n-72",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Plus 128GB Yellow 1sim",
     "country": "Индия",
@@ -513,7 +513,7 @@
   },
   {
     "id": "10330-2-73",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10330-2",
     "name": "Apple iPhone 15 Plus 256GB Blue 1sim",
     "country": "Индия",
@@ -521,7 +521,7 @@
   },
   {
     "id": "10330-3-74",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10330-3",
     "name": "Apple iPhone 15 Plus 256GB Green 1sim",
     "country": "Япония",
@@ -529,7 +529,7 @@
   },
   {
     "id": "n-75",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Plus 256GB Pink 1sim",
     "country": "Индия",
@@ -537,7 +537,7 @@
   },
   {
     "id": "10330-4-76",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10330-4",
     "name": "Apple iPhone 15 Plus 256GB Yellow 1sim",
     "country": "Индия",
@@ -545,7 +545,7 @@
   },
   {
     "id": "n-77",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Plus 512GB Black 1sim",
     "country": "Индия",
@@ -553,7 +553,7 @@
   },
   {
     "id": "10331-3-78",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "10331-3",
     "name": "Apple iPhone 15 Plus 512GB Green 1sim",
     "country": "Индия",
@@ -561,7 +561,7 @@
   },
   {
     "id": "n-79",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Plus 512GB Pink 1sim",
     "country": "Индия",
@@ -569,7 +569,7 @@
   },
   {
     "id": "n-80",
-    "category": "Apple iPhone 15 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Plus 512GB Yellow 1sim",
     "country": "Япония",
@@ -577,7 +577,7 @@
   },
   {
     "id": "n-82",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB Blue eSIM",
     "country": "США",
@@ -585,7 +585,7 @@
   },
   {
     "id": "n-83",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB Natural eSIM",
     "country": "США",
@@ -593,7 +593,7 @@
   },
   {
     "id": "n-84",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB White eSIM",
     "country": "США",
@@ -601,7 +601,7 @@
   },
   {
     "id": "10332-2-85",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "10332-2",
     "name": "Apple iPhone 15 Pro 128GB Blue 1sim",
     "country": "ОАЭ",
@@ -609,7 +609,7 @@
   },
   {
     "id": "10332-2-86",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "10332-2",
     "name": "Apple iPhone 15 Pro 128GB Blue 1sim",
     "country": "ЕС",
@@ -617,7 +617,7 @@
   },
   {
     "id": "10332-3-87",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "10332-3",
     "name": "Apple iPhone 15 Pro 128GB Natural 1sim",
     "country": "ОАЭ",
@@ -625,7 +625,7 @@
   },
   {
     "id": "n-88",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 512GB Blue eSIM",
     "country": "США",
@@ -633,7 +633,7 @@
   },
   {
     "id": "n-89",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 512GB White eSIM",
     "country": "США",
@@ -641,7 +641,7 @@
   },
   {
     "id": "n-90",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 512GB Black eSIM",
     "country": "США",
@@ -649,7 +649,7 @@
   },
   {
     "id": "10335-1-91",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "10335-1",
     "name": "Apple iPhone 15 Pro 512GB Black 1sim",
     "country": "ОАЭ",
@@ -657,7 +657,7 @@
   },
   {
     "id": "10335-1-92",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "10335-1",
     "name": "Apple iPhone 15 Pro 512GB Black 1sim",
     "country": "ЕС",
@@ -665,7 +665,7 @@
   },
   {
     "id": "n-93",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 512GB Natural 1sim",
     "country": "ОАЭ",
@@ -673,7 +673,7 @@
   },
   {
     "id": "n-94",
-    "category": "Apple iPhone 15 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro 512GB Natural 1sim",
     "country": "ЕС",
@@ -681,7 +681,7 @@
   },
   {
     "id": "n-96",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 15 Pro Max 256GB Blue eSIM",
     "country": "США",
@@ -689,7 +689,7 @@
   },
   {
     "id": "10337-1-97",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10337-1",
     "name": "Apple iPhone 15 Pro Max 256GB Black 1sim",
     "country": "ОАЭ",
@@ -697,7 +697,7 @@
   },
   {
     "id": "10337-1-98",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10337-1",
     "name": "Apple iPhone 15 Pro Max 256GB Black 1sim",
     "country": "ЕС",
@@ -705,7 +705,7 @@
   },
   {
     "id": "10337-3-99",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10337-3",
     "name": "Apple iPhone 15 Pro Max 256GB Natural 1sim",
     "country": "ОАЭ",
@@ -713,7 +713,7 @@
   },
   {
     "id": "10337-3-100",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10337-3",
     "name": "Apple iPhone 15 Pro Max 256GB Natural 1sim",
     "country": "ЕС",
@@ -721,7 +721,7 @@
   },
   {
     "id": "10337-4-101",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10337-4",
     "name": "Apple iPhone 15 Pro Max 256GB White 1sim",
     "country": "ОАЭ",
@@ -729,7 +729,7 @@
   },
   {
     "id": "10337-4-102",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10337-4",
     "name": "Apple iPhone 15 Pro Max 256GB White 1sim",
     "country": "ЕС",
@@ -737,7 +737,7 @@
   },
   {
     "id": "10338-2-103",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10338-2",
     "name": "Apple iPhone 15 Pro Max 512GB Blue 1sim",
     "country": "ОАЭ",
@@ -745,7 +745,7 @@
   },
   {
     "id": "10338-2-104",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10338-2",
     "name": "Apple iPhone 15 Pro Max 512GB Blue 1sim",
     "country": "ЕС",
@@ -753,7 +753,7 @@
   },
   {
     "id": "10338-3-105",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10338-3",
     "name": "Apple iPhone 15 Pro Max 512GB Natural 1sim",
     "country": "ОАЭ",
@@ -761,7 +761,7 @@
   },
   {
     "id": "10338-3-106",
-    "category": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
     "sku": "10338-3",
     "name": "Apple iPhone 15 Pro Max 512GB Natural 1sim",
     "country": "ЕС",
@@ -769,7 +769,7 @@
   },
   {
     "id": "n-108",
-    "category": "Apple iPhone 16e",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16e 128GB Black eSIM",
     "country": "США",
@@ -777,7 +777,7 @@
   },
   {
     "id": "10390-1-109",
-    "category": "Apple iPhone 16e",
+    "category": "iPhone",
     "sku": "10390-1",
     "name": "Apple iPhone 16e 128GB Black 1sim",
     "country": "Индия",
@@ -785,7 +785,7 @@
   },
   {
     "id": "10390-2-110",
-    "category": "Apple iPhone 16e",
+    "category": "iPhone",
     "sku": "10390-2",
     "name": "Apple iPhone 16e 128GB White 1sim",
     "country": "Индия",
@@ -793,7 +793,7 @@
   },
   {
     "id": "n-111",
-    "category": "Apple iPhone 16e",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16e 256GB White eSIM",
     "country": "США",
@@ -801,7 +801,7 @@
   },
   {
     "id": "10391-1-112",
-    "category": "Apple iPhone 16e",
+    "category": "iPhone",
     "sku": "10391-1",
     "name": "Apple iPhone 16e 256GB Black 1sim",
     "country": "Индия",
@@ -809,7 +809,7 @@
   },
   {
     "id": "10391-2-113",
-    "category": "Apple iPhone 16e",
+    "category": "iPhone",
     "sku": "10391-2",
     "name": "Apple iPhone 16e 256GB White 1sim",
     "country": "Индия",
@@ -817,7 +817,7 @@
   },
   {
     "id": "n-115",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16 128GB Black eSIM",
     "country": "США",
@@ -825,7 +825,7 @@
   },
   {
     "id": "10354-1-116",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10354-1",
     "name": "Apple iPhone 16 128GB Black 1sim",
     "country": "Индия",
@@ -833,7 +833,7 @@
   },
   {
     "id": "10354-5-117",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10354-5",
     "name": "Apple iPhone 16 128GB Pink 1sim",
     "country": "Индия",
@@ -841,7 +841,7 @@
   },
   {
     "id": "10354-2-118",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10354-2",
     "name": "Apple iPhone 16 128GB White 1sim",
     "country": "Индия",
@@ -849,7 +849,7 @@
   },
   {
     "id": "10354-4-119",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10354-4",
     "name": "Apple iPhone 16 128GB Teal 1sim",
     "country": "Индия",
@@ -857,7 +857,7 @@
   },
   {
     "id": "10354-3-120",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10354-3",
     "name": "Apple iPhone 16 128GB Ultramarine 1sim",
     "country": "Индия",
@@ -865,7 +865,7 @@
   },
   {
     "id": "10355-1-121",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10355-1",
     "name": "Apple iPhone 16 256GB Black 1sim",
     "country": "Индия",
@@ -873,7 +873,7 @@
   },
   {
     "id": "10355-5-122",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10355-5",
     "name": "Apple iPhone 16 256GB Pink 1sim",
     "country": "Индия",
@@ -881,7 +881,7 @@
   },
   {
     "id": "10355-4-123",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10355-4",
     "name": "Apple iPhone 16 256GB Teal 1sim",
     "country": "Индия",
@@ -889,7 +889,7 @@
   },
   {
     "id": "10355-3-124",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10355-3",
     "name": "Apple iPhone 16 256GB Ultramarine 1sim",
     "country": "Индия",
@@ -897,7 +897,7 @@
   },
   {
     "id": "10355-2-125",
-    "category": "Apple iPhone 16",
+    "category": "iPhone",
     "sku": "10355-2",
     "name": "Apple iPhone 16 256GB White 1sim",
     "country": "Индия",
@@ -905,7 +905,7 @@
   },
   {
     "id": "10360-1-127",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10360-1",
     "name": "Apple iPhone 16 Plus 128GB Black 1sim",
     "country": "Индия",
@@ -913,7 +913,7 @@
   },
   {
     "id": "10360-5-128",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10360-5",
     "name": "Apple iPhone 16 Plus 128GB Pink 1sim",
     "country": "Индия",
@@ -921,7 +921,7 @@
   },
   {
     "id": "10360-4-129",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10360-4",
     "name": "Apple iPhone 16 Plus 128GB Teal 1sim",
     "country": "Индия",
@@ -929,7 +929,7 @@
   },
   {
     "id": "10360-3-130",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10360-3",
     "name": "Apple iPhone 16 Plus 128GB Ultramarine 1sim",
     "country": "Индия",
@@ -937,7 +937,7 @@
   },
   {
     "id": "10360-2-131",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10360-2",
     "name": "Apple iPhone 16 Plus 128GB White 1sim",
     "country": "Индия",
@@ -945,7 +945,7 @@
   },
   {
     "id": "10361-1-132",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10361-1",
     "name": "Apple iPhone 16 Plus 256GB Black 1sim",
     "country": "Индия",
@@ -953,7 +953,7 @@
   },
   {
     "id": "10361-5-133",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10361-5",
     "name": "Apple iPhone 16 Plus 256GB Pink 1sim",
     "country": "Индия",
@@ -961,7 +961,7 @@
   },
   {
     "id": "10361-4-134",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10361-4",
     "name": "Apple iPhone 16 Plus 256GB Teal 1sim",
     "country": "Индия",
@@ -969,7 +969,7 @@
   },
   {
     "id": "10361-2-135",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10361-2",
     "name": "Apple iPhone 16 Plus 256GB White 1sim",
     "country": "Индия",
@@ -977,7 +977,7 @@
   },
   {
     "id": "10361-3-136",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "10361-3",
     "name": "Apple iPhone 16 Plus 256GB Ultramarine 1sim",
     "country": "Индия",
@@ -985,7 +985,7 @@
   },
   {
     "id": "n-137",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Teal eSIM",
     "country": "США",
@@ -993,7 +993,7 @@
   },
   {
     "id": "n-138",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Pink eSIM",
     "country": "США",
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "n-139",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Black 1sim",
     "country": "Индия",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "n-140",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Teal 1sim",
     "country": "Япония",
@@ -1017,7 +1017,7 @@
   },
   {
     "id": "n-141",
-    "category": "Apple iPhone 16 Plus",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Ultramarine 1sim",
     "country": "Индия",
@@ -1025,7 +1025,7 @@
   },
   {
     "id": "10370-3-143",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10370-3",
     "name": "Apple iPhone 16 Pro 128GB Desert 2Sim",
     "country": "Китай",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "10370-4-144",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10370-4",
     "name": "Apple iPhone 16 Pro 128GB Natural 2Sim",
     "country": "Китай",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": "10370-2-145",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10370-2",
     "name": "Apple iPhone 16 Pro 128GB White 2Sim",
     "country": "Китай",
@@ -1049,7 +1049,7 @@
   },
   {
     "id": "10366-3-146",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10366-3",
     "name": "Apple iPhone 16 Pro 128GB Desert 1sim",
     "country": "Индия",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "10366-2-147",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10366-2",
     "name": "Apple iPhone 16 Pro 128GB White 1sim",
     "country": "Индия",
@@ -1065,7 +1065,7 @@
   },
   {
     "id": "10368-3-148",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10368-3",
     "name": "Apple iPhone 16 Pro 512GB Desert 1sim",
     "country": "Индия",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "10369-4-149",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10369-4",
     "name": "Apple iPhone 16 Pro 1TB Natural 1sim",
     "country": "ОАЭ",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "10369-2-150",
-    "category": "Apple iPhone 16 Pro",
+    "category": "iPhone",
     "sku": "10369-2",
     "name": "Apple iPhone 16 Pro 1TB White 1sim",
     "country": "ОАЭ",
@@ -1089,7 +1089,7 @@
   },
   {
     "id": "10375-1-152",
-    "category": "Apple iPhone 16 Pro Max",
+    "category": "iPhone",
     "sku": "10375-1",
     "name": "Apple iPhone 16 Pro Max 256GB Black 1sim",
     "country": "Индия",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "10375-3-153",
-    "category": "Apple iPhone 16 Pro Max",
+    "category": "iPhone",
     "sku": "10375-3",
     "name": "Apple iPhone 16 Pro Max 256GB Desert 1sim",
     "country": "Индия",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "10375-4-154",
-    "category": "Apple iPhone 16 Pro Max",
+    "category": "iPhone",
     "sku": "10375-4",
     "name": "Apple iPhone 16 Pro Max 256GB Natural 1sim",
     "country": "Индия",
@@ -1113,7 +1113,7 @@
   },
   {
     "id": "10375-2-155",
-    "category": "Apple iPhone 16 Pro Max",
+    "category": "iPhone",
     "sku": "10375-2",
     "name": "Apple iPhone 16 Pro Max 256GB White 1sim",
     "country": "Индия",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "10376-1-156",
-    "category": "Apple iPhone 16 Pro Max",
+    "category": "iPhone",
     "sku": "10376-1",
     "name": "Apple iPhone 16 Pro Max 512GB Black 1sim",
     "country": "Индия",
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "10399-1-158",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10399-1",
     "name": "Apple iPhone 17 256GB Black eSIM",
     "country": "Япония",
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "10399-2-159",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10399-2",
     "name": "Apple iPhone 17 256GB Blue eSIM",
     "country": "Япония",
@@ -1145,7 +1145,7 @@
   },
   {
     "id": "10399-3-160",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10399-3",
     "name": "Apple iPhone 17 256GB White eSIM",
     "country": "Япония",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "10399-5-161",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10399-5",
     "name": "Apple iPhone 17 256GB Lavender eSIM",
     "country": "Япония",
@@ -1161,7 +1161,7 @@
   },
   {
     "id": "10399-4-162",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10399-4",
     "name": "Apple iPhone 17 256GB Sage eSIM",
     "country": "Япония",
@@ -1169,7 +1169,7 @@
   },
   {
     "id": "10397-1-163",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10397-1",
     "name": "Apple iPhone 17 256GB Black eSIM + 1SIM",
     "country": "Индия",
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "n-164",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 256GB Blue eSIM + 1SIM",
     "country": "Индия",
@@ -1185,7 +1185,7 @@
   },
   {
     "id": "n-165",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 256GB White eSIM + 1SIM",
     "country": "Индия",
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "10397-5-166",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10397-5",
     "name": "Apple iPhone 17 256GB Lavender eSIM + 1SIM",
     "country": "Индия",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "n-167",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 256GB Sage eSIM + 1SIM",
     "country": "Индия",
@@ -1209,7 +1209,7 @@
   },
   {
     "id": "20301-1-168",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "20301-1",
     "name": "Apple iPhone 17 512GB Black eSIM",
     "country": "Япония",
@@ -1217,7 +1217,7 @@
   },
   {
     "id": "20301-2-169",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "20301-2",
     "name": "Apple iPhone 17 512GB Blue eSIM",
     "country": "Япония",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "20301-3-170",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "20301-3",
     "name": "Apple iPhone 17 512GB White eSIM",
     "country": "Япония",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": "20301-5-171",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "20301-5",
     "name": "Apple iPhone 17 512GB Lavender eSIM",
     "country": "Япония",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "10398-1-172",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10398-1",
     "name": "Apple iPhone 17 512GB Black eSIM + 1SIM",
     "country": "Индия",
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "10398-2-173",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10398-2",
     "name": "Apple iPhone 17 512GB Blue eSIM + 1SIM",
     "country": "Индия",
@@ -1257,7 +1257,7 @@
   },
   {
     "id": "10398-3-174",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10398-3",
     "name": "Apple iPhone 17 512GB White eSIM + 1SIM",
     "country": "Индия",
@@ -1265,7 +1265,7 @@
   },
   {
     "id": "10398-5-175",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10398-5",
     "name": "Apple iPhone 17 512GB Lavender eSIM + 1SIM",
     "country": "Индия",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "10398-4-176",
-    "category": "Apple iPhone 17",
+    "category": "iPhone",
     "sku": "10398-4",
     "name": "Apple iPhone 17 512GB Sage eSIM + 1SIM",
     "country": "Индия",
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "20322-1-178",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "20322-1",
     "name": "Apple iPhone 17 Air 256GB Black eSIM",
     "country": "Япония",
@@ -1289,7 +1289,7 @@
   },
   {
     "id": "20322-2-179",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "20322-2",
     "name": "Apple iPhone 17 Air 256GB Blue eSIM",
     "country": "Япония",
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "20322-3-180",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "20322-3",
     "name": "Apple iPhone 17 Air 256GB White eSIM",
     "country": "Япония",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "20322-4-181",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "20322-4",
     "name": "Apple iPhone 17 Air 256GB Gold eSIM",
     "country": "Япония",
@@ -1313,7 +1313,7 @@
   },
   {
     "id": "n-182",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Air 512GB Black eSIM",
     "country": "Япония",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "20323-2-183",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "20323-2",
     "name": "Apple iPhone 17 Air 512GB Blue eSIM",
     "country": "Япония",
@@ -1329,7 +1329,7 @@
   },
   {
     "id": "n-184",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Air 512GB Gold eSIM",
     "country": "Япония",
@@ -1337,7 +1337,7 @@
   },
   {
     "id": "n-185",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Air 1TB Black eSIM",
     "country": "Япония",
@@ -1345,7 +1345,7 @@
   },
   {
     "id": "n-186",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Air 1TB Blue eSIM",
     "country": "Япония",
@@ -1353,7 +1353,7 @@
   },
   {
     "id": "n-187",
-    "category": "Apple iPhone 17 Air",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Air 1TB Gold eSIM",
     "country": "Япония",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "20311-1-189",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20311-1",
     "name": "Apple iPhone 17 Pro 256GB Blue eSIM",
     "country": "Япония",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "20311-3-190",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20311-3",
     "name": "Apple iPhone 17 Pro 256GB Orange eSIM",
     "country": "Япония",
@@ -1377,7 +1377,7 @@
   },
   {
     "id": "20311-2-191",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20311-2",
     "name": "Apple iPhone 17 Pro 256GB Silver eSIM",
     "country": "Япония",
@@ -1385,7 +1385,7 @@
   },
   {
     "id": "20329-3-192",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20329-3",
     "name": "Apple iPhone 17 Pro 256GB Orange 2Sim",
     "country": "Китай",
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "20308-1-193",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20308-1",
     "name": "Apple iPhone 17 Pro 256GB Blue eSIM + 1SIM",
     "country": "Гонконг",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "20308-3-194",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20308-3",
     "name": "Apple iPhone 17 Pro 256GB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1409,7 +1409,7 @@
   },
   {
     "id": "20308-2-195",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20308-2",
     "name": "Apple iPhone 17 Pro 256GB Silver eSIM + 1SIM",
     "country": "Гонконг",
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "20312-1-196",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20312-1",
     "name": "Apple iPhone 17 Pro 512GB Blue eSIM",
     "country": "Япония",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "20312-3-197",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20312-3",
     "name": "Apple iPhone 17 Pro 512GB Orange eSIM",
     "country": "Япония",
@@ -1433,7 +1433,7 @@
   },
   {
     "id": "20312-2-198",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20312-2",
     "name": "Apple iPhone 17 Pro 512GB Silver eSIM",
     "country": "Япония",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "20309-1-199",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20309-1",
     "name": "Apple iPhone 17 Pro 512GB Blue eSIM + 1SIM",
     "country": "Гонконг",
@@ -1449,7 +1449,7 @@
   },
   {
     "id": "20309-3-200",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20309-3",
     "name": "Apple iPhone 17 Pro 512GB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": "20309-2-201",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20309-2",
     "name": "Apple iPhone 17 Pro 512GB Silver eSIM + 1SIM",
     "country": "Гонконг",
@@ -1465,7 +1465,7 @@
   },
   {
     "id": "n-202",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro 1TB Blue eSIM",
     "country": "Япония",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": "20313-3-203",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20313-3",
     "name": "Apple iPhone 17 Pro 1TB Orange eSIM",
     "country": "Япония",
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "20313-2-204",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20313-2",
     "name": "Apple iPhone 17 Pro 1TB Silver eSIM",
     "country": "Япония",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "20310-3-205",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20310-3",
     "name": "Apple iPhone 17 Pro 1TB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1497,7 +1497,7 @@
   },
   {
     "id": "20310-2-206",
-    "category": "Apple iPhone 17 Pro",
+    "category": "iPhone",
     "sku": "20310-2",
     "name": "Apple iPhone 17 Pro 1TB Silver eSIM + 1SIM",
     "country": "Гонконг",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "20318-1-208",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20318-1",
     "name": "Apple iPhone 17 Pro Max 256GB Blue eSIM",
     "country": "Япония",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "20318-3-209",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20318-3",
     "name": "Apple iPhone 17 Pro Max 256GB Orange eSIM",
     "country": "Япония",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "20318-2-210",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20318-2",
     "name": "Apple iPhone 17 Pro Max 256GB Silver eSIM",
     "country": "Япония",
@@ -1529,7 +1529,7 @@
   },
   {
     "id": "20314-1-211",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20314-1",
     "name": "Apple iPhone 17 Pro Max 256GB Blue eSIM + 1SIM",
     "country": "Гонконг",
@@ -1537,7 +1537,7 @@
   },
   {
     "id": "20314-3-212",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20314-3",
     "name": "Apple iPhone 17 Pro Max 256GB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "20314-2-213",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20314-2",
     "name": "Apple iPhone 17 Pro Max 256GB Silver eSIM + 1SIM",
     "country": "Гонконг",
@@ -1553,7 +1553,7 @@
   },
   {
     "id": "20319-1-214",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20319-1",
     "name": "Apple iPhone 17 Pro Max 512GB Blue eSIM",
     "country": "Япония",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "20319-3-215",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20319-3",
     "name": "Apple iPhone 17 Pro Max 512GB Orange eSIM",
     "country": "Япония",
@@ -1569,7 +1569,7 @@
   },
   {
     "id": "20319-2-216",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20319-2",
     "name": "Apple iPhone 17 Pro Max 512GB Silver eSIM",
     "country": "Япония",
@@ -1577,7 +1577,7 @@
   },
   {
     "id": "20315-1-217",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20315-1",
     "name": "Apple iPhone 17 Pro Max 512GB Blue eSIM + 1SIM",
     "country": "Гонконг",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": "20315-3-218",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20315-3",
     "name": "Apple iPhone 17 Pro Max 512GB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1593,7 +1593,7 @@
   },
   {
     "id": "20315-2-219",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20315-2",
     "name": "Apple iPhone 17 Pro Max 512GB Silver eSIM + 1SIM",
     "country": "Гонконг",
@@ -1601,7 +1601,7 @@
   },
   {
     "id": "n-220",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 1TB Blue eSIM",
     "country": "Япония",
@@ -1609,7 +1609,7 @@
   },
   {
     "id": "20320-3-221",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20320-3",
     "name": "Apple iPhone 17 Pro Max 1TB Orange eSIM",
     "country": "Япония",
@@ -1617,7 +1617,7 @@
   },
   {
     "id": "n-222",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 1TB Silver eSIM",
     "country": "Япония",
@@ -1625,7 +1625,7 @@
   },
   {
     "id": "n-223",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 1TB Blue eSIM + 1SIM",
     "country": "Гонконг",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "20316-3-224",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20316-3",
     "name": "Apple iPhone 17 Pro Max 1TB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1641,7 +1641,7 @@
   },
   {
     "id": "20326-2-225",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20326-2",
     "name": "Apple iPhone 17 Pro Max 1TB Silver eSIM + 1SIM",
     "country": "Гонконг",
@@ -1649,7 +1649,7 @@
   },
   {
     "id": "n-226",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Blue eSIM",
     "country": "Япония",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "n-227",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Orange eSIM",
     "country": "Япония",
@@ -1665,7 +1665,7 @@
   },
   {
     "id": "20321-2-228",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "20321-2",
     "name": "Apple iPhone 17 Pro Max 2TB Silver eSIM",
     "country": "Япония",
@@ -1673,7 +1673,7 @@
   },
   {
     "id": "n-229",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Orange eSIM + 1SIM",
     "country": "Гонконг",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "n-230",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Blue eSIM + 1SIM",
     "country": "Гонконг",
@@ -1689,42 +1689,10 @@
   },
   {
     "id": "n-231",
-    "category": "Apple iPhone 17 Pro Max",
+    "category": "iPhone",
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Silver eSIM + 1SIM",
     "country": "Гонконг",
     "price": 202500
-  },
-  {
-    "id": "n-232",
-    "category": "Apple iPhone 17 Pro Max",
-    "sku": "",
-    "name": "Apple Magsafe Euro-Pin Adapter (Оригинал) 250",
-    "country": "",
-    "price": 250
-  },
-  {
-    "id": "n-233",
-    "category": "Apple iPhone 17 Pro Max",
-    "sku": "",
-    "name": "Apple Type-C to Type-C Cable 1m ( Без коробки) от 10шт 200 от 1шт 400",
-    "country": "",
-    "price": 400
-  },
-  {
-    "id": "n-234",
-    "category": "Apple iPhone 17 Pro Max",
-    "sku": "",
-    "name": "Apple USB Power Adapter MD813 (Оригинал/Без коробки) 250",
-    "country": "",
-    "price": 250
-  },
-  {
-    "id": "n-235",
-    "category": "Apple iPhone 17 Pro Max",
-    "sku": "",
-    "name": "СЗУ Apple 20W USB-C Power Adapter White RUS от 10шт 800 от 1шт 1000",
-    "country": "",
-    "price": 1000
   }
 ]
