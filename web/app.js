@@ -34,6 +34,45 @@
     return new URL("products.json", location.href).href;
   }
 
+  /** Приводит поля к виду, который ждёт фильтр (и подтягивает brand/family из названия). */
+  function normalizeProducts(raw) {
+    if (!Array.isArray(raw)) return [];
+    return raw
+      .map(function (p, idx) {
+        var name = p.name != null ? String(p.name) : "";
+        var b = (p.brand || "").toString().trim().toLowerCase();
+        var f = (p.family || "").toString().trim().toLowerCase();
+        var n = name.toLowerCase();
+        if (!b || !f) {
+          if (n.indexOf("iphone") !== -1) {
+            b = "apple";
+            f = "iphone";
+          } else if (n.indexOf("watch") !== -1) {
+            b = "apple";
+            f = "apple_watch";
+          } else if (n.indexOf("samsung") !== -1 || n.indexOf("galaxy") !== -1) {
+            b = "samsung";
+            f = n.indexOf("watch") !== -1 ? "samsung_watch" : "samsung_phone";
+          }
+        }
+        var price = Number(p.price);
+        if (Number.isNaN(price)) price = 0;
+        return {
+          id: p.id != null ? String(p.id) : "p-" + idx,
+          brand: b,
+          family: f,
+          category: p.category != null ? String(p.category) : "",
+          sku: p.sku != null ? String(p.sku) : "",
+          name: name,
+          country: p.country != null ? String(p.country) : "",
+          price: price,
+        };
+      })
+      .filter(function (p) {
+        return p.name && p.brand && p.family;
+      });
+  }
+
   const els = {
     backBtn: document.getElementById("backBtn"),
     tagline: document.getElementById("tagline"),
@@ -347,13 +386,13 @@
   goHome();
   if (els.homeLoadError) els.homeLoadError.hidden = true;
 
-  fetch(productsJsonUrl())
+  fetch(productsJsonUrl(), { cache: "no-store" })
     .then((r) => {
       if (!r.ok) throw new Error("products.json");
       return r.json();
     })
     .then((data) => {
-      state.products = Array.isArray(data) ? data : [];
+      state.products = normalizeProducts(data);
       goHome();
       if (els.homeLoadError) els.homeLoadError.hidden = true;
     })
