@@ -289,7 +289,7 @@
         '<div><p class="card-name"></p></div>' +
         '<span class="card-price"></span></div>' +
         '<div class="card-meta"></div>' +
-        '<div class="card-actions"><button type="button" class="btn-pill add-btn"></button></div>';
+        '<div class="card-actions"></div>';
       if (imgUrl) {
         var imgEl = li.querySelector(".card-img");
         imgEl.src = imgUrl;
@@ -305,14 +305,39 @@
       if (p.country) meta.push(p.country);
       if (showCategory) meta.push(p.category);
       li.querySelector(".card-meta").textContent = meta.join(" · ");
-      var btn = li.querySelector(".add-btn");
-      btn.textContent = qty ? "В корзине ×" + qty + " · +1" : "В корзину";
-      btn.addEventListener("click", function () {
-        state.cart[p.id] = (state.cart[p.id] || 0) + 1;
+      var actions = li.querySelector(".card-actions");
+      function bumpCart(delta) {
+        var q = (state.cart[p.id] || 0) + delta;
+        if (q <= 0) delete state.cart[p.id];
+        else state.cart[p.id] = q;
         saveCart();
         renderGrid();
         updateCartBar();
-      });
+      }
+      if (qty > 0) {
+        actions.className = "card-actions card-actions--qty";
+        actions.innerHTML =
+          '<button type="button" class="btn-qty btn-qty--minus" aria-label="Убрать одну">−</button>' +
+          '<span class="card-qty-n"></span>' +
+          '<button type="button" class="btn-qty btn-qty--plus" aria-label="Добавить ещё">+</button>';
+        actions.querySelector(".card-qty-n").textContent = qty + " шт.";
+        actions.querySelector(".btn-qty--minus").addEventListener("click", function () {
+          bumpCart(-1);
+        });
+        actions.querySelector(".btn-qty--plus").addEventListener("click", function () {
+          bumpCart(1);
+        });
+      } else {
+        actions.className = "card-actions";
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "btn-pill add-btn";
+        btn.textContent = "В корзину";
+        btn.addEventListener("click", function () {
+          bumpCart(1);
+        });
+        actions.appendChild(btn);
+      }
       els.grid.appendChild(li);
     });
   }

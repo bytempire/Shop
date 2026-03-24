@@ -503,6 +503,44 @@ body {
   margin-top: 12px;
 }
 
+.card-actions--qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-qty {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid var(--mint-dim);
+  background: rgba(10, 14, 12, 0.75);
+  color: var(--mint);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.btn-qty:active {
+  opacity: 0.88;
+  transform: scale(0.96);
+}
+
+.card-qty-n {
+  flex: 1;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
 .btn-pill {
   display: inline-flex;
   align-items: center;
