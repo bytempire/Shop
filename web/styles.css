@@ -446,37 +446,27 @@ body {
 }
 
 .card-img-wrap {
+  position: relative;
   margin: -14px -16px 12px;
-  width: 100%;
-  height: clamp(118px, 36vw, 168px);
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.35);
+  height: 130px;
+  overflow: hidden;
+  background: #0c1613;
   border-bottom: 1px solid rgba(94, 234, 212, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 10px;
-}
-
-/* Внутренний блок по размеру картинки — родитель flex центрирует его */
-.card-img-scale {
-  flex: 0 1 auto;
-  max-width: 100%;
-  max-height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .card-img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: calc(100% - 16px);
+  max-height: calc(100% - 16px);
   width: auto;
   height: auto;
   object-fit: contain;
-  object-position: center center;
-  margin: 0 auto;
+  object-position: center;
+  display: block;
+  pointer-events: none;
 }
 
 .card-top {
