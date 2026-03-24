@@ -74,6 +74,9 @@
   }
 
   const els = {
+    siteHeader: document.getElementById("siteHeader"),
+    headerBanner: document.getElementById("headerBanner"),
+    headerLogo: document.getElementById("headerLogo"),
     backBtn: document.getElementById("backBtn"),
     tagline: document.getElementById("tagline"),
     viewHome: document.getElementById("viewHome"),
@@ -135,6 +138,10 @@
     els.viewSub.hidden = name !== "sub";
     els.viewCatalog.hidden = name !== "catalog";
     els.backBtn.hidden = name === "home";
+    var onHome = name === "home";
+    if (els.headerBanner) els.headerBanner.hidden = !onHome;
+    if (els.siteHeader) els.siteHeader.classList.toggle("site-header--inner", !onHome);
+    if (els.headerLogo) els.headerLogo.hidden = onHome;
   }
 
   function goHome() {
