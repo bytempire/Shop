@@ -283,7 +283,7 @@
           : p.image || null;
       li.innerHTML =
         (imgUrl
-          ? '<div class="card-img-wrap"><img class="card-img" alt="" loading="lazy" referrerpolicy="no-referrer" /></div>'
+          ? '<div class="card-img-wrap"><div class="card-img-scale"><img class="card-img" alt="" loading="lazy" referrerpolicy="no-referrer" /></div></div>'
           : "") +
         '<div class="card-top">' +
         '<div><p class="card-name"></p></div>' +
