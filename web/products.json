@@ -9483,100 +9483,110 @@
     "id": "gaming-1",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Sterling Silver",
     "country": "ЕС",
-    "price": 5700
+    "price": 5700,
+    "currency": "USD"
   },
   {
     "id": "gaming-2",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Cobalt Blue",
     "country": "ЕС",
-    "price": 5700
+    "price": 5700,
+    "currency": "USD"
   },
   {
     "id": "gaming-3",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Camouflage Gray",
     "country": "ЕС",
-    "price": 5700
+    "price": 5700,
+    "currency": "USD"
   },
   {
     "id": "gaming-4",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Galactic Purple",
     "country": "ЕС",
-    "price": 5700
+    "price": 5700,
+    "currency": "USD"
   },
   {
     "id": "gaming-5",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Volcanic Red",
     "country": "ЕС",
-    "price": 5700
+    "price": 5700,
+    "currency": "USD"
   },
   {
     "id": "gaming-6",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Cosmic Red",
     "country": "ЕС",
-    "price": 5700
+    "price": 5700,
+    "currency": "USD"
   },
   {
     "id": "gaming-7",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Black",
     "country": "ЕС",
-    "price": 5800
+    "price": 5800,
+    "currency": "USD"
   },
   {
     "id": "gaming-8",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Purple",
     "country": "ЕС",
-    "price": 6000
+    "price": 6000,
+    "currency": "USD"
   },
   {
     "id": "gaming-9",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "Sony Dualsense Indigo",
     "country": "ЕС",
-    "price": 6200
+    "price": 6200,
+    "currency": "USD"
   },
   {
     "id": "gaming-10",
     "brand": "gaming",
     "family": "gaming_item",
-    "category": "Gaming",
+    "category": "Игры PS5",
     "sku": "",
     "name": "PS5 Pro",
     "country": "ЕС",
-    "price": 74000
+    "price": 74000,
+    "currency": "USD"
   }
 ]

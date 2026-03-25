@@ -62,7 +62,7 @@
   ];
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
   var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
-  var GAMING_SUBS = [{ family: "gaming_item", label: "PlayStation" }];
+  var GAMING_SUBS = [{ family: "gaming_item", label: "Приставки" }];
 
   var state = {
     products: [],
@@ -161,6 +161,7 @@
           name: name,
           country: p.country != null ? String(p.country) : "",
           price: price,
+          currency: p.currency != null ? String(p.currency) : "RUB",
           image: img,
         };
       })
@@ -191,8 +192,10 @@
     homeLoadError: document.getElementById("homeLoadError"),
   };
 
-  function formatPrice(n) {
-    return new Intl.NumberFormat("ru-RU").format(n) + " ₽";
+  function formatPrice(n, currency) {
+    var cur = (currency || "RUB").toString().toUpperCase();
+    var sym = cur === "USD" ? " $" : " ₽";
+    return new Intl.NumberFormat("ru-RU").format(n) + sym;
   }
 
   function countInFamily(brand, family) {
@@ -225,6 +228,7 @@
   function cartSum() {
     var s = 0;
     var n = 0;
+    var cur = null;
     Object.keys(state.cart).forEach(function (id) {
       var qty = state.cart[id];
       var p = state.products.find(function (x) {
@@ -233,9 +237,10 @@
       if (p && qty > 0) {
         s += p.price * qty;
         n += qty;
+        if (cur == null) cur = p.currency || "RUB";
       }
     });
-    return { sum: s, count: n };
+    return { sum: s, count: n, currency: cur || "RUB" };
   }
 
   function showScreen(name) {
@@ -416,7 +421,7 @@
         };
       }
       li.querySelector(".card-name").textContent = p.name;
-      li.querySelector(".card-price").textContent = formatPrice(p.price);
+      li.querySelector(".card-price").textContent = formatPrice(p.price, p.currency);
       var meta = [];
       if (p.sku) meta.push("Арт. " + p.sku);
       if (p.country) meta.push(p.country);
@@ -467,7 +472,7 @@
       return;
     }
     els.cartBar.hidden = false;
-    els.cartTotal.textContent = formatPrice(t.sum);
+    els.cartTotal.textContent = formatPrice(t.sum, t.currency);
     hideTgActionButtons();
   }
 
