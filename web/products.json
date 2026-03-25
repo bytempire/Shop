@@ -6678,5 +6678,895 @@
     "name": "Apple iMac 24\" M4 8C 16/256 Green",
     "country": "Великобритания",
     "price": 144000
+  },
+  {
+    "id": "samsung-phone-1",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 4/128 Black",
+    "country": "ОАЭ",
+    "price": 10800
+  },
+  {
+    "id": "samsung-phone-2",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 4/128 Gray",
+    "country": "ОАЭ",
+    "price": 10800
+  },
+  {
+    "id": "samsung-phone-3",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 4/128 Blue",
+    "country": "Грузия",
+    "price": 12500
+  },
+  {
+    "id": "samsung-phone-4",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 4/128 Blue",
+    "country": "Россия",
+    "price": 12900
+  },
+  {
+    "id": "samsung-phone-5",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 6/128 Black",
+    "country": "ОАЭ",
+    "price": 12900
+  },
+  {
+    "id": "samsung-phone-6",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 6/128 Gray",
+    "country": "ОАЭ",
+    "price": 12900
+  },
+  {
+    "id": "samsung-phone-7",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 6/128 Blue",
+    "country": "ОАЭ",
+    "price": 12900
+  },
+  {
+    "id": "samsung-phone-8",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 6/128 Blue",
+    "country": "Россия",
+    "price": 14000
+  },
+  {
+    "id": "samsung-phone-9",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 8/256 Blue",
+    "country": "Малайзия",
+    "price": 15000
+  },
+  {
+    "id": "samsung-phone-10",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 8/256 Blue",
+    "country": "ОАЭ",
+    "price": 15300
+  },
+  {
+    "id": "samsung-phone-11",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A17 8/256 Gray",
+    "country": "Россия",
+    "price": 16200
+  },
+  {
+    "id": "samsung-phone-12",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 6/128 Black",
+    "country": "ОАЭ",
+    "price": 16500
+  },
+  {
+    "id": "samsung-phone-13",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 6/128 Pink",
+    "country": "ОАЭ",
+    "price": 16500
+  },
+  {
+    "id": "samsung-phone-14",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 6/128 Mint",
+    "country": "Грузия",
+    "price": 16300
+  },
+  {
+    "id": "samsung-phone-15",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 6/128 White",
+    "country": "Россия",
+    "price": 17000
+  },
+  {
+    "id": "samsung-phone-16",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 8/256 Black",
+    "country": "ЮАР",
+    "price": 18500
+  },
+  {
+    "id": "samsung-phone-17",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 8/256 Pink",
+    "country": "ОАЭ",
+    "price": 19300
+  },
+  {
+    "id": "samsung-phone-18",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 8/256 White",
+    "country": "ОАЭ",
+    "price": 19300
+  },
+  {
+    "id": "samsung-phone-19",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A26 8/256 Mint",
+    "country": "Чили",
+    "price": 19000
+  },
+  {
+    "id": "samsung-phone-20",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/128 Black",
+    "country": "ОАЭ",
+    "price": 20200
+  },
+  {
+    "id": "samsung-phone-21",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/128 Lime",
+    "country": "Россия",
+    "price": 20300
+  },
+  {
+    "id": "samsung-phone-22",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/128 White",
+    "country": "Россия",
+    "price": 20500
+  },
+  {
+    "id": "samsung-phone-23",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/256 Black",
+    "country": "Казахстан",
+    "price": 22000
+  },
+  {
+    "id": "samsung-phone-24",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/256 White",
+    "country": "Казахстан",
+    "price": 22000
+  },
+  {
+    "id": "samsung-phone-25",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/256 Lime",
+    "country": "ОАЭ",
+    "price": 23000
+  },
+  {
+    "id": "samsung-phone-26",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 8/256 Lavender",
+    "country": "Индонезия",
+    "price": 23400
+  },
+  {
+    "id": "samsung-phone-27",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 12/256 Black",
+    "country": "ОАЭ",
+    "price": 24000
+  },
+  {
+    "id": "samsung-phone-28",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 12/256 Lavender",
+    "country": "ОАЭ",
+    "price": 24000
+  },
+  {
+    "id": "samsung-phone-29",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A36 12/256 White",
+    "country": "ОАЭ",
+    "price": 24000
+  },
+  {
+    "id": "samsung-phone-30",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A56 8/128 Graphite",
+    "country": "ОАЭ",
+    "price": 24500
+  },
+  {
+    "id": "samsung-phone-31",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A56 8/128 Lightgray",
+    "country": "Россия",
+    "price": 25200
+  },
+  {
+    "id": "samsung-phone-32",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A56 8/256 Lightgray",
+    "country": "ОАЭ",
+    "price": 28000
+  },
+  {
+    "id": "samsung-phone-33",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A56 8/256 Pink",
+    "country": "Сингапур",
+    "price": 28500
+  },
+  {
+    "id": "samsung-phone-34",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A56 12/256 Gray",
+    "country": "Китай",
+    "price": 30300
+  },
+  {
+    "id": "samsung-phone-35",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy A56 12/256 Pink",
+    "country": "Индонезия",
+    "price": 30700
+  },
+  {
+    "id": "samsung-phone-36",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S24 8/256 Black",
+    "country": "ОАЭ",
+    "price": 39500
+  },
+  {
+    "id": "samsung-phone-37",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/128 Blue",
+    "country": "ОАЭ",
+    "price": 49500
+  },
+  {
+    "id": "samsung-phone-38",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/128 Mint",
+    "country": "ОАЭ",
+    "price": 49500
+  },
+  {
+    "id": "samsung-phone-39",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/256 Silver",
+    "country": "ОАЭ",
+    "price": 54500
+  },
+  {
+    "id": "samsung-phone-40",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/256 Navy",
+    "country": "ОАЭ",
+    "price": 55000
+  },
+  {
+    "id": "samsung-phone-41",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/256 Mint",
+    "country": "Индия",
+    "price": 53000
+  },
+  {
+    "id": "samsung-phone-42",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/256 Pink",
+    "country": "Индия",
+    "price": 56500
+  },
+  {
+    "id": "samsung-phone-43",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 12/512 Mint",
+    "country": "ОАЭ",
+    "price": 65500
+  },
+  {
+    "id": "samsung-phone-44",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 FE 8/256 Black",
+    "country": "ОАЭ",
+    "price": 40500
+  },
+  {
+    "id": "samsung-phone-45",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 FE 8/256 White",
+    "country": "ОАЭ",
+    "price": 41000
+  },
+  {
+    "id": "samsung-phone-46",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 FE 8/512 Black",
+    "country": "Чили",
+    "price": 46100
+  },
+  {
+    "id": "samsung-phone-47",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 FE 8/512 White",
+    "country": "Чили",
+    "price": 46100
+  },
+  {
+    "id": "samsung-phone-48",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 FE 8/512 Navy",
+    "country": "Чили",
+    "price": 46100
+  },
+  {
+    "id": "samsung-phone-49",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 FE 8/512 Blue",
+    "country": "Чили",
+    "price": 46100
+  },
+  {
+    "id": "samsung-phone-50",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Plus 12/256 Blue",
+    "country": "ОАЭ",
+    "price": 61000
+  },
+  {
+    "id": "samsung-phone-51",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Plus 12/256 Navy",
+    "country": "ОАЭ",
+    "price": 61000
+  },
+  {
+    "id": "samsung-phone-52",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Plus 12/256 Silver",
+    "country": "ОАЭ",
+    "price": 61500
+  },
+  {
+    "id": "samsung-phone-53",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Plus 12/256 Silver",
+    "country": "Индия",
+    "price": 59300
+  },
+  {
+    "id": "samsung-phone-54",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Plus 12/512 Mint",
+    "country": "ОАЭ",
+    "price": 73500
+  },
+  {
+    "id": "samsung-phone-55",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Plus 12/512 Navy",
+    "country": "ОАЭ",
+    "price": 74000
+  },
+  {
+    "id": "samsung-phone-56",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/256 Black",
+    "country": "ОАЭ",
+    "price": 76500
+  },
+  {
+    "id": "samsung-phone-57",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/256 Gray",
+    "country": "ОАЭ",
+    "price": 76500
+  },
+  {
+    "id": "samsung-phone-58",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/256 Blue",
+    "country": "ОАЭ",
+    "price": 76000
+  },
+  {
+    "id": "samsung-phone-59",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/256 White",
+    "country": "ОАЭ",
+    "price": 76000
+  },
+  {
+    "id": "samsung-phone-60",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/256 Blue",
+    "country": "Сингапур",
+    "price": 74000
+  },
+  {
+    "id": "samsung-phone-61",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/512 Black",
+    "country": "ОАЭ",
+    "price": 86000
+  },
+  {
+    "id": "samsung-phone-62",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/512 Gray",
+    "country": "ОАЭ",
+    "price": 86000
+  },
+  {
+    "id": "samsung-phone-63",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/512 White",
+    "country": "ОАЭ",
+    "price": 86000
+  },
+  {
+    "id": "samsung-phone-64",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/1TB Gray",
+    "country": "ОАЭ",
+    "price": 97500
+  },
+  {
+    "id": "samsung-phone-65",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/1TB Blue",
+    "country": "ОАЭ",
+    "price": 97000
+  },
+  {
+    "id": "samsung-phone-66",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S25 Ultra 12/1TB White",
+    "country": "ОАЭ",
+    "price": 97000
+  },
+  {
+    "id": "samsung-phone-67",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 12/256 Blue",
+    "country": "ОАЭ",
+    "price": 66000
+  },
+  {
+    "id": "samsung-phone-68",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 12/256 Violet",
+    "country": "ОАЭ",
+    "price": 66000
+  },
+  {
+    "id": "samsung-phone-69",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 12/512 Black",
+    "country": "ОАЭ",
+    "price": 76500
+  },
+  {
+    "id": "samsung-phone-70",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 12/512 Violet",
+    "country": "ОАЭ",
+    "price": 76500
+  },
+  {
+    "id": "samsung-phone-71",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 12/512 White",
+    "country": "ОАЭ",
+    "price": 76500
+  },
+  {
+    "id": "samsung-phone-72",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/256 Black",
+    "country": "ОАЭ",
+    "price": 75000
+  },
+  {
+    "id": "samsung-phone-73",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/256 Blue",
+    "country": "ОАЭ",
+    "price": 75000
+  },
+  {
+    "id": "samsung-phone-74",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/256 Violet",
+    "country": "ОАЭ",
+    "price": 75000
+  },
+  {
+    "id": "samsung-phone-75",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/256 White",
+    "country": "ОАЭ",
+    "price": 75000
+  },
+  {
+    "id": "samsung-phone-76",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/512 Black",
+    "country": "ОАЭ",
+    "price": 87000
+  },
+  {
+    "id": "samsung-phone-77",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/512 Blue",
+    "country": "ОАЭ",
+    "price": 87000
+  },
+  {
+    "id": "samsung-phone-78",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Plus 12/512 White",
+    "country": "ОАЭ",
+    "price": 87000
+  },
+  {
+    "id": "samsung-phone-79",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/256 Black",
+    "country": "ОАЭ",
+    "price": 90000
+  },
+  {
+    "id": "samsung-phone-80",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/256 Blue",
+    "country": "ОАЭ",
+    "price": 88000
+  },
+  {
+    "id": "samsung-phone-81",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/256 Violet",
+    "country": "ОАЭ",
+    "price": 88500
+  },
+  {
+    "id": "samsung-phone-82",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/256 White",
+    "country": "ОАЭ",
+    "price": 89000
+  },
+  {
+    "id": "samsung-phone-83",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/512 Black",
+    "country": "ОАЭ",
+    "price": 100000
+  },
+  {
+    "id": "samsung-phone-84",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/512 Blue",
+    "country": "ОАЭ",
+    "price": 99500
+  },
+  {
+    "id": "samsung-phone-85",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/512 Violet",
+    "country": "ОАЭ",
+    "price": 98500
+  },
+  {
+    "id": "samsung-phone-86",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy S26 Ultra 12/512 White",
+    "country": "ОАЭ",
+    "price": 98500
+  },
+  {
+    "id": "samsung-phone-87",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy Z Fold 7 12/256 Silver",
+    "country": "Индонезия",
+    "price": 113000
+  },
+  {
+    "id": "samsung-phone-88",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy Z Fold 7 12/512 Black",
+    "country": "Казахстан",
+    "price": 122000
+  },
+  {
+    "id": "samsung-phone-89",
+    "brand": "samsung",
+    "family": "samsung_phone",
+    "category": "Galaxy",
+    "sku": "",
+    "name": "Samsung Galaxy Z Fold 7 12/512 Silver",
+    "country": "Казахстан",
+    "price": 122000
   }
 ]
