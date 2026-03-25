@@ -7748,5 +7748,825 @@
     "name": "Samsung Galaxy Watch Ultra 47mm LTE (L705) Titanium White, белый ремешок",
     "country": "Парагвай",
     "price": 27000
+  },
+  {
+    "id": "xiaomi-1",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi 13 6/128 Black",
+    "country": "Россия",
+    "price": 9400
+  },
+  {
+    "id": "xiaomi-2",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 6/128 Blue",
+    "country": "Россия",
+    "price": 11500
+  },
+  {
+    "id": "xiaomi-3",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/128 Black",
+    "country": "Казахстан",
+    "price": 12100
+  },
+  {
+    "id": "xiaomi-4",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/128 White",
+    "country": "Индия",
+    "price": 14700
+  },
+  {
+    "id": "xiaomi-5",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/128 Black",
+    "country": "Индия",
+    "price": 14700
+  },
+  {
+    "id": "xiaomi-6",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/256 Black",
+    "country": "Россия",
+    "price": 15000
+  },
+  {
+    "id": "xiaomi-7",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/256 Blue",
+    "country": "Казахстан",
+    "price": 14400
+  },
+  {
+    "id": "xiaomi-8",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/256 Green",
+    "country": "Великобритания",
+    "price": 14200
+  },
+  {
+    "id": "xiaomi-9",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 8/256 Purple",
+    "country": "ЕС",
+    "price": 16300
+  },
+  {
+    "id": "xiaomi-10",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 12/512 Black",
+    "country": "Индия",
+    "price": 20500
+  },
+  {
+    "id": "xiaomi-11",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 12/512 Green",
+    "country": "ЕС",
+    "price": 20500
+  },
+  {
+    "id": "xiaomi-12",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14 12/512 Lavender",
+    "country": "ЕС",
+    "price": 20500
+  },
+  {
+    "id": "xiaomi-13",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14S 8/256 Black",
+    "country": "ЕС",
+    "price": 17000
+  },
+  {
+    "id": "xiaomi-14",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 14S 8/256 Blue",
+    "country": "ЕС",
+    "price": 15800
+  },
+  {
+    "id": "xiaomi-15",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 6/128 Green",
+    "country": "Казахстан",
+    "price": 14700
+  },
+  {
+    "id": "xiaomi-16",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 6/128 Blue",
+    "country": "ЕС",
+    "price": 15000
+  },
+  {
+    "id": "xiaomi-17",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 8/128 Black",
+    "country": "Казахстан",
+    "price": 16300
+  },
+  {
+    "id": "xiaomi-18",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 8/128 Purple",
+    "country": "Казахстан",
+    "price": 16300
+  },
+  {
+    "id": "xiaomi-19",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 8/256 Black",
+    "country": "ЕС",
+    "price": 16800
+  },
+  {
+    "id": "xiaomi-20",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 8/256 Blue",
+    "country": "ЕС",
+    "price": 16800
+  },
+  {
+    "id": "xiaomi-21",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 8/256 Purple",
+    "country": "ЕС",
+    "price": 17000
+  },
+  {
+    "id": "xiaomi-22",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 5G 8/256 Black",
+    "country": "ЕС",
+    "price": 22500
+  },
+  {
+    "id": "xiaomi-23",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 5G 8/256 Purple",
+    "country": "ЕС",
+    "price": 22500
+  },
+  {
+    "id": "xiaomi-24",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro 8/256 Black",
+    "country": "ЕС",
+    "price": 19800
+  },
+  {
+    "id": "xiaomi-25",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro 8/256 Blue",
+    "country": "ЕС",
+    "price": 19800
+  },
+  {
+    "id": "xiaomi-26",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro 8/256 Titanium",
+    "country": "ЕС",
+    "price": 23100
+  },
+  {
+    "id": "xiaomi-27",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro 5G 8/256 Black",
+    "country": "ЕС",
+    "price": 23700
+  },
+  {
+    "id": "xiaomi-28",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro 5G 8/512 Black",
+    "country": "ЕС",
+    "price": 25300
+  },
+  {
+    "id": "xiaomi-29",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro 5G 8/512 Titanium",
+    "country": "ЕС",
+    "price": 25300
+  },
+  {
+    "id": "xiaomi-30",
+    "brand": "xiaomi",
+    "family": "xm_redmi",
+    "category": "Redmi",
+    "sku": "",
+    "name": "Xiaomi Redmi Note 15 Pro+ 5G 12/512 Black",
+    "country": "ЕС",
+    "price": 34000
+  },
+  {
+    "id": "xiaomi-31",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 15T 12/256 Rose Gold",
+    "country": "ЕС",
+    "price": 38000
+  },
+  {
+    "id": "xiaomi-32",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 15T 12/256 Black",
+    "country": "ЕС",
+    "price": 38000
+  },
+  {
+    "id": "xiaomi-33",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 15T 12/512 Black",
+    "country": "ЕС",
+    "price": 44000
+  },
+  {
+    "id": "xiaomi-34",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 15T 12/512 Gray",
+    "country": "ЕС",
+    "price": 44000
+  },
+  {
+    "id": "xiaomi-35",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 12/512 Black",
+    "country": "Китай",
+    "price": 72000
+  },
+  {
+    "id": "xiaomi-36",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO M7 6/128 Black",
+    "country": "Великобритания",
+    "price": 10800
+  },
+  {
+    "id": "xiaomi-37",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO M7 6/128 Silver",
+    "country": "Великобритания",
+    "price": 10700
+  },
+  {
+    "id": "xiaomi-38",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO M7 8/256 Black",
+    "country": "Великобритания",
+    "price": 13300
+  },
+  {
+    "id": "xiaomi-39",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO M7 8/256 Silver",
+    "country": "Великобритания",
+    "price": 13300
+  },
+  {
+    "id": "xiaomi-40",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO M8 5G 8/256 Black",
+    "country": "ЕС",
+    "price": 17900
+  },
+  {
+    "id": "xiaomi-41",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO M8 5G 8/256 Silver",
+    "country": "ЕС",
+    "price": 17900
+  },
+  {
+    "id": "xiaomi-42",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO X7 Pro 8/256 Black",
+    "country": "ЕС",
+    "price": 25300
+  },
+  {
+    "id": "xiaomi-43",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO X7 Pro 8/256 Green",
+    "country": "Казахстан",
+    "price": 24500
+  },
+  {
+    "id": "xiaomi-44",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO X7 Pro 12/512 Yellow",
+    "country": "ЕС",
+    "price": 30000
+  },
+  {
+    "id": "xiaomi-45",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F6 12/512 Green",
+    "country": "ЕС",
+    "price": 24000
+  },
+  {
+    "id": "xiaomi-46",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F6 12/512 Titanium",
+    "country": "Россия",
+    "price": 24000
+  },
+  {
+    "id": "xiaomi-47",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F6 Pro 12/512 Black",
+    "country": "Россия",
+    "price": 28500
+  },
+  {
+    "id": "xiaomi-48",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F6 Pro 12/512 White",
+    "country": "ЕС",
+    "price": 28500
+  },
+  {
+    "id": "xiaomi-49",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F6 Pro 16/1024 Black",
+    "country": "ЕС",
+    "price": 34000
+  },
+  {
+    "id": "xiaomi-50",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F8 Pro 12/512 Blue",
+    "country": "ЕС",
+    "price": 45800
+  },
+  {
+    "id": "xiaomi-51",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F8 Pro 12/512 Silver",
+    "country": "ЕС",
+    "price": 45800
+  },
+  {
+    "id": "xiaomi-52",
+    "brand": "xiaomi",
+    "family": "xm_poco",
+    "category": "POCO",
+    "sku": "",
+    "name": "Xiaomi POCO F8 Pro 12/512 Black",
+    "country": "ЕС",
+    "price": 46100
+  },
+  {
+    "id": "xiaomi-53",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme Note 60x 3/64 Black",
+    "country": "Россия",
+    "price": 5500
+  },
+  {
+    "id": "xiaomi-54",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 6/128 Purple",
+    "country": "Россия",
+    "price": 8500
+  },
+  {
+    "id": "xiaomi-55",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 6/128 Green",
+    "country": "Россия",
+    "price": 8500
+  },
+  {
+    "id": "xiaomi-56",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 6/128 White",
+    "country": "Россия",
+    "price": 8500
+  },
+  {
+    "id": "xiaomi-57",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X5b 4/64 Blue",
+    "country": "Россия",
+    "price": 7000
+  },
+  {
+    "id": "xiaomi-58",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X6c 6/256 White",
+    "country": "Россия",
+    "price": 11000
+  },
+  {
+    "id": "xiaomi-59",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X7d 6/128 Gray",
+    "country": "Россия",
+    "price": 11800
+  },
+  {
+    "id": "xiaomi-60",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X8d 8/128 Black",
+    "country": "Россия",
+    "price": 16500
+  },
+  {
+    "id": "xiaomi-61",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X8d 8/128 Gray",
+    "country": "Россия",
+    "price": 16500
+  },
+  {
+    "id": "xiaomi-62",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X8d 8/128 Blue",
+    "country": "Россия",
+    "price": 16500
+  },
+  {
+    "id": "xiaomi-63",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 Lite 8/256 Green",
+    "country": "Россия",
+    "price": 18800
+  },
+  {
+    "id": "xiaomi-64",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 8/256 Black",
+    "country": "Россия",
+    "price": 26500
+  },
+  {
+    "id": "xiaomi-65",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 8/256 Gray",
+    "country": "Россия",
+    "price": 26500
+  },
+  {
+    "id": "xiaomi-66",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 8/256 Gold",
+    "country": "Россия",
+    "price": 26500
+  },
+  {
+    "id": "xiaomi-67",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 12/256 Black",
+    "country": "Россия",
+    "price": 29000
+  },
+  {
+    "id": "xiaomi-68",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 12/256 Gray",
+    "country": "Россия",
+    "price": 29000
+  },
+  {
+    "id": "xiaomi-69",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 12/512 Black",
+    "country": "Россия",
+    "price": 32500
+  },
+  {
+    "id": "xiaomi-70",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 12/512 Gray",
+    "country": "Россия",
+    "price": 32500
+  },
+  {
+    "id": "xiaomi-71",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 Pro 12/512 Blue",
+    "country": "ЕС",
+    "price": 50000
+  },
+  {
+    "id": "xiaomi-72",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 Pro 12/512 Black",
+    "country": "Россия",
+    "price": 50500
+  },
+  {
+    "id": "xiaomi-73",
+    "brand": "xiaomi",
+    "family": "xm_huawei",
+    "category": "Huawei",
+    "sku": "",
+    "name": "Huawei Nova Y72s 8/128 Blue",
+    "country": "Россия",
+    "price": 9000
+  },
+  {
+    "id": "xiaomi-74",
+    "brand": "xiaomi",
+    "family": "xm_huawei",
+    "category": "Huawei",
+    "sku": "",
+    "name": "Huawei Nova 12i 8/128 Black",
+    "country": "Россия",
+    "price": 10400
+  },
+  {
+    "id": "xiaomi-75",
+    "brand": "xiaomi",
+    "family": "xm_huawei",
+    "category": "Huawei",
+    "sku": "",
+    "name": "Huawei Nova 13i 8/128 Blue",
+    "country": "Россия",
+    "price": 11500
+  },
+  {
+    "id": "xiaomi-76",
+    "brand": "xiaomi",
+    "family": "xm_huawei",
+    "category": "Huawei",
+    "sku": "",
+    "name": "Huawei Pura 80 12/256 Black",
+    "country": "Россия",
+    "price": 39500
+  },
+  {
+    "id": "xiaomi-77",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 12/256 GB Black",
+    "country": "Россия",
+    "price": 67000
+  },
+  {
+    "id": "xiaomi-78",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 12/256 GB Ice Blue",
+    "country": "Россия",
+    "price": 67000
+  },
+  {
+    "id": "xiaomi-79",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 12/512 GB Black",
+    "country": "Россия",
+    "price": 79000
+  },
+  {
+    "id": "xiaomi-80",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 12/512 GB Ice Blue",
+    "country": "ЕС",
+    "price": 78500
+  },
+  {
+    "id": "xiaomi-81",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 Ultra 16/512 GB Black",
+    "country": "Россия",
+    "price": 110000
+  },
+  {
+    "id": "xiaomi-82",
+    "brand": "xiaomi",
+    "family": "xm_mi",
+    "category": "Mi",
+    "sku": "",
+    "name": "Xiaomi Mi 17 Ultra 16/512 GB White",
+    "country": "Россия",
+    "price": 110000
   }
 ]

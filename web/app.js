@@ -49,6 +49,14 @@
     { family: "samsung_phone", label: "Смартфоны" },
     { family: "samsung_watch", label: "Умные часы" },
   ];
+  var XIAOMI_SUBS = [
+    { family: "xm_redmi", label: "Redmi" },
+    { family: "xm_mi", label: "Mi" },
+    { family: "xm_poco", label: "POCO" },
+    { family: "xm_realme", label: "Realme" },
+    { family: "xm_honor", label: "Honor" },
+    { family: "xm_huawei", label: "Huawei" },
+  ];
 
   var state = {
     products: [],
@@ -102,6 +110,24 @@
           } else if (n.indexOf("samsung") !== -1 || n.indexOf("galaxy") !== -1) {
             b = "samsung";
             f = n.indexOf("watch") !== -1 ? "samsung_watch" : "samsung_phone";
+          } else if (n.indexOf("realme") !== -1) {
+            b = "xiaomi";
+            f = "xm_realme";
+          } else if (n.indexOf("honor") !== -1) {
+            b = "xiaomi";
+            f = "xm_honor";
+          } else if (n.indexOf("huawei") !== -1) {
+            b = "xiaomi";
+            f = "xm_huawei";
+          } else if (n.indexOf("poco") !== -1) {
+            b = "xiaomi";
+            f = "xm_poco";
+          } else if (/\bredmi\b/.test(n)) {
+            b = "xiaomi";
+            f = "xm_redmi";
+          } else if (/\bmi\s+\d/.test(n) || n.indexOf("xiaomi mi") !== -1) {
+            b = "xiaomi";
+            f = "xm_mi";
           }
         }
         var price = Number(p.price);
@@ -231,8 +257,18 @@
   function goSub(brand) {
     state.brand = brand;
     state.family = null;
-    var subs = brand === "apple" ? APPLE_SUBS : SAMSUNG_SUBS;
-    var title = brand === "apple" ? "Apple" : "Samsung";
+    var subs;
+    var title;
+    if (brand === "apple") {
+      subs = APPLE_SUBS;
+      title = "Apple";
+    } else if (brand === "samsung") {
+      subs = SAMSUNG_SUBS;
+      title = "Samsung";
+    } else {
+      subs = XIAOMI_SUBS;
+      title = "Xiaomi";
+    }
     els.subHead.textContent = title;
     els.tagline.textContent = title;
     els.subGrid.innerHTML = "";

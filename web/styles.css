@@ -306,6 +306,16 @@ body {
   box-shadow: 0 0 24px rgba(96, 165, 250, 0.12);
 }
 
+.brand-card--xiaomi {
+  border-color: rgba(251, 146, 60, 0.35);
+}
+
+.brand-card--xiaomi:hover,
+.brand-card--xiaomi:focus-visible {
+  border-color: #fb923c;
+  box-shadow: 0 0 24px rgba(251, 146, 60, 0.12);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;
