@@ -55,7 +55,10 @@
     { family: "xm_poco", label: "POCO" },
     { family: "xm_realme", label: "Realme" },
     { family: "xm_honor", label: "Honor" },
-    { family: "xm_huawei", label: "Huawei" },
+  ];
+  var HUAWEI_SUBS = [
+    { family: "huawei_phone", label: "Смартфоны" },
+    { family: "huawei_tablet", label: "Планшеты" },
   ];
 
   var state = {
@@ -117,8 +120,8 @@
             b = "xiaomi";
             f = "xm_honor";
           } else if (n.indexOf("huawei") !== -1) {
-            b = "xiaomi";
-            f = "xm_huawei";
+            b = "huawei";
+            f = n.indexOf("matepad") !== -1 ? "huawei_tablet" : "huawei_phone";
           } else if (n.indexOf("poco") !== -1) {
             b = "xiaomi";
             f = "xm_poco";
@@ -265,6 +268,9 @@
     } else if (brand === "samsung") {
       subs = SAMSUNG_SUBS;
       title = "Samsung";
+    } else if (brand === "huawei") {
+      subs = HUAWEI_SUBS;
+      title = "Huawei";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";

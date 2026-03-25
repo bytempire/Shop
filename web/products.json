@@ -8470,46 +8470,6 @@
     "price": 50500
   },
   {
-    "id": "xiaomi-73",
-    "brand": "xiaomi",
-    "family": "xm_huawei",
-    "category": "Huawei",
-    "sku": "",
-    "name": "Huawei Nova Y72s 8/128 Blue",
-    "country": "Россия",
-    "price": 9000
-  },
-  {
-    "id": "xiaomi-74",
-    "brand": "xiaomi",
-    "family": "xm_huawei",
-    "category": "Huawei",
-    "sku": "",
-    "name": "Huawei Nova 12i 8/128 Black",
-    "country": "Россия",
-    "price": 10400
-  },
-  {
-    "id": "xiaomi-75",
-    "brand": "xiaomi",
-    "family": "xm_huawei",
-    "category": "Huawei",
-    "sku": "",
-    "name": "Huawei Nova 13i 8/128 Blue",
-    "country": "Россия",
-    "price": 11500
-  },
-  {
-    "id": "xiaomi-76",
-    "brand": "xiaomi",
-    "family": "xm_huawei",
-    "category": "Huawei",
-    "sku": "",
-    "name": "Huawei Pura 80 12/256 Black",
-    "country": "Россия",
-    "price": 39500
-  },
-  {
     "id": "xiaomi-77",
     "brand": "xiaomi",
     "family": "xm_mi",
@@ -8568,5 +8528,235 @@
     "name": "Xiaomi Mi 17 Ultra 16/512 GB White",
     "country": "Россия",
     "price": 110000
+  },
+  {
+    "id": "huawei-1",
+    "brand": "huawei",
+    "family": "huawei_phone",
+    "category": "Смартфоны",
+    "sku": "",
+    "name": "Huawei Nova Y72S 8/128 Blue",
+    "country": "Россия",
+    "price": 9000
+  },
+  {
+    "id": "huawei-2",
+    "brand": "huawei",
+    "family": "huawei_phone",
+    "category": "Смартфоны",
+    "sku": "",
+    "name": "Huawei Nova 12i 8/128 Black",
+    "country": "Россия",
+    "price": 10400
+  },
+  {
+    "id": "huawei-3",
+    "brand": "huawei",
+    "family": "huawei_phone",
+    "category": "Смартфоны",
+    "sku": "",
+    "name": "Huawei Nova 13i 8/128 Blue",
+    "country": "Россия",
+    "price": 11500
+  },
+  {
+    "id": "huawei-4",
+    "brand": "huawei",
+    "family": "huawei_phone",
+    "category": "Смартфоны",
+    "sku": "",
+    "name": "Huawei Pura 80 12/256 Black",
+    "country": "Россия",
+    "price": 39800
+  },
+  {
+    "id": "huawei-5",
+    "brand": "huawei",
+    "family": "huawei_phone",
+    "category": "Смартфоны",
+    "sku": "",
+    "name": "Huawei Pura 80 12/256 White",
+    "country": "Россия",
+    "price": 40200
+  },
+  {
+    "id": "huawei-6",
+    "brand": "huawei",
+    "family": "huawei_phone",
+    "category": "Смартфоны",
+    "sku": "",
+    "name": "Huawei Mate X7 16/512 White",
+    "country": "Россия",
+    "price": 113000
+  },
+  {
+    "id": "huawei-7",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 11.5 8/128 GB Wi‑Fi + клавиатура Gray",
+    "country": "Россия",
+    "price": 20800
+  },
+  {
+    "id": "huawei-8",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 11.5 8/128 GB Wi‑Fi Gray",
+    "country": "Россия",
+    "price": 15800
+  },
+  {
+    "id": "huawei-9",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 11.5 8/256 GB PaperMatte Wi‑Fi + клавиатура Gray",
+    "country": "Россия",
+    "price": 27700
+  },
+  {
+    "id": "huawei-10",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 11.5 8/256 GB PaperMatte Wi‑Fi + клавиатура Violet",
+    "country": "Россия",
+    "price": 27700
+  },
+  {
+    "id": "huawei-11",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 11.5 8/256 GB PaperMatte Wi‑Fi Gray",
+    "country": "Россия",
+    "price": 21700
+  },
+  {
+    "id": "huawei-12",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 11.5S 12/256 GB PaperMatte Wi‑Fi + клавиатура Gray",
+    "country": "Россия",
+    "price": 32500
+  },
+  {
+    "id": "huawei-13",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 12X 12/256 GB PaperMatte Wi‑Fi + клавиатура Green",
+    "country": "Россия",
+    "price": 41500
+  },
+  {
+    "id": "huawei-14",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 12X 12/256 GB PaperMatte Wi‑Fi + клавиатура White",
+    "country": "Россия",
+    "price": 40500
+  },
+  {
+    "id": "huawei-15",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad 12X 12/256 GB Wi‑Fi + клавиатура White",
+    "country": "Россия",
+    "price": 40800
+  },
+  {
+    "id": "huawei-16",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad Pro 12.2 12/256 GB Wi‑Fi + клавиатура Black",
+    "country": "Россия",
+    "price": 45300
+  },
+  {
+    "id": "huawei-17",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad Pro 13.2 12/256 GB Wi‑Fi + клавиатура Black",
+    "country": "Россия",
+    "price": 60000
+  },
+  {
+    "id": "huawei-18",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad Pro 13.2 12/512 GB PaperMatte Wi‑Fi + клавиатура Gold",
+    "country": "Россия",
+    "price": 67800
+  },
+  {
+    "id": "huawei-19",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad SE 11 4/128 GB LTE Gray",
+    "country": "Россия",
+    "price": 12500
+  },
+  {
+    "id": "huawei-20",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad SE 11 4/128 GB Wi‑Fi Gray",
+    "country": "Россия",
+    "price": 11000
+  },
+  {
+    "id": "huawei-21",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad SE 11 8/128 GB LTE Gray",
+    "country": "Россия",
+    "price": 14500
+  },
+  {
+    "id": "huawei-22",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad SE 11 8/128 GB Wi‑Fi + стилус Blue",
+    "country": "Россия",
+    "price": 13000
+  },
+  {
+    "id": "huawei-23",
+    "brand": "huawei",
+    "family": "huawei_tablet",
+    "category": "MatePad",
+    "sku": "",
+    "name": "Huawei MatePad SE 11 8/128 GB Wi‑Fi + стилус Gray",
+    "country": "Россия",
+    "price": 13000
   }
 ]

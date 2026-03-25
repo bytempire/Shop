@@ -316,6 +316,16 @@ body {
   box-shadow: 0 0 24px rgba(251, 146, 60, 0.12);
 }
 
+.brand-card--huawei {
+  border-color: rgba(239, 68, 68, 0.35);
+}
+
+.brand-card--huawei:hover,
+.brand-card--huawei:focus-visible {
+  border-color: #ef4444;
+  box-shadow: 0 0 24px rgba(239, 68, 68, 0.12);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;
