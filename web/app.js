@@ -191,6 +191,7 @@
     count: document.getElementById("count"),
     cartBar: document.getElementById("cartBar"),
     cartTotal: document.getElementById("cartTotal"),
+    cartViewBtn: document.getElementById("cartViewBtn"),
     cartList: document.getElementById("cartList"),
     cartViewTotal: document.getElementById("cartViewTotal"),
     orderBtn: document.getElementById("orderBtn"),
@@ -724,20 +725,13 @@
   });
 
   els.orderBtn.addEventListener("click", submitOrder);
-  if (els.cartOrderBtn) els.cartOrderBtn.addEventListener("click", submitOrder);
-  if (els.cartBar) {
-    els.cartBar.addEventListener("click", function (e) {
-      var t = e && e.target;
-      if (
-        els.orderBtn &&
-        t &&
-        (t.closest ? t.closest("#orderBtn") : els.orderBtn.contains(t))
-      )
-        return;
+  if (els.cartViewBtn) {
+    els.cartViewBtn.addEventListener("click", function () {
       if (state.screen === "cart") return;
       showCart();
     });
   }
+  if (els.cartOrderBtn) els.cartOrderBtn.addEventListener("click", submitOrder);
 
   loadCart();
   goHome();
