@@ -3888,5 +3888,1615 @@
     "name": "Apple Watch Ultra 3 49mm Natural Milanese Loop L",
     "country": "Гонконг",
     "price": 78500
+  },
+  {
+    "id": "ipad-1",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini A17 Pro 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 37000
+  },
+  {
+    "id": "ipad-2",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 5 256 LTE Gray",
+    "country": "Индия",
+    "price": 38000
+  },
+  {
+    "id": "ipad-3",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Gray",
+    "country": "Индия",
+    "price": 33500
+  },
+  {
+    "id": "ipad-4",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Starlight",
+    "country": "Индия",
+    "price": 33500
+  },
+  {
+    "id": "ipad-5",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Starlight",
+    "country": "США",
+    "price": 33500
+  },
+  {
+    "id": "ipad-6",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Purple",
+    "country": "Индия",
+    "price": 33500
+  },
+  {
+    "id": "ipad-7",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Purple",
+    "country": "США",
+    "price": 33500
+  },
+  {
+    "id": "ipad-8",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Pink",
+    "country": "Индия",
+    "price": 33500
+  },
+  {
+    "id": "ipad-9",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 256 Wi-Fi Pink",
+    "country": "США",
+    "price": 33500
+  },
+  {
+    "id": "ipad-10",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 64 LTE Gray",
+    "country": "Индия",
+    "price": 37500
+  },
+  {
+    "id": "ipad-11",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 64 LTE Starlight",
+    "country": "Индия",
+    "price": 37500
+  },
+  {
+    "id": "ipad-12",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 64 LTE Purple",
+    "country": "Индия",
+    "price": 37500
+  },
+  {
+    "id": "ipad-13",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 6 64 LTE Pink",
+    "country": "Индия",
+    "price": 37500
+  },
+  {
+    "id": "ipad-14",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 128 Wi-Fi Gray",
+    "country": "США",
+    "price": 36500
+  },
+  {
+    "id": "ipad-15",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 128 Wi-Fi Starlight",
+    "country": "США",
+    "price": 36500
+  },
+  {
+    "id": "ipad-16",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 36700
+  },
+  {
+    "id": "ipad-17",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 128 Wi-Fi Purple",
+    "country": "США",
+    "price": 36500
+  },
+  {
+    "id": "ipad-18",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 Wi-Fi Gray",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-19",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 Wi-Fi Starlight",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-20",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 Wi-Fi Blue",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-21",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 Wi-Fi Purple",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-22",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 512 Wi-Fi Gray",
+    "country": "США",
+    "price": 63400
+  },
+  {
+    "id": "ipad-23",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 512 Wi-Fi Starlight",
+    "country": "США",
+    "price": 63400
+  },
+  {
+    "id": "ipad-24",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 512 Wi-Fi Blue",
+    "country": "США",
+    "price": 63400
+  },
+  {
+    "id": "ipad-25",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 512 Wi-Fi Purple",
+    "country": "США",
+    "price": 63200
+  },
+  {
+    "id": "ipad-26",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 128 LTE Blue",
+    "country": "США",
+    "price": 54000
+  },
+  {
+    "id": "ipad-27",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 LTE Gray",
+    "country": "Гонконг",
+    "price": 70500
+  },
+  {
+    "id": "ipad-28",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 LTE Starlight",
+    "country": "Гонконг",
+    "price": 70500
+  },
+  {
+    "id": "ipad-29",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 LTE Blue",
+    "country": "Гонконг",
+    "price": 70500
+  },
+  {
+    "id": "ipad-30",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 256 LTE Purple",
+    "country": "Гонконг",
+    "price": 70500
+  },
+  {
+    "id": "ipad-31",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Mini 7 512 LTE Blue",
+    "country": "Гонконг",
+    "price": 88500
+  },
+  {
+    "id": "ipad-32",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 10 64 Wi-Fi Silver",
+    "country": "Индия",
+    "price": 27000
+  },
+  {
+    "id": "ipad-33",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 10 64 Wi-Fi Blue",
+    "country": "Сингапур",
+    "price": 30000
+  },
+  {
+    "id": "ipad-34",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 128 Wi-Fi Silver",
+    "country": "США",
+    "price": 29800
+  },
+  {
+    "id": "ipad-35",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 29000
+  },
+  {
+    "id": "ipad-36",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 128 Wi-Fi Pink",
+    "country": "США",
+    "price": 29200
+  },
+  {
+    "id": "ipad-37",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 128 Wi-Fi Yellow",
+    "country": "США",
+    "price": 29000
+  },
+  {
+    "id": "ipad-38",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 Wi-Fi Silver",
+    "country": "США",
+    "price": 38500
+  },
+  {
+    "id": "ipad-39",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 Wi-Fi Blue",
+    "country": "США",
+    "price": 37200
+  },
+  {
+    "id": "ipad-40",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 Wi-Fi Pink",
+    "country": "США",
+    "price": 38500
+  },
+  {
+    "id": "ipad-41",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 Wi-Fi Yellow",
+    "country": "США",
+    "price": 38700
+  },
+  {
+    "id": "ipad-42",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 LTE Blue",
+    "country": "Гонконг",
+    "price": 57000
+  },
+  {
+    "id": "ipad-43",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 LTE Blue",
+    "country": "США",
+    "price": 57000
+  },
+  {
+    "id": "ipad-44",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 LTE Yellow",
+    "country": "Гонконг",
+    "price": 57000
+  },
+  {
+    "id": "ipad-45",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 256 LTE Yellow",
+    "country": "США",
+    "price": 57000
+  },
+  {
+    "id": "ipad-46",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 256 Wi-Fi Blue",
+    "country": "Мексика",
+    "price": 51000
+  },
+  {
+    "id": "ipad-47",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 512 Wi-Fi Starlight",
+    "country": "ОАЭ",
+    "price": 61000
+  },
+  {
+    "id": "ipad-48",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 512 Wi-Fi Starlight",
+    "country": "Мексика",
+    "price": 61000
+  },
+  {
+    "id": "ipad-49",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 128 LTE Starlight",
+    "country": "США",
+    "price": 56000
+  },
+  {
+    "id": "ipad-50",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 128 LTE Blue",
+    "country": "США",
+    "price": 56000
+  },
+  {
+    "id": "ipad-51",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 128 LTE Purple",
+    "country": "США",
+    "price": 56000
+  },
+  {
+    "id": "ipad-52",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 256 LTE Gray",
+    "country": "США",
+    "price": 61000
+  },
+  {
+    "id": "ipad-53",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 256 LTE Starlight",
+    "country": "США",
+    "price": 61000
+  },
+  {
+    "id": "ipad-54",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 256 LTE Blue",
+    "country": "США",
+    "price": 61000
+  },
+  {
+    "id": "ipad-55",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 512 LTE Gray",
+    "country": "США",
+    "price": 65000
+  },
+  {
+    "id": "ipad-56",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 512 LTE Starlight",
+    "country": "США",
+    "price": 65000
+  },
+  {
+    "id": "ipad-57",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 512 LTE Blue",
+    "country": "США",
+    "price": 65000
+  },
+  {
+    "id": "ipad-58",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 512 LTE Purple",
+    "country": "США",
+    "price": 65000
+  },
+  {
+    "id": "ipad-59",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 1tb LTE Starlight",
+    "country": "США",
+    "price": 73000
+  },
+  {
+    "id": "ipad-60",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 1tb LTE Blue",
+    "country": "США",
+    "price": 73000
+  },
+  {
+    "id": "ipad-61",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M2 1tb LTE Purple",
+    "country": "США",
+    "price": 73000
+  },
+  {
+    "id": "ipad-62",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 128 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 46500
+  },
+  {
+    "id": "ipad-63",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 128 Wi-Fi Gray",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-64",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 128 Wi-Fi Starlight",
+    "country": "Гонконг",
+    "price": 46500
+  },
+  {
+    "id": "ipad-65",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 128 Wi-Fi Starlight",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-66",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 45500
+  },
+  {
+    "id": "ipad-67",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 128 Wi-Fi Purple",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "ipad-68",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Gray",
+    "country": "Китай",
+    "price": 55500
+  },
+  {
+    "id": "ipad-69",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 55500
+  },
+  {
+    "id": "ipad-70",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Gray",
+    "country": "США",
+    "price": 55500
+  },
+  {
+    "id": "ipad-71",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Starlight",
+    "country": "Китай",
+    "price": 55500
+  },
+  {
+    "id": "ipad-72",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Starlight",
+    "country": "США",
+    "price": 55500
+  },
+  {
+    "id": "ipad-73",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Blue",
+    "country": "США",
+    "price": 55000
+  },
+  {
+    "id": "ipad-74",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Blue",
+    "country": "Китай",
+    "price": 55500
+  },
+  {
+    "id": "ipad-75",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Blue",
+    "country": "Гонконг",
+    "price": 55500
+  },
+  {
+    "id": "ipad-76",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 256 Wi-Fi Purple",
+    "country": "США",
+    "price": 55500
+  },
+  {
+    "id": "ipad-77",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 512 Wi-Fi Starlight",
+    "country": "Китай",
+    "price": 76000
+  },
+  {
+    "id": "ipad-78",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M3 1tb LTE Gray",
+    "country": "США",
+    "price": 104000
+  },
+  {
+    "id": "ipad-79",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Gray",
+    "country": "США",
+    "price": 53000
+  },
+  {
+    "id": "ipad-80",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Starlight",
+    "country": "США",
+    "price": 53000
+  },
+  {
+    "id": "ipad-81",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 53000
+  },
+  {
+    "id": "ipad-82",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Purple",
+    "country": "США",
+    "price": 53000
+  },
+  {
+    "id": "ipad-83",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 55000
+  },
+  {
+    "id": "ipad-84",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Starlight",
+    "country": "Гонконг",
+    "price": 55000
+  },
+  {
+    "id": "ipad-85",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Blue",
+    "country": "Гонконг",
+    "price": 55000
+  },
+  {
+    "id": "ipad-86",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 Wi-Fi Purple",
+    "country": "Гонконг",
+    "price": 55000
+  },
+  {
+    "id": "ipad-87",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 LTE Gray",
+    "country": "США",
+    "price": 68000
+  },
+  {
+    "id": "ipad-88",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 128 LTE Blue",
+    "country": "США",
+    "price": 68000
+  },
+  {
+    "id": "ipad-89",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 Wi-Fi Gray",
+    "country": "США",
+    "price": 61000
+  },
+  {
+    "id": "ipad-90",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 Wi-Fi Blue",
+    "country": "США",
+    "price": 61000
+  },
+  {
+    "id": "ipad-91",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 Wi-Fi Purple",
+    "country": "США",
+    "price": 61000
+  },
+  {
+    "id": "ipad-92",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 63500
+  },
+  {
+    "id": "ipad-93",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 Wi-Fi Blue",
+    "country": "Гонконг",
+    "price": 63500
+  },
+  {
+    "id": "ipad-94",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 Wi-Fi Purple",
+    "country": "Гонконг",
+    "price": 63500
+  },
+  {
+    "id": "ipad-95",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 LTE Blue",
+    "country": "США",
+    "price": 76500
+  },
+  {
+    "id": "ipad-96",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 11 M4 256 LTE Purple",
+    "country": "США",
+    "price": 76500
+  },
+  {
+    "id": "ipad-97",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 M4 256 LTE Black",
+    "country": "США",
+    "price": 90000
+  },
+  {
+    "id": "ipad-98",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 NANO M4 1tb LTE Silver",
+    "country": "США",
+    "price": 124000
+  },
+  {
+    "id": "ipad-99",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 M5 256 Wi-Fi Black",
+    "country": "США",
+    "price": 78500
+  },
+  {
+    "id": "ipad-100",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 M5 256 Wi-Fi Silver",
+    "country": "США",
+    "price": 78000
+  },
+  {
+    "id": "ipad-101",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 M5 512 Wi-Fi Black",
+    "country": "США",
+    "price": 96000
+  },
+  {
+    "id": "ipad-102",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 M5 512 Wi-Fi Silver",
+    "country": "США",
+    "price": 97500
+  },
+  {
+    "id": "ipad-103",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 11 M5 256 LTE Black",
+    "country": "США",
+    "price": 97000
+  },
+  {
+    "id": "ipad-104",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 Wi-Fi Starlight",
+    "country": "Гонконг",
+    "price": 71000
+  },
+  {
+    "id": "ipad-105",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 Wi-Fi Blue",
+    "country": "ОАЭ",
+    "price": 71000
+  },
+  {
+    "id": "ipad-106",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 Wi-Fi Blue",
+    "country": "Гонконг",
+    "price": 71000
+  },
+  {
+    "id": "ipad-107",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 Wi-Fi Blue",
+    "country": "США",
+    "price": 71000
+  },
+  {
+    "id": "ipad-108",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb Wi-Fi Starlight",
+    "country": "Гонконг",
+    "price": 78000
+  },
+  {
+    "id": "ipad-109",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb Wi-Fi Starlight",
+    "country": "США",
+    "price": 78000
+  },
+  {
+    "id": "ipad-110",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb Wi-Fi Blue",
+    "country": "Гонконг",
+    "price": 78000
+  },
+  {
+    "id": "ipad-111",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb Wi-Fi Blue",
+    "country": "США",
+    "price": 78000
+  },
+  {
+    "id": "ipad-112",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb Wi-Fi Purple",
+    "country": "Гонконг",
+    "price": 78000
+  },
+  {
+    "id": "ipad-113",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb Wi-Fi Purple",
+    "country": "США",
+    "price": 78000
+  },
+  {
+    "id": "ipad-114",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 256 LTE Gray",
+    "country": "Канада",
+    "price": 69000
+  },
+  {
+    "id": "ipad-115",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 256 LTE Gray",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-116",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 256 LTE Starlight",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-117",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 256 LTE Blue",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-118",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 256 LTE Purple",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-119",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 LTE Gray",
+    "country": "США",
+    "price": 75500
+  },
+  {
+    "id": "ipad-120",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 LTE Starlight",
+    "country": "США",
+    "price": 75500
+  },
+  {
+    "id": "ipad-121",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 LTE Blue",
+    "country": "США",
+    "price": 75500
+  },
+  {
+    "id": "ipad-122",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 512 LTE Purple",
+    "country": "США",
+    "price": 75500
+  },
+  {
+    "id": "ipad-123",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Gray",
+    "country": "ОАЭ",
+    "price": 82000
+  },
+  {
+    "id": "ipad-124",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Gray",
+    "country": "Бразилия",
+    "price": 82000
+  },
+  {
+    "id": "ipad-125",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Gray",
+    "country": "США",
+    "price": 82000
+  },
+  {
+    "id": "ipad-126",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Starlight",
+    "country": "США",
+    "price": 82000
+  },
+  {
+    "id": "ipad-127",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Blue",
+    "country": "США",
+    "price": 82000
+  },
+  {
+    "id": "ipad-128",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Purple",
+    "country": "ОАЭ",
+    "price": 82000
+  },
+  {
+    "id": "ipad-129",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M2 1tb LTE Purple",
+    "country": "США",
+    "price": 82000
+  },
+  {
+    "id": "ipad-130",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 128 Wi-Fi Gray",
+    "country": "США",
+    "price": 60000
+  },
+  {
+    "id": "ipad-131",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 128 Wi-Fi Starlight",
+    "country": "США",
+    "price": 62000
+  },
+  {
+    "id": "ipad-132",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 128 Wi-Fi Purple",
+    "country": "США",
+    "price": 60000
+  },
+  {
+    "id": "ipad-133",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 128 LTE Purple",
+    "country": "США",
+    "price": 65000
+  },
+  {
+    "id": "ipad-134",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 128 LTE Purple",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-135",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 Wi-Fi Gray",
+    "country": "Китай",
+    "price": 74000
+  },
+  {
+    "id": "ipad-136",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 74000
+  },
+  {
+    "id": "ipad-137",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 Wi-Fi Gray",
+    "country": "США",
+    "price": 74000
+  },
+  {
+    "id": "ipad-138",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 Wi-Fi Blue",
+    "country": "Китай",
+    "price": 74000
+  },
+  {
+    "id": "ipad-139",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 Wi-Fi Blue",
+    "country": "США",
+    "price": 74000
+  },
+  {
+    "id": "ipad-140",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 LTE Gray",
+    "country": "ЕС",
+    "price": 94000
+  },
+  {
+    "id": "ipad-141",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M3 256 LTE Gray",
+    "country": "США",
+    "price": 95000
+  },
+  {
+    "id": "ipad-142",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-143",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 128 Wi-Fi Purple",
+    "country": "США",
+    "price": 69000
+  },
+  {
+    "id": "ipad-144",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 128 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 73500
+  },
+  {
+    "id": "ipad-145",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 128 Wi-Fi Starlight",
+    "country": "Гонконг",
+    "price": 73500
+  },
+  {
+    "id": "ipad-146",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 128 Wi-Fi Purple",
+    "country": "Гонконг",
+    "price": 73500
+  },
+  {
+    "id": "ipad-147",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 Wi-Fi Blue",
+    "country": "США",
+    "price": 77000
+  },
+  {
+    "id": "ipad-148",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 Wi-Fi Purple",
+    "country": "США",
+    "price": 83000
+  },
+  {
+    "id": "ipad-149",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 Wi-Fi Gray",
+    "country": "Гонконг",
+    "price": 84500
+  },
+  {
+    "id": "ipad-150",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 Wi-Fi Starlight",
+    "country": "Гонконг",
+    "price": 84500
+  },
+  {
+    "id": "ipad-151",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 Wi-Fi Blue",
+    "country": "Гонконг",
+    "price": 84500
+  },
+  {
+    "id": "ipad-152",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 Wi-Fi Purple",
+    "country": "Гонконг",
+    "price": 84500
+  },
+  {
+    "id": "ipad-153",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Air 13 M4 256 LTE Gray",
+    "country": "Гонконг",
+    "price": 104000
+  },
+  {
+    "id": "ipad-154",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M4 256 LTE Black",
+    "country": "США",
+    "price": 89000
+  },
+  {
+    "id": "ipad-155",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M5 256 Wi-Fi Black",
+    "country": "США",
+    "price": 99000
+  },
+  {
+    "id": "ipad-156",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M5 256 LTE Black",
+    "country": "США",
+    "price": 104000
+  },
+  {
+    "id": "ipad-157",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M5 256 LTE Black",
+    "country": "ЕС",
+    "price": 107000
+  },
+  {
+    "id": "ipad-158",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M5 256 LTE Black",
+    "country": "Индия",
+    "price": 107000
+  },
+  {
+    "id": "ipad-159",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M5 256 LTE Silver",
+    "country": "США",
+    "price": 113000
+  },
+  {
+    "id": "ipad-160",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad Pro 13 M5 2tb LTE Black",
+    "country": "США",
+    "price": 161000
+  },
+  {
+    "id": "ipad-161",
+    "brand": "apple",
+    "family": "ipad",
+    "category": "iPad",
+    "sku": "",
+    "name": "Apple iPad 11 A16 128 Wi-Fi Blue",
+    "country": "США",
+    "price": 30000
   }
 ]

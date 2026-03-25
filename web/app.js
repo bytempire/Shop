@@ -39,6 +39,7 @@
 
   var APPLE_SUBS = [
     { family: "iphone", label: "iPhone" },
+    { family: "ipad", label: "iPad" },
     { family: "apple_watch", label: "Watch" },
   ];
   var SAMSUNG_SUBS = [
@@ -76,6 +77,9 @@
           if (n.indexOf("iphone") !== -1) {
             b = "apple";
             f = "iphone";
+          } else if (n.indexOf("ipad") !== -1) {
+            b = "apple";
+            f = "ipad";
           } else if (n.indexOf("watch") !== -1) {
             b = "apple";
             f = "apple_watch";
