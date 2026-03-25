@@ -8270,46 +8270,6 @@
     "price": 46100
   },
   {
-    "id": "xiaomi-53",
-    "brand": "xiaomi",
-    "family": "xm_realme",
-    "category": "Realme",
-    "sku": "",
-    "name": "Realme Note 60x 3/64 Black",
-    "country": "Россия",
-    "price": 5500
-  },
-  {
-    "id": "xiaomi-54",
-    "brand": "xiaomi",
-    "family": "xm_realme",
-    "category": "Realme",
-    "sku": "",
-    "name": "Realme C71 6/128 Purple",
-    "country": "Россия",
-    "price": 8500
-  },
-  {
-    "id": "xiaomi-55",
-    "brand": "xiaomi",
-    "family": "xm_realme",
-    "category": "Realme",
-    "sku": "",
-    "name": "Realme C71 6/128 Green",
-    "country": "Россия",
-    "price": 8500
-  },
-  {
-    "id": "xiaomi-56",
-    "brand": "xiaomi",
-    "family": "xm_realme",
-    "category": "Realme",
-    "sku": "",
-    "name": "Realme C71 6/128 White",
-    "country": "Россия",
-    "price": 8500
-  },
-  {
     "id": "xiaomi-57",
     "brand": "xiaomi",
     "family": "xm_honor",
@@ -8918,5 +8878,215 @@
     "name": "Honor X9D 8/256 Green",
     "country": "Россия",
     "price": 22300
+  },
+  {
+    "id": "xiaomi-99",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme Note 60X 3/64 Black",
+    "country": "Россия",
+    "price": 4900
+  },
+  {
+    "id": "xiaomi-100",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme Note 60X 3/64 Green",
+    "country": "Россия",
+    "price": 4900
+  },
+  {
+    "id": "xiaomi-101",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme Note 60X 4/128 Black",
+    "country": "Россия",
+    "price": 5750
+  },
+  {
+    "id": "xiaomi-102",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme Note 60X 4/128 Green",
+    "country": "Россия",
+    "price": 5750
+  },
+  {
+    "id": "xiaomi-103",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme Note 70 6/128 Black",
+    "country": "Россия",
+    "price": 7400
+  },
+  {
+    "id": "xiaomi-104",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 6/128 Green",
+    "country": "Россия",
+    "price": 7900
+  },
+  {
+    "id": "xiaomi-105",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 6/128 White",
+    "country": "Россия",
+    "price": 7900
+  },
+  {
+    "id": "xiaomi-106",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 6/128 Purple",
+    "country": "Россия",
+    "price": 8500
+  },
+  {
+    "id": "xiaomi-107",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 8/256 White",
+    "country": "Россия",
+    "price": 9900
+  },
+  {
+    "id": "xiaomi-108",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C71 8/256 Purple",
+    "country": "Россия",
+    "price": 9900
+  },
+  {
+    "id": "xiaomi-109",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C75 8/128 Black",
+    "country": "Россия",
+    "price": 9900
+  },
+  {
+    "id": "xiaomi-110",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 6/128 Black",
+    "country": "Россия",
+    "price": 12200
+  },
+  {
+    "id": "xiaomi-111",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 6/128 Blue",
+    "country": "Россия",
+    "price": 12200
+  },
+  {
+    "id": "xiaomi-112",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 6/128 Purple",
+    "country": "Россия",
+    "price": 12200
+  },
+  {
+    "id": "xiaomi-113",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 8/256 Black",
+    "country": "Россия",
+    "price": 14200
+  },
+  {
+    "id": "xiaomi-114",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 8/256 Blue",
+    "country": "Россия",
+    "price": 14200
+  },
+  {
+    "id": "xiaomi-115",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 8/256 Purple",
+    "country": "Россия",
+    "price": 14200
+  },
+  {
+    "id": "xiaomi-116",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 Pro 6/128 Green",
+    "country": "Россия",
+    "price": 13300
+  },
+  {
+    "id": "xiaomi-117",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 Pro 6/128 Purple",
+    "country": "Россия",
+    "price": 13300
+  },
+  {
+    "id": "xiaomi-118",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 Pro 8/256 Green",
+    "country": "Россия",
+    "price": 15200
+  },
+  {
+    "id": "xiaomi-119",
+    "brand": "xiaomi",
+    "family": "xm_realme",
+    "category": "Realme",
+    "sku": "",
+    "name": "Realme C85 Pro 8/256 Purple",
+    "country": "Россия",
+    "price": 15200
   }
 ]
