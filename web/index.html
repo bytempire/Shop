@@ -116,6 +116,18 @@
       <p class="meta" id="count"></p>
       <ul class="grid" id="grid"></ul>
     </section>
+
+    <section class="view" id="viewCart" hidden aria-label="Корзина">
+      <h2 class="cart-title">Корзина</h2>
+      <ul class="cart-list" id="cartList"></ul>
+      <div class="cart-footer glass">
+        <div class="cart-footer__row">
+          <span class="cart-footer__label">Итого</span>
+          <strong id="cartViewTotal">0 ₽</strong>
+        </div>
+        <button type="button" class="btn-pill" id="cartOrderBtn">Оформить в Telegram</button>
+      </div>
+    </section>
   </main>
 
   <div class="cart-bar glass" id="cartBar" hidden>
