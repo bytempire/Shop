@@ -9488,7 +9488,7 @@
     "name": "Sony Dualsense Sterling Silver",
     "country": "ЕС",
     "price": 5700,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-2",
@@ -9499,7 +9499,7 @@
     "name": "Sony Dualsense Cobalt Blue",
     "country": "ЕС",
     "price": 5700,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-3",
@@ -9510,7 +9510,7 @@
     "name": "Sony Dualsense Camouflage Gray",
     "country": "ЕС",
     "price": 5700,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-4",
@@ -9521,7 +9521,7 @@
     "name": "Sony Dualsense Galactic Purple",
     "country": "ЕС",
     "price": 5700,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-5",
@@ -9532,7 +9532,7 @@
     "name": "Sony Dualsense Volcanic Red",
     "country": "ЕС",
     "price": 5700,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-6",
@@ -9543,7 +9543,7 @@
     "name": "Sony Dualsense Cosmic Red",
     "country": "ЕС",
     "price": 5700,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-7",
@@ -9554,7 +9554,7 @@
     "name": "Sony Dualsense Black",
     "country": "ЕС",
     "price": 5800,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-8",
@@ -9565,7 +9565,7 @@
     "name": "Sony Dualsense Purple",
     "country": "ЕС",
     "price": 6000,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-9",
@@ -9576,7 +9576,7 @@
     "name": "Sony Dualsense Indigo",
     "country": "ЕС",
     "price": 6200,
-    "currency": "USD"
+    "currency": "RUB"
   },
   {
     "id": "gaming-10",
@@ -9587,6 +9587,6 @@
     "name": "PS5 Pro",
     "country": "ЕС",
     "price": 74000,
-    "currency": "USD"
+    "currency": "RUB"
   }
 ]
