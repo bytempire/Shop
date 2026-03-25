@@ -5708,5 +5708,615 @@
     "name": "Apple AirPods Max 2 Silver",
     "country": "ЕС",
     "price": 40500
+  },
+  {
+    "id": "macbook-1",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MXCU3",
+    "name": "Apple MacBook Air 13 M3 16/512 Starlight",
+    "country": "Индия",
+    "price": 83000
+  },
+  {
+    "id": "macbook-2",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MC8Q4",
+    "name": "Apple MacBook Air 13 M3 24/512 Midnight",
+    "country": "Сингапур",
+    "price": 103500
+  },
+  {
+    "id": "macbook-3",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW0W3",
+    "name": "Apple MacBook Air 13 M4 16/256 Silver",
+    "country": "Россия",
+    "price": 82000
+  },
+  {
+    "id": "macbook-4",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "",
+    "name": "Apple MacBook Air 13 M4 16/256 Midnight",
+    "country": "США",
+    "price": 82000
+  },
+  {
+    "id": "macbook-5",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW123",
+    "name": "Apple MacBook Air 13 M4 16/256 Midnight",
+    "country": "Россия",
+    "price": 82500
+  },
+  {
+    "id": "macbook-6",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW0Y3",
+    "name": "Apple MacBook Air 13 M4 16/256 Starlight",
+    "country": "Россия",
+    "price": 81000
+  },
+  {
+    "id": "macbook-7",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MC6T4",
+    "name": "Apple MacBook Air 13 M4 16/256 Blue",
+    "country": "Россия",
+    "price": 82000
+  },
+  {
+    "id": "macbook-8",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW133",
+    "name": "Apple MacBook Air 13 M4 16/512 Midnight",
+    "country": "США",
+    "price": 113000
+  },
+  {
+    "id": "macbook-9",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MC6U4",
+    "name": "Apple MacBook Air 13 M4 16/512 Blue",
+    "country": "США",
+    "price": 105500
+  },
+  {
+    "id": "macbook-10",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z1CT001UQ",
+    "name": "Apple MacBook Air 13 M4 32/512 Silver",
+    "country": "Россия",
+    "price": 141000
+  },
+  {
+    "id": "macbook-11",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z1CX00236",
+    "name": "Apple MacBook Air 13 M4 32/512 Midnight",
+    "country": "Россия",
+    "price": 141000
+  },
+  {
+    "id": "macbook-12",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z1H70027H",
+    "name": "Apple MacBook Air 13 M4 32/512 Blue",
+    "country": "Россия",
+    "price": 141000
+  },
+  {
+    "id": "macbook-13",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z1CX0018Z",
+    "name": "Apple MacBook Air 13 M4 32/1TB Midnight",
+    "country": "Россия",
+    "price": 160000
+  },
+  {
+    "id": "macbook-14",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z1H7001BK",
+    "name": "Apple MacBook Air 13 M4 32/1TB Blue",
+    "country": "Россия",
+    "price": 160000
+  },
+  {
+    "id": "macbook-15",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDH74",
+    "name": "Apple MacBook Air 13 M5 16/512 Silver",
+    "country": "США",
+    "price": 115000
+  },
+  {
+    "id": "macbook-16",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDHE4",
+    "name": "Apple MacBook Air 13 M5 16/512 Midnight",
+    "country": "США",
+    "price": 115000
+  },
+  {
+    "id": "macbook-17",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDHA4",
+    "name": "Apple MacBook Air 13 M5 16/512 Starlight",
+    "country": "США",
+    "price": 115000
+  },
+  {
+    "id": "macbook-18",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDHH4",
+    "name": "Apple MacBook Air 13 M5 16/512 Blue",
+    "country": "США",
+    "price": 115000
+  },
+  {
+    "id": "macbook-19",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDHF4",
+    "name": "Apple MacBook Air 13 M5 16/1TB Midnight",
+    "country": "США",
+    "price": 130000
+  },
+  {
+    "id": "macbook-20",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDHG4",
+    "name": "Apple MacBook Air 13 M5 24/1TB Midnight",
+    "country": "США",
+    "price": 146000
+  },
+  {
+    "id": "macbook-21",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFA4",
+    "name": "Apple MacBook Air 13 A18 Pro 8/256 Silver",
+    "country": "США",
+    "price": 68000
+  },
+  {
+    "id": "macbook-22",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFH4",
+    "name": "Apple MacBook Air 13 A18 Pro 8/256",
+    "country": "США",
+    "price": 66000
+  },
+  {
+    "id": "macbook-23",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFC4",
+    "name": "Apple MacBook Air 13 A18 Pro 8/512 Silver",
+    "country": "США",
+    "price": 77000
+  },
+  {
+    "id": "macbook-24",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFG4",
+    "name": "Apple MacBook Air 13 A18 Pro 8/512",
+    "country": "США",
+    "price": 77000
+  },
+  {
+    "id": "macbook-25",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW0W3",
+    "name": "Apple MacBook Air 13 M4 16/256 Silver",
+    "country": "США",
+    "price": 80000
+  },
+  {
+    "id": "macbook-26",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW0Y3",
+    "name": "Apple MacBook Air 13 M4 16/256 Starlight",
+    "country": "США",
+    "price": 81000
+  },
+  {
+    "id": "macbook-27",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z11C000E4, Z11B000EM",
+    "name": "Apple MacBook Pro 13 M1 16/512 Gray",
+    "country": "США",
+    "price": 81000
+  },
+  {
+    "id": "macbook-28",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MKGT3",
+    "name": "Apple MacBook Pro 14 M1 Pro 16/1TB Silver",
+    "country": "Россия",
+    "price": 101000
+  },
+  {
+    "id": "macbook-29",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDE04",
+    "name": "Apple MacBook Pro 14 M1 Pro 16/1TB Black",
+    "country": "США",
+    "price": 132000
+  },
+  {
+    "id": "macbook-30",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MKGT3",
+    "name": "Apple MacBook Pro 14 M1 Pro 16/1TB Silver",
+    "country": "США",
+    "price": 116000
+  },
+  {
+    "id": "macbook-31",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MKGQ3",
+    "name": "Apple MacBook Pro 14 M1 Pro 16/1TB Gray",
+    "country": "США",
+    "price": 116000
+  },
+  {
+    "id": "macbook-32",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MPHK3",
+    "name": "Apple MacBook Pro 14 M2 Max 32/1TB Silver",
+    "country": "Гонконг",
+    "price": 199000
+  },
+  {
+    "id": "macbook-33",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MPHK3",
+    "name": "Apple MacBook Pro 14 M2 Max 32/1TB Silver",
+    "country": "США",
+    "price": 199000
+  },
+  {
+    "id": "macbook-34",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MR7J3",
+    "name": "Apple MacBook Pro 14 M3 8/512 Silver",
+    "country": "США",
+    "price": 101000
+  },
+  {
+    "id": "macbook-35",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MTL73",
+    "name": "Apple MacBook Pro 14 M3 8/512 Gray",
+    "country": "Китай",
+    "price": 101000
+  },
+  {
+    "id": "macbook-36",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MR7K3",
+    "name": "Apple MacBook Pro 14 M3 8/1TB Silver",
+    "country": "Индия",
+    "price": 109000
+  },
+  {
+    "id": "macbook-37",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MRX43",
+    "name": "Apple MacBook Pro 14 M3 Pro 18/1TB Black",
+    "country": "США",
+    "price": 171000
+  },
+  {
+    "id": "macbook-38",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "Z1AU002AC",
+    "name": "Apple MacBook Pro 14 M3 Max 64/1TB Black",
+    "country": "США",
+    "price": 316000
+  },
+  {
+    "id": "macbook-39",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDE04",
+    "name": "Apple MacBook Pro 14 M5 16/512 Black",
+    "country": "Индия",
+    "price": 136000
+  },
+  {
+    "id": "macbook-40",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDE14",
+    "name": "Apple MacBook Pro 14 M5 16/1TB Black",
+    "country": "Индия",
+    "price": 148000
+  },
+  {
+    "id": "macbook-41",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MEQJ4",
+    "name": "Apple MacBook Pro 14 Nano M5 16/1TB Black",
+    "country": "США",
+    "price": 166000
+  },
+  {
+    "id": "macbook-42",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDE54",
+    "name": "Apple MacBook Pro 14 M5 16/1TB Silver",
+    "country": "Австралия",
+    "price": 149000
+  },
+  {
+    "id": "macbook-43",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDE34",
+    "name": "Apple MacBook Pro 14 M5 24/1TB Black",
+    "country": "США",
+    "price": 171000
+  },
+  {
+    "id": "macbook-44",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDE64",
+    "name": "Apple MacBook Pro 14 M5 24/1TB Silver",
+    "country": "США",
+    "price": 171000
+  },
+  {
+    "id": "macbook-45",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MQTK3",
+    "name": "Apple MacBook Air 15 M2 16/1TB Gray",
+    "country": "США",
+    "price": 111000
+  },
+  {
+    "id": "macbook-46",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MQTM3",
+    "name": "Apple MacBook Air 15 M2 16/1TB Midnight",
+    "country": "США",
+    "price": 111000
+  },
+  {
+    "id": "macbook-47",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MRYV3",
+    "name": "Apple MacBook Air 15 M3 8/512 Midnight",
+    "country": "Сингапур",
+    "price": 83500
+  },
+  {
+    "id": "macbook-48",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MXD33",
+    "name": "Apple MacBook Air 15 M3 16/512 Starlight",
+    "country": "США",
+    "price": 105000
+  },
+  {
+    "id": "macbook-49",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MW1G3",
+    "name": "Apple MacBook Air 15 M4 16/256 Silver",
+    "country": "США",
+    "price": 113000
+  },
+  {
+    "id": "macbook-50",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "",
+    "name": "Apple MacBook Air 15 M4 16/256 Starlight",
+    "country": "США",
+    "price": 109000
+  },
+  {
+    "id": "macbook-51",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MC7A4",
+    "name": "Apple MacBook Air 15 M4 16/256 Blue",
+    "country": "США",
+    "price": 109000
+  },
+  {
+    "id": "macbook-52",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MDVE4",
+    "name": "Apple MacBook Air 15 M5 16/1TB",
+    "country": "США",
+    "price": 156000
+  },
+  {
+    "id": "macbook-53",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MK1H3",
+    "name": "Apple MacBook Pro 16 M1 Max 32/1TB Silver",
+    "country": "Россия",
+    "price": 133000
+  },
+  {
+    "id": "macbook-54",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MNWA3",
+    "name": "Apple MacBook Pro 16 M2 Max 32/1TB Gray",
+    "country": "Гонконг",
+    "price": 226000
+  },
+  {
+    "id": "macbook-55",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MNWA3",
+    "name": "Apple MacBook Pro 16 M2 Max 32/1TB Gray",
+    "country": "США",
+    "price": 226000
+  },
+  {
+    "id": "macbook-56",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFA4",
+    "name": "Apple MacBook NEO A18 PRO 8/256 Silver",
+    "country": "Гонконг",
+    "price": 69000
+  },
+  {
+    "id": "macbook-57",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFH4",
+    "name": "Apple MacBook NEO A18 PRO 8/256 Blush",
+    "country": "Гонконг",
+    "price": 69000
+  },
+  {
+    "id": "macbook-58",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFD4",
+    "name": "Apple MacBook NEO A18 PRO 8/256 Citrus",
+    "country": "Гонконг",
+    "price": 69000
+  },
+  {
+    "id": "macbook-59",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFF4",
+    "name": "Apple MacBook NEO A18 PRO 8/256 Indigo",
+    "country": "Гонконг",
+    "price": 69000
+  },
+  {
+    "id": "macbook-60",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFC4",
+    "name": "Apple MacBook NEO A18 PRO 8/512 Silver",
+    "country": "Гонконг",
+    "price": 78000
+  },
+  {
+    "id": "macbook-61",
+    "brand": "apple",
+    "family": "macbook",
+    "category": "MacBook",
+    "sku": "MHFG4",
+    "name": "Apple MacBook NEO A18 PRO Indigo 8/512",
+    "country": "Гонконг",
+    "price": 78000
   }
 ]
