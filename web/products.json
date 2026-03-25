@@ -5498,5 +5498,215 @@
     "name": "Apple iPad 11 A16 128 Wi-Fi Blue",
     "country": "США",
     "price": 30000
+  },
+  {
+    "id": "airpods-1",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods 4",
+    "country": "США",
+    "price": 10200
+  },
+  {
+    "id": "airpods-2",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods 4",
+    "country": "США",
+    "price": 10000
+  },
+  {
+    "id": "airpods-3",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods 4",
+    "country": "ЕС",
+    "price": 10100
+  },
+  {
+    "id": "airpods-4",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods 4 ANC",
+    "country": "США",
+    "price": 13500
+  },
+  {
+    "id": "airpods-5",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods 4 ANC",
+    "country": "США",
+    "price": 13400
+  },
+  {
+    "id": "airpods-6",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods 4 ANC",
+    "country": "ЕС",
+    "price": 13200
+  },
+  {
+    "id": "airpods-7",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Pro 2",
+    "country": "Индия",
+    "price": 16000
+  },
+  {
+    "id": "airpods-8",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Pro 2",
+    "country": "США",
+    "price": 16300
+  },
+  {
+    "id": "airpods-9",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Pro 2",
+    "country": "ЕС",
+    "price": 16300
+  },
+  {
+    "id": "airpods-10",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Pro 3",
+    "country": "США",
+    "price": 19300
+  },
+  {
+    "id": "airpods-11",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Pro 3",
+    "country": "США",
+    "price": 19500
+  },
+  {
+    "id": "airpods-12",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Pro 3",
+    "country": "ЕС",
+    "price": 19700
+  },
+  {
+    "id": "airpods-13",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Midnight",
+    "country": "США",
+    "price": 44000
+  },
+  {
+    "id": "airpods-14",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Starlight",
+    "country": "США",
+    "price": 46000
+  },
+  {
+    "id": "airpods-15",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Blue",
+    "country": "США",
+    "price": 45500
+  },
+  {
+    "id": "airpods-16",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Purple",
+    "country": "США",
+    "price": 45500
+  },
+  {
+    "id": "airpods-17",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Orange",
+    "country": "США",
+    "price": 46500
+  },
+  {
+    "id": "airpods-18",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Midnight",
+    "country": "США",
+    "price": 44000
+  },
+  {
+    "id": "airpods-19",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Midnight",
+    "country": "ЕС",
+    "price": 43900
+  },
+  {
+    "id": "airpods-20",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Blue",
+    "country": "ЕС",
+    "price": 46500
+  },
+  {
+    "id": "airpods-21",
+    "brand": "apple",
+    "family": "airpods",
+    "category": "AirPods",
+    "sku": "",
+    "name": "Apple AirPods Max 2 Silver",
+    "country": "ЕС",
+    "price": 40500
   }
 ]
