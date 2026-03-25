@@ -468,18 +468,31 @@
 
   var phoneBtn = document.querySelector(".header-banner__phone");
   if (phoneBtn) {
-    phoneBtn.addEventListener("click", function (e) {
+    var triggerPhoneCall = function (e) {
       var href = phoneBtn.getAttribute("href");
       if (!href) return;
       e.preventDefault();
       try {
-        window.location.href = href;
+        if (tg && typeof tg.openLink === "function") {
+          tg.openLink(href);
+          return;
+        }
+      } catch (e1) {}
+      try {
+        window.open(href, "_blank");
+        return;
+      } catch (e2) {}
+      try {
+        window.location.assign(href);
       } catch (err) {
         try {
           window.open(href, "_self");
-        } catch (e2) {}
+        } catch (e3) {}
       }
-    });
+    };
+    phoneBtn.addEventListener("click", triggerPhoneCall);
+    phoneBtn.addEventListener("pointerup", triggerPhoneCall);
+    phoneBtn.addEventListener("touchend", triggerPhoneCall, { passive: false });
   }
 
   els.search.addEventListener("input", function () {
