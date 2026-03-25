@@ -43,6 +43,7 @@
     { family: "apple_watch", label: "Watch" },
     { family: "airpods", label: "AirPods" },
     { family: "macbook", label: "MacBook" },
+    { family: "imac", label: "iMac" },
   ];
   var SAMSUNG_SUBS = [
     { family: "samsung_phone", label: "Смартфоны" },
@@ -92,6 +93,9 @@
           ) {
             b = "apple";
             f = "macbook";
+          } else if (n.indexOf("imac") !== -1) {
+            b = "apple";
+            f = "imac";
           } else if (n.indexOf("watch") !== -1) {
             b = "apple";
             f = "apple_watch";

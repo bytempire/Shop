@@ -6318,5 +6318,365 @@
     "name": "Apple MacBook NEO A18 PRO Indigo 8/512",
     "country": "Гонконг",
     "price": 78000
+  },
+  {
+    "id": "imac-1",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MQRD3",
+    "name": "Apple iMac M3 (8/8/8/256) Pink",
+    "country": "Индия",
+    "price": 110000
+  },
+  {
+    "id": "imac-2",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MQRN3",
+    "name": "Apple iMac M3 (8/10/8/256) Green",
+    "country": "Индия",
+    "price": 120000
+  },
+  {
+    "id": "imac-3",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MQRT3",
+    "name": "Apple iMac M3 (8/10/8/256) Pink",
+    "country": "Индия",
+    "price": 120000
+  },
+  {
+    "id": "imac-4",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MQRU3",
+    "name": "Apple iMac M3 (8/10/8/512) Pink",
+    "country": "Индия",
+    "price": 130000
+  },
+  {
+    "id": "imac-5",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z19F000D9",
+    "name": "Apple iMac M3 (8/10/16/1Tb) Yellow",
+    "country": "Россия",
+    "price": 163000
+  },
+  {
+    "id": "imac-6",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z19F000DD",
+    "name": "Apple iMac M3 (8/10/24/1Tb) Yellow",
+    "country": "Россия",
+    "price": 191000
+  },
+  {
+    "id": "imac-7",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z19P000DD",
+    "name": "Apple iMac M3 (8/10/24/1Tb) Purple",
+    "country": "Россия",
+    "price": 191000
+  },
+  {
+    "id": "imac-8",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUF3",
+    "name": "Apple iMac M4 (8/8/16/256) Blue",
+    "country": "Россия",
+    "price": 144000
+  },
+  {
+    "id": "imac-9",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUE3",
+    "name": "Apple iMac M4 (8/8/16/256) Green",
+    "country": "Россия",
+    "price": 144000
+  },
+  {
+    "id": "imac-10",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUG3",
+    "name": "Apple iMac M4 (8/8/16/256) Pink",
+    "country": "Россия",
+    "price": 144000
+  },
+  {
+    "id": "imac-11",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWV13",
+    "name": "Apple iMac M4 (10/10/16/256) Blue",
+    "country": "Россия",
+    "price": 160000
+  },
+  {
+    "id": "imac-12",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUY3",
+    "name": "Apple iMac M4 (10/10/16/256) Green",
+    "country": "Россия",
+    "price": 160000
+  },
+  {
+    "id": "imac-13",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWV43",
+    "name": "Apple iMac M4 (10/10/16/256) Pink",
+    "country": "Гонконг",
+    "price": 156000
+  },
+  {
+    "id": "imac-14",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWV43",
+    "name": "Apple iMac M4 (10/10/16/256) Pink",
+    "country": "Россия",
+    "price": 160000
+  },
+  {
+    "id": "imac-15",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1E2000KJ",
+    "name": "Apple iMac M4 (8/8/16/512) Silver",
+    "country": "Россия",
+    "price": 163500
+  },
+  {
+    "id": "imac-16",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUV3",
+    "name": "Apple iMac M4 (10/10/16/512) Silver",
+    "country": "Великобритания",
+    "price": 179500
+  },
+  {
+    "id": "imac-17",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUV3",
+    "name": "Apple iMac M4 (10/10/16/512) Silver",
+    "country": "Россия",
+    "price": 180500
+  },
+  {
+    "id": "imac-18",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWV03",
+    "name": "Apple iMac M4 (10/10/16/512) Green",
+    "country": "Россия",
+    "price": 180500
+  },
+  {
+    "id": "imac-19",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWV53",
+    "name": "Apple iMac M4 (10/10/16/512) Pink",
+    "country": "Россия",
+    "price": 180500
+  },
+  {
+    "id": "imac-20",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EH000V5",
+    "name": "Apple iMac M4 (10/10/16/1Tb) Silver",
+    "country": "Россия",
+    "price": 212000
+  },
+  {
+    "id": "imac-21",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EK000TF",
+    "name": "Apple iMac M4 (10/10/16/1Tb) Yellow",
+    "country": "Россия",
+    "price": 210000
+  },
+  {
+    "id": "imac-22",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MD2T4",
+    "name": "Apple iMac M4 (10/10/24/512) Blue",
+    "country": "Россия",
+    "price": 214000
+  },
+  {
+    "id": "imac-23",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EV000TH",
+    "name": "Apple iMac M4 (10/10/24/512) Orange",
+    "country": "Россия",
+    "price": 211500
+  },
+  {
+    "id": "imac-24",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MD2U4",
+    "name": "Apple iMac M4 (10/10/24/512) Pink",
+    "country": "Россия",
+    "price": 214000
+  },
+  {
+    "id": "imac-25",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1ET000YX",
+    "name": "Apple iMac M4 (10/10/24/512) Purple",
+    "country": "Россия",
+    "price": 214000
+  },
+  {
+    "id": "imac-26",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EU0011C",
+    "name": "Apple iMac M4 (10/10/24/1Tb) Purple",
+    "country": "Россия",
+    "price": 229000
+  },
+  {
+    "id": "imac-27",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EJ000MD",
+    "name": "Apple iMac M4 (10/10/32/512) Silver",
+    "country": "Россия",
+    "price": 229000
+  },
+  {
+    "id": "imac-28",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EL000DT",
+    "name": "Apple iMac M4 (10/10/32/512) Yellow",
+    "country": "Россия",
+    "price": 227500
+  },
+  {
+    "id": "imac-29",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1EJ000ME",
+    "name": "Apple iMac M4 (10/10/32/1Tb) Silver",
+    "country": "Россия",
+    "price": 258500
+  },
+  {
+    "id": "imac-30",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1K30018N",
+    "name": "Apple iMac M4 (10/10/32/2Tb) Green",
+    "country": "Россия",
+    "price": 298000
+  },
+  {
+    "id": "imac-31",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1K8000UK",
+    "name": "Apple iMac M4 (10/10/32/2Tb) Orange",
+    "country": "Россия",
+    "price": 298000
+  },
+  {
+    "id": "imac-32",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "Z1K700137",
+    "name": "Apple iMac M4 (10/10/32/2Tb) Purple",
+    "country": "Россия",
+    "price": 298000
+  },
+  {
+    "id": "imac-33",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "MWUE3",
+    "name": "Apple iMac 24\"/M4/8C/16/256 Green",
+    "country": "Великобритания",
+    "price": 144000
+  },
+  {
+    "id": "imac-34",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "FQRJ3",
+    "name": "Apple iMac 4.5K 24\" 2023 M3 8-Core, GPU 10-Core, 8GB, 256GB Silver",
+    "country": "США",
+    "price": 91000
+  },
+  {
+    "id": "imac-35",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "",
+    "name": "Apple iMac 4.5K 24\" 2023 M3 8-Core GPU 10-Core 8/256 Silver",
+    "country": "США",
+    "price": 91000
+  },
+  {
+    "id": "imac-36",
+    "brand": "apple",
+    "family": "imac",
+    "category": "iMac",
+    "sku": "",
+    "name": "Apple iMac 24\" M4 8C 16/256 Green",
+    "country": "Великобритания",
+    "price": 144000
   }
 ]
