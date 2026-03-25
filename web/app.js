@@ -60,6 +60,7 @@
     { family: "huawei_phone", label: "Смартфоны" },
     { family: "huawei_tablet", label: "Планшеты" },
   ];
+  var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
 
   var state = {
     products: [],
@@ -113,6 +114,9 @@
           } else if (n.indexOf("samsung") !== -1 || n.indexOf("galaxy") !== -1) {
             b = "samsung";
             f = n.indexOf("watch") !== -1 ? "samsung_watch" : "samsung_phone";
+          } else if (n.indexOf("pixel") !== -1) {
+            b = "google";
+            f = "pixel_phone";
           } else if (n.indexOf("realme") !== -1) {
             b = "xiaomi";
             f = "xm_realme";
@@ -271,6 +275,9 @@
     } else if (brand === "huawei") {
       subs = HUAWEI_SUBS;
       title = "Huawei";
+    } else if (brand === "google") {
+      subs = GOOGLE_SUBS;
+      title = "Google";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";

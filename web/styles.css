@@ -326,6 +326,16 @@ body {
   box-shadow: 0 0 24px rgba(239, 68, 68, 0.12);
 }
 
+.brand-card--google {
+  border-color: rgba(147, 197, 253, 0.4);
+}
+
+.brand-card--google:hover,
+.brand-card--google:focus-visible {
+  border-color: #93c5fd;
+  box-shadow: 0 0 24px rgba(147, 197, 253, 0.14);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;

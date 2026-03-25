@@ -9088,5 +9088,305 @@
     "name": "Realme C85 Pro 8/256 Purple",
     "country": "Россия",
     "price": 15200
+  },
+  {
+    "id": "pixel-1",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 7 128GB Lemongrass",
+    "country": "США",
+    "price": 26000
+  },
+  {
+    "id": "pixel-2",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 7 128GB Snow",
+    "country": "США",
+    "price": 26000
+  },
+  {
+    "id": "pixel-3",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 7 Pro 128GB Obsidian",
+    "country": "Япония",
+    "price": 30700
+  },
+  {
+    "id": "pixel-4",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 8 128GB Obsidian",
+    "country": "Япония",
+    "price": 33600
+  },
+  {
+    "id": "pixel-5",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 8 128GB Rose",
+    "country": "США",
+    "price": 33600
+  },
+  {
+    "id": "pixel-6",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 8 256GB Obsidian",
+    "country": "США",
+    "price": 39000
+  },
+  {
+    "id": "pixel-7",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 8 Pro 128GB Bay",
+    "country": "США",
+    "price": 40000
+  },
+  {
+    "id": "pixel-8",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 8 Pro 128GB Obsidian",
+    "country": "США",
+    "price": 40000
+  },
+  {
+    "id": "pixel-9",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 8 Pro 128GB Porcelain",
+    "country": "США",
+    "price": 40000
+  },
+  {
+    "id": "pixel-10",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9A 256GB Obsidian",
+    "country": "Индия",
+    "price": 33500
+  },
+  {
+    "id": "pixel-11",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9A 256GB Porcelain",
+    "country": "Индия",
+    "price": 33500
+  },
+  {
+    "id": "pixel-12",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9 Pro 128GB Hazel",
+    "country": "Канада",
+    "price": 53500
+  },
+  {
+    "id": "pixel-13",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9 Pro 128GB Obsidian",
+    "country": "Канада",
+    "price": 53500
+  },
+  {
+    "id": "pixel-14",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9 Pro XL 128GB Obsidian",
+    "country": "Канада",
+    "price": 53300
+  },
+  {
+    "id": "pixel-15",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9 Pro XL 256GB Hazel",
+    "country": "Канада",
+    "price": 60100
+  },
+  {
+    "id": "pixel-16",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 9 Pro XL 1TB Obsidian",
+    "country": "Канада",
+    "price": 75400
+  },
+  {
+    "id": "pixel-17",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10A 256GB Obsidian",
+    "country": "Индия",
+    "price": 43900
+  },
+  {
+    "id": "pixel-18",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 128GB Indigo",
+    "country": "Канада",
+    "price": 52500
+  },
+  {
+    "id": "pixel-19",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 128GB Obsidian",
+    "country": "Канада",
+    "price": 49900
+  },
+  {
+    "id": "pixel-20",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 256GB Obsidian",
+    "country": "США",
+    "price": 56000
+  },
+  {
+    "id": "pixel-21",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 256GB Frost",
+    "country": "Великобритания",
+    "price": 57000
+  },
+  {
+    "id": "pixel-22",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 256GB Indigo",
+    "country": "Великобритания",
+    "price": 57000
+  },
+  {
+    "id": "pixel-23",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro 128GB Obsidian",
+    "country": "США",
+    "price": 61500
+  },
+  {
+    "id": "pixel-24",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro 128GB Porcelain",
+    "country": "Канада",
+    "price": 64100
+  },
+  {
+    "id": "pixel-25",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro 256GB Jade",
+    "country": "США",
+    "price": 71500
+  },
+  {
+    "id": "pixel-26",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro 512GB Obsidian",
+    "country": "Канада",
+    "price": 82800
+  },
+  {
+    "id": "pixel-27",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro XL 256GB Moonstone",
+    "country": "Канада",
+    "price": 78500
+  },
+  {
+    "id": "pixel-28",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro XL 256GB Obsidian",
+    "country": "Канада",
+    "price": 78500
+  },
+  {
+    "id": "pixel-29",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro XL 256GB Porcelain",
+    "country": "Канада",
+    "price": 78500
+  },
+  {
+    "id": "pixel-30",
+    "brand": "google",
+    "family": "pixel_phone",
+    "category": "Pixel",
+    "sku": "",
+    "name": "Google Pixel 10 Pro XL 512GB Obsidian",
+    "country": "Канада",
+    "price": 90500
   }
 ]
