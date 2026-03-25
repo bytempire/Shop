@@ -7568,5 +7568,185 @@
     "name": "Samsung Galaxy Z Fold 7 12/512 Silver",
     "country": "Казахстан",
     "price": 122000
+  },
+  {
+    "id": "samsung-watch-1",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R390",
+    "name": "Samsung Galaxy Fit 3 40mm (SM-R390) Graphite",
+    "country": "Кувейт",
+    "price": 3600
+  },
+  {
+    "id": "samsung-watch-2",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R390",
+    "name": "Samsung Galaxy Fit 3 40mm (SM-R390) Pink Gold",
+    "country": "Кувейт",
+    "price": 3600
+  },
+  {
+    "id": "samsung-watch-3",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R390",
+    "name": "Samsung Galaxy Fit 3 40mm (SM-R390) Silver",
+    "country": "Кувейт",
+    "price": 3600
+  },
+  {
+    "id": "samsung-watch-4",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R930",
+    "name": "Samsung Galaxy Watch 6 40mm (SM-R930) Graphite",
+    "country": "Кувейт",
+    "price": 10300
+  },
+  {
+    "id": "samsung-watch-5",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R940",
+    "name": "Samsung Galaxy Watch 6 44mm Wi-Fi (SM-R940) Graphite",
+    "country": "Кувейт",
+    "price": 12500
+  },
+  {
+    "id": "samsung-watch-6",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R955",
+    "name": "Samsung Galaxy Watch 6 Classic 43mm LTE (SM-R955) Silver",
+    "country": "ЕС",
+    "price": 15800
+  },
+  {
+    "id": "samsung-watch-7",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L310",
+    "name": "Samsung Galaxy Watch 7 44mm (SM-L310) Green",
+    "country": "Казахстан",
+    "price": 13900
+  },
+  {
+    "id": "samsung-watch-8",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L310",
+    "name": "Samsung Galaxy Watch 7 44mm (SM-L310) Silver",
+    "country": "Кувейт",
+    "price": 13900
+  },
+  {
+    "id": "samsung-watch-9",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L320",
+    "name": "Samsung Galaxy Watch 8 40mm (SM-L320) Wi-Fi Graphite",
+    "country": "ОАЭ",
+    "price": 17900
+  },
+  {
+    "id": "samsung-watch-10",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L325",
+    "name": "Samsung Galaxy Watch 8 40mm (SM-L325) LTE Graphite",
+    "country": "Россия",
+    "price": 19500
+  },
+  {
+    "id": "samsung-watch-11",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L335",
+    "name": "Samsung Galaxy Watch 8 44mm (SM-L335) LTE Graphite",
+    "country": "Россия",
+    "price": 20600
+  },
+  {
+    "id": "samsung-watch-12",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L335",
+    "name": "Samsung Galaxy Watch 8 44mm (SM-L335) LTE Silver",
+    "country": "Россия",
+    "price": 20600
+  },
+  {
+    "id": "samsung-watch-13",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L500",
+    "name": "Samsung Galaxy Watch 8 Classic 46mm (SM-L500) Wi-Fi Black",
+    "country": "ОАЭ",
+    "price": 22600
+  },
+  {
+    "id": "samsung-watch-14",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L505",
+    "name": "Samsung Galaxy Watch 8 Classic 46mm (SM-L505) LTE White",
+    "country": "Россия",
+    "price": 29100
+  },
+  {
+    "id": "samsung-watch-15",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L330",
+    "name": "Samsung Galaxy Watch 8 44mm (SM-L330) Wi-Fi Graphite",
+    "country": "ОАЭ",
+    "price": 18700
+  },
+  {
+    "id": "samsung-watch-16",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-L330",
+    "name": "Samsung Galaxy Watch 8 44mm (SM-L330) Wi-Fi Graphite",
+    "country": "Кувейт",
+    "price": 18700
+  },
+  {
+    "id": "samsung-watch-17",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "SM-R861",
+    "name": "Samsung Galaxy Watch FE 40mm (SM-R861) Black",
+    "country": "ОАЭ",
+    "price": 9500
+  },
+  {
+    "id": "samsung-watch-18",
+    "brand": "samsung",
+    "family": "samsung_watch",
+    "category": "Galaxy Watch",
+    "sku": "L705",
+    "name": "Samsung Galaxy Watch Ultra 47mm LTE (L705) Titanium White, белый ремешок",
+    "country": "Парагвай",
+    "price": 27000
   }
 ]
