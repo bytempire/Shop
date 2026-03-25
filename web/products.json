@@ -9388,5 +9388,95 @@
     "name": "Google Pixel 10 Pro XL 512GB Obsidian",
     "country": "Канада",
     "price": 90500
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-03199-01",
+    "name": "Garmin FENIX 8 PRO - 51 mm, AMOLED SAPPHIRE, CARBON GREY DLC",
+    "country": "",
+    "price": 88000,
+    "id": "garmin-1"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-03199-11",
+    "name": "Garmin FENIX 8 PRO - 51 MM, AMOLED SAPPHIRE TITANIUM",
+    "country": "",
+    "price": 88000,
+    "id": "garmin-2"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-03198-11",
+    "name": "Garmin FENIX 8 PRO - 47MM, AMOLED SAPPHIRE CARBON GRAY DLC WITH LEATHER BAND",
+    "country": "",
+    "price": 92000,
+    "id": "garmin-3"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-02971-00",
+    "name": "Garmin FORERUNNER 570 47 MM BLACK",
+    "country": "",
+    "price": 38500,
+    "id": "garmin-4"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-03013-00",
+    "name": "Garmin VENU 4, 41MM - LUNAR GOLD BEZEL WITH BONE SILICONE BAND",
+    "country": "",
+    "price": 39500,
+    "id": "garmin-5"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-04553-01",
+    "name": "Garmin TACTIX 8 - 51 mm, AMOLED, CERAKOTE COATING СЕРЫЕ",
+    "country": "",
+    "price": 110000,
+    "id": "garmin-6"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-04553-11",
+    "name": "Garmin TACTIX 8 - 51 mm, AMOLED, CERAKOTE COATING ХАКИ",
+    "country": "",
+    "price": 110000,
+    "id": "garmin-7"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-03398-00",
+    "name": "Garmin INSTINCT CROSSOVER AMOLED CHARCOAL WITH CHARCOAL SILICE AS",
+    "country": "",
+    "price": 42000,
+    "id": "garmin-8"
+  },
+  {
+    "brand": "garmin",
+    "family": "garmin_watch",
+    "category": "Garmin",
+    "sku": "010-03398-01",
+    "name": "Garmin INSTINCT CROSSOVER AMOLED BRONZE /SUNBURST",
+    "country": "",
+    "price": 43000,
+    "id": "garmin-9"
   }
 ]

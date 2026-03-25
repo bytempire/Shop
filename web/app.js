@@ -61,6 +61,7 @@
     { family: "huawei_tablet", label: "Планшеты" },
   ];
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
+  var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
 
   var state = {
     products: [],
@@ -117,6 +118,9 @@
           } else if (n.indexOf("pixel") !== -1) {
             b = "google";
             f = "pixel_phone";
+          } else if (n.indexOf("garmin") !== -1) {
+            b = "garmin";
+            f = "garmin_watch";
           } else if (n.indexOf("realme") !== -1) {
             b = "xiaomi";
             f = "xm_realme";
@@ -278,6 +282,9 @@
     } else if (brand === "google") {
       subs = GOOGLE_SUBS;
       title = "Google";
+    } else if (brand === "garmin") {
+      subs = GARMIN_SUBS;
+      title = "Garmin";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";
