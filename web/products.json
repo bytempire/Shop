@@ -8315,7 +8315,7 @@
     "family": "xm_honor",
     "category": "Honor",
     "sku": "",
-    "name": "Honor X5b 4/64 Blue",
+    "name": "Honor X5B 4/64 Blue",
     "country": "Россия",
     "price": 7000
   },
@@ -8325,9 +8325,9 @@
     "family": "xm_honor",
     "category": "Honor",
     "sku": "",
-    "name": "Honor X6c 6/256 White",
+    "name": "Honor X6C 6/256 White",
     "country": "Россия",
-    "price": 11000
+    "price": 9200
   },
   {
     "id": "xiaomi-59",
@@ -8335,7 +8335,7 @@
     "family": "xm_honor",
     "category": "Honor",
     "sku": "",
-    "name": "Honor X7d 6/128 Gray",
+    "name": "Honor X7D 6/128 Gray",
     "country": "Россия",
     "price": 11800
   },
@@ -8345,9 +8345,9 @@
     "family": "xm_honor",
     "category": "Honor",
     "sku": "",
-    "name": "Honor X8d 8/128 Black",
+    "name": "Honor X8D 8/128 Black",
     "country": "Россия",
-    "price": 16500
+    "price": 15100
   },
   {
     "id": "xiaomi-61",
@@ -8355,9 +8355,9 @@
     "family": "xm_honor",
     "category": "Honor",
     "sku": "",
-    "name": "Honor X8d 8/128 Gray",
+    "name": "Honor X8D 8/128 Gray",
     "country": "Россия",
-    "price": 16500
+    "price": 15100
   },
   {
     "id": "xiaomi-62",
@@ -8365,9 +8365,9 @@
     "family": "xm_honor",
     "category": "Honor",
     "sku": "",
-    "name": "Honor X8d 8/128 Blue",
+    "name": "Honor X8D 8/128 Blue",
     "country": "Россия",
-    "price": 16500
+    "price": 15100
   },
   {
     "id": "xiaomi-63",
@@ -8377,7 +8377,7 @@
     "sku": "",
     "name": "Honor 400 Lite 8/256 Green",
     "country": "Россия",
-    "price": 18800
+    "price": 18500
   },
   {
     "id": "xiaomi-64",
@@ -8407,7 +8407,7 @@
     "sku": "",
     "name": "Honor 400 8/256 Gold",
     "country": "Россия",
-    "price": 26500
+    "price": 26700
   },
   {
     "id": "xiaomi-67",
@@ -8417,7 +8417,7 @@
     "sku": "",
     "name": "Honor 400 12/256 Black",
     "country": "Россия",
-    "price": 29000
+    "price": 28700
   },
   {
     "id": "xiaomi-68",
@@ -8427,7 +8427,7 @@
     "sku": "",
     "name": "Honor 400 12/256 Gray",
     "country": "Россия",
-    "price": 29000
+    "price": 29500
   },
   {
     "id": "xiaomi-69",
@@ -8437,7 +8437,7 @@
     "sku": "",
     "name": "Honor 400 12/512 Black",
     "country": "Россия",
-    "price": 32500
+    "price": 30700
   },
   {
     "id": "xiaomi-70",
@@ -8447,7 +8447,7 @@
     "sku": "",
     "name": "Honor 400 12/512 Gray",
     "country": "Россия",
-    "price": 32500
+    "price": 30700
   },
   {
     "id": "xiaomi-71",
@@ -8467,7 +8467,7 @@
     "sku": "",
     "name": "Honor 400 Pro 12/512 Black",
     "country": "Россия",
-    "price": 50500
+    "price": 50000
   },
   {
     "id": "xiaomi-77",
@@ -8758,5 +8758,165 @@
     "name": "Huawei MatePad SE 11 8/128 GB Wi‑Fi + стилус Gray",
     "country": "Россия",
     "price": 13000
+  },
+  {
+    "id": "xiaomi-83",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 8/256 Silver",
+    "country": "Россия",
+    "price": 26700
+  },
+  {
+    "id": "xiaomi-84",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 Pro 12/256 Gray",
+    "country": "Россия",
+    "price": 43000
+  },
+  {
+    "id": "xiaomi-85",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor 400 Pro 12/512 Gray",
+    "country": "Россия",
+    "price": 51000
+  },
+  {
+    "id": "xiaomi-86",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X7C 6/128 Black",
+    "country": "Россия",
+    "price": 9500
+  },
+  {
+    "id": "xiaomi-87",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X7C 6/128 Green",
+    "country": "Россия",
+    "price": 9500
+  },
+  {
+    "id": "xiaomi-88",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X7D 6/128 Black",
+    "country": "Россия",
+    "price": 12000
+  },
+  {
+    "id": "xiaomi-89",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X7D 6/128 Gold",
+    "country": "Россия",
+    "price": 11900
+  },
+  {
+    "id": "xiaomi-90",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X7D 6/128 Silver",
+    "country": "Россия",
+    "price": 12000
+  },
+  {
+    "id": "xiaomi-91",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X8D 8/256 Black",
+    "country": "Россия",
+    "price": 17500
+  },
+  {
+    "id": "xiaomi-92",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X8D 8/256 Blue",
+    "country": "Россия",
+    "price": 17600
+  },
+  {
+    "id": "xiaomi-93",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X8D 8/256 Gray",
+    "country": "Россия",
+    "price": 17600
+  },
+  {
+    "id": "xiaomi-94",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X9D 12/256 Gold",
+    "country": "Россия",
+    "price": 25500
+  },
+  {
+    "id": "xiaomi-95",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X9D 8/256 Black",
+    "country": "Россия",
+    "price": 23700
+  },
+  {
+    "id": "xiaomi-96",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X9D 8/256 Brown",
+    "country": "Россия",
+    "price": 23800
+  },
+  {
+    "id": "xiaomi-97",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X9D 8/256 Gold",
+    "country": "Россия",
+    "price": 23500
+  },
+  {
+    "id": "xiaomi-98",
+    "brand": "xiaomi",
+    "family": "xm_honor",
+    "category": "Honor",
+    "sku": "",
+    "name": "Honor X9D 8/256 Green",
+    "country": "Россия",
+    "price": 22300
   }
 ]
