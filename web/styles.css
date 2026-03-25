@@ -346,6 +346,16 @@ body {
   box-shadow: 0 0 24px rgba(167, 139, 250, 0.14);
 }
 
+.brand-card--gaming {
+  border-color: rgba(244, 114, 182, 0.38);
+}
+
+.brand-card--gaming:hover,
+.brand-card--gaming:focus-visible {
+  border-color: #f472b6;
+  box-shadow: 0 0 24px rgba(244, 114, 182, 0.14);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;

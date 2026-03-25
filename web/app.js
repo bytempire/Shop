@@ -62,6 +62,7 @@
   ];
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
   var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
+  var GAMING_SUBS = [{ family: "gaming_item", label: "PlayStation" }];
 
   var state = {
     products: [],
@@ -121,6 +122,13 @@
           } else if (n.indexOf("garmin") !== -1) {
             b = "garmin";
             f = "garmin_watch";
+          } else if (
+            n.indexOf("dualsense") !== -1 ||
+            n.indexOf("ps5") !== -1 ||
+            n.indexOf("playstation") !== -1
+          ) {
+            b = "gaming";
+            f = "gaming_item";
           } else if (n.indexOf("realme") !== -1) {
             b = "xiaomi";
             f = "xm_realme";
@@ -285,6 +293,9 @@
     } else if (brand === "garmin") {
       subs = GARMIN_SUBS;
       title = "Garmin";
+    } else if (brand === "gaming") {
+      subs = GAMING_SUBS;
+      title = "Gaming";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";
