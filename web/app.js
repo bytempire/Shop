@@ -466,6 +466,22 @@
     });
   }
 
+  var phoneBtn = document.querySelector(".header-banner__phone");
+  if (phoneBtn) {
+    phoneBtn.addEventListener("click", function (e) {
+      var href = phoneBtn.getAttribute("href");
+      if (!href) return;
+      e.preventDefault();
+      try {
+        window.location.href = href;
+      } catch (err) {
+        try {
+          window.open(href, "_self");
+        } catch (e2) {}
+      }
+    });
+  }
+
   els.search.addEventListener("input", function () {
     state.query = els.search.value;
     renderGrid();
