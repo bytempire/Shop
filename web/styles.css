@@ -85,10 +85,11 @@ body {
 }
 
 .header-banner__phone {
-  position: absolute;
-  left: max(10px, env(safe-area-inset-left, 0));
-  bottom: max(10px, env(safe-area-inset-bottom, 0));
-  z-index: 2;
+  position: fixed;
+  left: calc(10px + env(safe-area-inset-left, 0));
+  right: auto;
+  bottom: calc(10px + env(safe-area-inset-bottom, 0));
+  z-index: 25;
   display: inline-flex;
   align-items: center;
   gap: 8px;
