@@ -62,7 +62,12 @@
   ];
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
   var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
-  var GAMING_SUBS = [{ family: "gaming_item", label: "Приставки" }];
+  var GAMING_SUBS = [
+    { family: "gaming_item", label: "Приставки" },
+    { family: "gaming_gpu", label: "ВИДЕОКАРТЫ" },
+    { family: "gaming_ssd", label: "SSD" },
+    { family: "gaming_ddr5", label: "DDR5" },
+  ];
   var AUDIO_SUBS = [
     { family: "marshall_speakers", label: "Marshall" },
     { family: "audio_jbl", label: "JBL" },
