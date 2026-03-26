@@ -75,6 +75,13 @@
     { family: "audio_beyerdynamic", label: "Beyerdynamic" },
   ];
 
+  var HOME_OFFICE_SUBS = [
+    { family: "home_office_network", label: "Сетевое оборудование" },
+    { family: "home_office_mfu", label: "МФУ" },
+    { family: "home_office_tv", label: "Телевизоры" },
+    { family: "home_office_media", label: "Медиаплееры" },
+  ];
+
   var state = {
     products: [],
     screen: "home",
@@ -441,6 +448,9 @@
     } else if (brand === "audio") {
       subs = AUDIO_SUBS;
       title = "Аудио";
+    } else if (brand === "home_office") {
+      subs = HOME_OFFICE_SUBS;
+      title = "Home/Office";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";
