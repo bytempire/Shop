@@ -63,7 +63,17 @@
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
   var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
   var GAMING_SUBS = [{ family: "gaming_item", label: "Приставки" }];
-  var AUDIO_SUBS = [{ family: "marshall_speakers", label: "Marshall / колонки" }];
+  var AUDIO_SUBS = [
+    { family: "marshall_speakers", label: "Marshall" },
+    { family: "audio_jbl", label: "JBL" },
+    { family: "audio_sony", label: "Sony" },
+    { family: "audio_yandex", label: "Яндекс" },
+    { family: "audio_headphones", label: "Наушники / TWS" },
+    { family: "audio_harman", label: "Harman/Kardon" },
+    { family: "audio_soundbars", label: "Саундбары" },
+    { family: "audio_logitech", label: "Logitech" },
+    { family: "audio_beyerdynamic", label: "Beyerdynamic" },
+  ];
 
   var state = {
     products: [],
