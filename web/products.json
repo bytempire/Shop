@@ -12096,5 +12096,181 @@
     "country": "🇭🇰",
     "price": 48500,
     "currency": "RUB"
+  },
+  {
+    "id": "pv-1187",
+    "brand": "photo_video",
+    "family": "photo_video_canon",
+    "category": "Canon",
+    "sku": "",
+    "name": "Canon G7 X Mark III Silver",
+    "country": "🇪🇺",
+    "price": 90000,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1188",
+    "brand": "photo_video",
+    "family": "photo_video_gopro",
+    "category": "GoPro",
+    "sku": "",
+    "name": "GoPro Hero 13 Black Optional HB-Series Lenses + 64GB",
+    "country": "🇪🇺",
+    "price": 26600,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1189",
+    "brand": "photo_video",
+    "family": "photo_video_insta360",
+    "category": "Insta360",
+    "sku": "",
+    "name": "Insta360 X5",
+    "country": "🇪🇺",
+    "price": 40100,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1190",
+    "brand": "photo_video",
+    "family": "photo_video_insta360",
+    "category": "Insta360",
+    "sku": "",
+    "name": "Insta360 X5 Standard Bundle Black",
+    "country": "🇪🇺",
+    "price": 38500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1191",
+    "brand": "photo_video",
+    "family": "photo_video_insta360",
+    "category": "Insta360",
+    "sku": "",
+    "name": "Insta360 X5 Starter Bundle Black",
+    "country": "🇪🇺",
+    "price": 44000,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1192",
+    "brand": "photo_video",
+    "family": "photo_video_insta360",
+    "category": "Insta360",
+    "sku": "",
+    "name": "Insta360 AcePro 2 MM93 Edition",
+    "country": "🇪🇺",
+    "price": 38500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1193",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Mobile 7 Pro",
+    "country": "🇪🇺",
+    "price": 10200,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1194",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Mobile 8",
+    "country": "🇪🇺",
+    "price": 10500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1195",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Mobile 8",
+    "country": "🇪🇺",
+    "price": 12000,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1196",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Action 6 Standard Combo",
+    "country": "🇪🇺",
+    "price": 35500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1197",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Action 6 Adventure Combo",
+    "country": "🇪🇺",
+    "price": 42500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1198",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Pocket 3 Standard Combo",
+    "country": "🇪🇺",
+    "price": 35500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1199",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Osmo Pocket 3 Creator Combo",
+    "country": "🇪🇺",
+    "price": 44500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1200",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Mic 3 (1TX + 1 RX) (DM3004)",
+    "country": "🇪🇺",
+    "price": 14500,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1201",
+    "brand": "photo_video",
+    "family": "photo_video_dji",
+    "category": "DJI",
+    "sku": "",
+    "name": "DJI Ronin RS 4 Pro Combo",
+    "country": "🇪🇺",
+    "price": 74000,
+    "currency": "RUB"
+  },
+  {
+    "id": "pv-1202",
+    "brand": "photo_video",
+    "family": "photo_video_jetson",
+    "category": "Jetson",
+    "sku": "",
+    "name": "Jetson Orin Nano Super Developer Kit 8GB",
+    "country": "🇪🇺",
+    "price": 56500,
+    "currency": "RUB"
   }
 ]

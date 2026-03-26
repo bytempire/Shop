@@ -87,6 +87,14 @@
     { family: "dyson_airwrap", label: "AirWrap" },
   ];
 
+  var PHOTO_VIDEO_SUBS = [
+    { family: "photo_video_canon", label: "Canon" },
+    { family: "photo_video_gopro", label: "GoPro" },
+    { family: "photo_video_insta360", label: "Insta360" },
+    { family: "photo_video_dji", label: "DJI" },
+    { family: "photo_video_jetson", label: "Jetson" },
+  ];
+
   var state = {
     products: [],
     screen: "home",
@@ -459,6 +467,9 @@
     } else if (brand === "dyson") {
       subs = DYSON_SUBS;
       title = "Dyson";
+    } else if (brand === "photo_video") {
+      subs = PHOTO_VIDEO_SUBS;
+      title = "Фото/Видео";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";

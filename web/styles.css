@@ -386,6 +386,16 @@ body {
   box-shadow: 0 0 24px rgba(167, 139, 250, 0.14);
 }
 
+.brand-card--photo_video {
+  border-color: rgba(59, 130, 246, 0.35);
+}
+
+.brand-card--photo_video:hover,
+.brand-card--photo_video:focus-visible {
+  border-color: #3b82f6;
+  box-shadow: 0 0 24px rgba(59, 130, 246, 0.14);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;
