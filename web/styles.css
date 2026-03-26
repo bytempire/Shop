@@ -356,6 +356,16 @@ body {
   box-shadow: 0 0 24px rgba(244, 114, 182, 0.14);
 }
 
+.brand-card--audio {
+  border-color: rgba(248, 113, 113, 0.35);
+}
+
+.brand-card--audio:hover,
+.brand-card--audio:focus-visible {
+  border-color: #f87171;
+  box-shadow: 0 0 24px rgba(248, 113, 113, 0.14);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;

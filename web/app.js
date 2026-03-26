@@ -63,6 +63,7 @@
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
   var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
   var GAMING_SUBS = [{ family: "gaming_item", label: "Приставки" }];
+  var AUDIO_SUBS = [{ family: "marshall_speakers", label: "Marshall / колонки" }];
 
   var state = {
     products: [],
@@ -427,6 +428,9 @@
     } else if (brand === "gaming") {
       subs = GAMING_SUBS;
       title = "Gaming";
+    } else if (brand === "audio") {
+      subs = AUDIO_SUBS;
+      title = "Аудио";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";
