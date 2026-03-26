@@ -376,6 +376,16 @@ body {
   box-shadow: 0 0 24px rgba(52, 211, 153, 0.14);
 }
 
+.brand-card--dyson {
+  border-color: rgba(167, 139, 250, 0.35);
+}
+
+.brand-card--dyson:hover,
+.brand-card--dyson:focus-visible {
+  border-color: #a78bfa;
+  box-shadow: 0 0 24px rgba(167, 139, 250, 0.14);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;

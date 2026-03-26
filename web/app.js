@@ -82,6 +82,11 @@
     { family: "home_office_media", label: "Медиаплееры" },
   ];
 
+  var DYSON_SUBS = [
+    { family: "dyson_airstrait", label: "Airstrait" },
+    { family: "dyson_airwrap", label: "AirWrap" },
+  ];
+
   var state = {
     products: [],
     screen: "home",
@@ -451,6 +456,9 @@
     } else if (brand === "home_office") {
       subs = HOME_OFFICE_SUBS;
       title = "Home/Office";
+    } else if (brand === "dyson") {
+      subs = DYSON_SUBS;
+      title = "Dyson";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";

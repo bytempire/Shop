@@ -12041,5 +12041,60 @@
     "country": "",
     "price": 3730,
     "currency": "RUB"
+  },
+  {
+    "id": "dy-1182",
+    "brand": "dyson",
+    "family": "dyson_airstrait",
+    "category": "Dyson",
+    "sku": "",
+    "name": "Dyson Airstrait Travel Pouch Black/Copper",
+    "country": "🇬🇧",
+    "price": 3200,
+    "currency": "RUB"
+  },
+  {
+    "id": "dy-1183",
+    "brand": "dyson",
+    "family": "dyson_airstrait",
+    "category": "Dyson",
+    "sku": "",
+    "name": "Dyson Airstrait Display Stand Blue/Copper",
+    "country": "🇬🇧",
+    "price": 2500,
+    "currency": "RUB"
+  },
+  {
+    "id": "dy-1184",
+    "brand": "dyson",
+    "family": "dyson_airwrap",
+    "category": "Dyson",
+    "sku": "",
+    "name": "Dyson AirWrap HS08 I.D. Long Blue/Topaz",
+    "country": "🇮🇳",
+    "price": 33000,
+    "currency": "RUB"
+  },
+  {
+    "id": "dy-1185",
+    "brand": "dyson",
+    "family": "dyson_airwrap",
+    "category": "Dyson",
+    "sku": "",
+    "name": "Dyson HS08 Prussian Blue/Rich Copper",
+    "country": "🇭🇰",
+    "price": 34300,
+    "currency": "RUB"
+  },
+  {
+    "id": "dy-1186",
+    "brand": "dyson",
+    "family": "dyson_airwrap",
+    "category": "Dyson",
+    "sku": "",
+    "name": "Dyson HS09 Jasper Plum",
+    "country": "🇭🇰",
+    "price": 48500,
+    "currency": "RUB"
   }
 ]
