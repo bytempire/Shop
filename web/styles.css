@@ -396,6 +396,16 @@ body {
   box-shadow: 0 0 24px rgba(59, 130, 246, 0.14);
 }
 
+.brand-card--vr_meta {
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+.brand-card--vr_meta:hover,
+.brand-card--vr_meta:focus-visible {
+  border-color: #6366f1;
+  box-shadow: 0 0 24px rgba(99, 102, 241, 0.14);
+}
+
 .brand-card__name {
   font-size: 1.35rem;
   font-weight: 700;

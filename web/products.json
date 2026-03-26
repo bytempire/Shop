@@ -12272,5 +12272,137 @@
     "country": "🇪🇺",
     "price": 56500,
     "currency": "RUB"
+  },
+  {
+    "id": "vr-1203",
+    "brand": "vr_meta",
+    "family": "vr_meta_quest",
+    "category": "Meta Quest",
+    "sku": "",
+    "name": "Meta Quest 3S 128",
+    "country": "🇪🇺",
+    "price": 27500,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1204",
+    "brand": "vr_meta",
+    "family": "vr_meta_quest",
+    "category": "Meta Quest",
+    "sku": "",
+    "name": "Meta Quest 3S 128 Batman Arkham Shadow",
+    "country": "🇪🇺",
+    "price": 29500,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1205",
+    "brand": "vr_meta",
+    "family": "vr_meta_quest",
+    "category": "Meta Quest",
+    "sku": "",
+    "name": "Meta Quest 3S 256",
+    "country": "🇪🇺",
+    "price": 29500,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1206",
+    "brand": "vr_meta",
+    "family": "vr_meta_quest",
+    "category": "Meta Quest",
+    "sku": "",
+    "name": "Meta Quest 3S 256 Batman Arkham Shadow",
+    "country": "🇪🇺",
+    "price": 37500,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1207",
+    "brand": "vr_meta",
+    "family": "vr_meta_quest",
+    "category": "Meta Quest",
+    "sku": "",
+    "name": "Meta Quest 3 4K 512",
+    "country": "🇪🇺",
+    "price": 45000,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1208",
+    "brand": "vr_meta",
+    "family": "vr_meta_quest",
+    "category": "Meta Quest",
+    "sku": "",
+    "name": "Meta Quest 3 4K 512 Batman Arkham Shadow",
+    "country": "🇪🇺",
+    "price": 46000,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1209",
+    "brand": "vr_meta",
+    "family": "vr_meta_rayban",
+    "category": "Ray-Ban",
+    "sku": "",
+    "name": "Meta Wayfarer Ray-Ban RW4006 Shiny Black/Green 150-50 C 601/7150",
+    "country": "🇪🇺",
+    "price": 26500,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1210",
+    "brand": "vr_meta",
+    "family": "vr_meta_rayban",
+    "category": "Ray-Ban",
+    "sku": "",
+    "name": "Meta Skyler Ray-Ban RW4014 Shiny Black/Green 150-52 C 601/7152",
+    "country": "🇪🇺",
+    "price": 30500,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1211",
+    "brand": "vr_meta",
+    "family": "vr_meta_rayban",
+    "category": "Ray-Ban",
+    "sku": "",
+    "name": "Meta Wayfarer Ray-Ban 2gen RW4012 Shiny Black/Green 150-50 C 601/7150",
+    "country": "🇪🇺",
+    "price": 41000,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1212",
+    "brand": "vr_meta",
+    "family": "vr_meta_rayban",
+    "category": "Ray-Ban",
+    "sku": "",
+    "name": "Meta Headliner Ray-Ban 2gen RW4013 Matte Black/Polar Gradient Graphite 150-50 C 601ST350",
+    "country": "🇪🇺",
+    "price": 42000,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1213",
+    "brand": "vr_meta",
+    "family": "vr_meta_rayban",
+    "category": "Ray-Ban",
+    "sku": "",
+    "name": "Meta Wayfarer Ray-Ban 2gen RW4012 Matte Black/Clear 150-50 C 601SSB50",
+    "country": "🇪🇺",
+    "price": 42000,
+    "currency": "RUB"
+  },
+  {
+    "id": "vr-1214",
+    "brand": "vr_meta",
+    "family": "vr_meta_rayban",
+    "category": "Ray-Ban",
+    "sku": "",
+    "name": "Meta Wayfarer Ray-Ban 2gen RW4012 Matte Black/Clear 155-53 C 601SSB53",
+    "country": "🇪🇺",
+    "price": 42000,
+    "currency": "RUB"
   }
 ]

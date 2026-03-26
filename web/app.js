@@ -78,7 +78,6 @@
   var HOME_OFFICE_SUBS = [
     { family: "home_office_network", label: "Сетевое оборудование" },
     { family: "home_office_mfu", label: "МФУ" },
-    { family: "home_office_tv", label: "Телевизоры" },
     { family: "home_office_media", label: "Медиаплееры" },
   ];
 
@@ -93,6 +92,11 @@
     { family: "photo_video_insta360", label: "Insta360" },
     { family: "photo_video_dji", label: "DJI" },
     { family: "photo_video_jetson", label: "Jetson" },
+  ];
+
+  var VR_META_SUBS = [
+    { family: "vr_meta_quest", label: "Meta Quest" },
+    { family: "vr_meta_rayban", label: "Meta Ray-Ban" },
   ];
 
   var state = {
@@ -470,6 +474,9 @@
     } else if (brand === "photo_video") {
       subs = PHOTO_VIDEO_SUBS;
       title = "Фото/Видео";
+    } else if (brand === "vr_meta") {
+      subs = VR_META_SUBS;
+      title = "VR/Meta";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";
