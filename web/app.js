@@ -131,6 +131,8 @@
     { family: "vr_meta_rayban", label: "Meta Ray-Ban" },
   ];
 
+  var lastSendDataError = null;
+
   var state = {
     products: [],
     screen: "home",
@@ -735,7 +737,10 @@
       alert("Корзина пуста.");
       return;
     }
-    if (!els.orderModal) return;
+    if (!els.orderModal) {
+      alert("Не найдено окно оформления. Обновите страницу.");
+      return;
+    }
     if (els.orderFormError) {
       els.orderFormError.hidden = true;
       els.orderFormError.textContent = "";
@@ -908,6 +913,7 @@
     }
 
     function trySendViaTelegramMiniApp() {
+      lastSendDataError = null;
       if (!tg || typeof tg.sendData !== "function") return false;
       try {
         try {
@@ -921,6 +927,7 @@
         tg.close();
         return true;
       } catch (e) {
+        lastSendDataError = (e && e.message) || String(e);
         return false;
       }
     }
@@ -955,8 +962,11 @@
       })
       .catch(function () {
         var hint =
-          "Откройте каталог из Telegram (мини-приложение бота), чтобы отправить заказ. " +
-          "Либо настройте ORDER_API_URL для отправки с обычного сайта (см. .env.example).";
+          "Откройте каталог кнопкой меню бота с типом Web App (иначе sendData недоступен). " +
+          "Либо настройте ORDER_API_URL для отправки с сайта (см. .env.example).";
+        if (lastSendDataError && tg) {
+          hint = "Telegram: " + lastSendDataError + "\n\n" + hint;
+        }
         onOrderSendFail(hint);
       });
   }
@@ -1035,16 +1045,34 @@
         els.orderTelegram && els.orderTelegram.value ? els.orderTelegram.value : ""
       );
 
-      if (!name || name.length < 2) {
+      if (!name) {
         showOrderFormError("Укажите имя.");
+        if (els.orderName) els.orderName.focus();
         return;
       }
-      if (!phone || phone.length < 5) {
+      if (name.length < 2) {
+        showOrderFormError("Имя слишком короткое.");
+        if (els.orderName) els.orderName.focus();
+        return;
+      }
+      if (!phone) {
+        showOrderFormError("Укажите номер телефона.");
+        if (els.orderPhone) els.orderPhone.focus();
+        return;
+      }
+      if (phone.length < 5) {
         showOrderFormError("Укажите корректный номер телефона.");
+        if (els.orderPhone) els.orderPhone.focus();
+        return;
+      }
+      if (!telegram || telegram === "@") {
+        showOrderFormError("Укажите Telegram (@username).");
+        if (els.orderTelegram) els.orderTelegram.focus();
         return;
       }
       if (!/^@[A-Za-z0-9_]{4,}$/.test(telegram)) {
-        showOrderFormError("Укажите Telegram в формате @username.");
+        showOrderFormError("Telegram: только латиница, цифры и _, минимум 4 символа после @.");
+        if (els.orderTelegram) els.orderTelegram.focus();
         return;
       }
 

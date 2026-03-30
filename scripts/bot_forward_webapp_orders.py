@@ -84,6 +84,24 @@ def main() -> None:
                 "getUpdates",
                 {"offset": offset, "timeout": 50, "allowed_updates": ["message"]},
             )
+        except urllib.error.HTTPError as e:
+            body = ""
+            try:
+                body = e.read().decode("utf-8", errors="replace")
+            except Exception:
+                pass
+            if e.code == 409:
+                print(
+                    "409 Conflict: для этого бота уже выполняется getUpdates (long polling).\n"
+                    "  Остановите вторую копию scripts/bot_forward_webapp_orders.py, другой сервер с этим токеном\n"
+                    "  или подождите ~50 с, пока завершится предыдущий long-poll.",
+                    file=sys.stderr,
+                )
+                time.sleep(5)
+            else:
+                print("HTTP", e.code, body[:800] or e, file=sys.stderr)
+                time.sleep(3)
+            continue
         except (urllib.error.URLError, TimeoutError) as e:
             print("Сеть:", e, file=sys.stderr)
             time.sleep(3)
