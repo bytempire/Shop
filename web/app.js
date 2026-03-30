@@ -1,5 +1,8 @@
 (function () {
   var tg = window.Telegram && window.Telegram.WebApp;
+  var runtimeConfig = window.__SHOP_CONFIG__ || {};
+  var TELEGRAM_BOT_TOKEN = String(runtimeConfig.TELEGRAM_BOT_TOKEN || "").trim();
+  var TELEGRAM_GROUP_CHAT_ID = String(runtimeConfig.TELEGRAM_GROUP_CHAT_ID || "").trim();
 
   function hideTgActionButtons() {
     if (!tg) return;
@@ -237,6 +240,15 @@
     orderBtn: document.getElementById("orderBtn"),
     cartOrderBtn: document.getElementById("cartOrderBtn"),
     homeLoadError: document.getElementById("homeLoadError"),
+    orderModal: document.getElementById("orderModal"),
+    orderModalBackdrop: document.getElementById("orderModalBackdrop"),
+    orderModalClose: document.getElementById("orderModalClose"),
+    orderForm: document.getElementById("orderForm"),
+    orderName: document.getElementById("orderName"),
+    orderPhone: document.getElementById("orderPhone"),
+    orderTelegram: document.getElementById("orderTelegram"),
+    orderFormError: document.getElementById("orderFormError"),
+    orderFormSubmit: document.getElementById("orderFormSubmit"),
   };
 
   function formatPrice(n, currency) {
@@ -673,7 +685,7 @@
     }
   }
 
-  function submitOrder() {
+  function collectOrderLines() {
     var lines = [];
     Object.keys(state.cart).forEach(function (id) {
       var qty = state.cart[id];
@@ -690,19 +702,52 @@
         sum: p.price * qty,
       });
     });
+    return lines;
+  }
+
+  function openOrderModal() {
+    var lines = collectOrderLines();
     if (!lines.length) {
       alert("Корзина пуста.");
       return;
     }
-    var payload = {
-      source: "62yabloka_catalog",
-      items: lines,
-      total: lines.reduce(function (a, x) {
-        return a + x.sum;
-      }, 0),
-    };
-    var text =
-      "Заказ из мини-приложения 62 ЯБЛОКА:\n" +
+    if (!els.orderModal) return;
+    if (els.orderFormError) {
+      els.orderFormError.hidden = true;
+      els.orderFormError.textContent = "";
+    }
+    els.orderModal.hidden = false;
+    if (els.orderName) setTimeout(function () { els.orderName.focus(); }, 10);
+  }
+
+  function closeOrderModal() {
+    if (!els.orderModal) return;
+    els.orderModal.hidden = true;
+  }
+
+  function normalizeTelegram(v) {
+    var t = String(v || "").trim();
+    if (!t) return "";
+    if (t.charAt(0) !== "@") t = "@" + t.replace(/^@+/, "");
+    return t;
+  }
+
+  function showOrderFormError(msg) {
+    if (!els.orderFormError) return;
+    els.orderFormError.textContent = msg || "Ошибка отправки";
+    els.orderFormError.hidden = false;
+  }
+
+  function formatOrderText(lines, customer, total) {
+    return (
+      "Новый заказ 62 ЯБЛОКА\n\n" +
+      "Имя: " +
+      customer.name +
+      "\nТелефон: " +
+      customer.phone +
+      "\nTelegram: " +
+      customer.telegram +
+      "\n\n" +
       lines
         .map(function (l) {
           return (
@@ -718,15 +763,82 @@
         })
         .join("\n\n") +
       "\n\nИтого: " +
-      formatPrice(payload.total);
-    if (tg && tg.sendData) {
-      try {
-        tg.sendData(JSON.stringify(payload));
-        tg.close();
-        return;
-      } catch (e) {}
+      formatPrice(total)
+    );
+  }
+
+  function sendMessageViaBotApi(text) {
+    if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_GROUP_CHAT_ID) {
+      return Promise.reject(new Error("telegram_not_configured"));
     }
-    alert(text + "\n\n(Подключите бота: web_app_data или отправьте текст менеджеру.)");
+    var url = "https://api.telegram.org/bot" + TELEGRAM_BOT_TOKEN + "/sendMessage";
+    return fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: TELEGRAM_GROUP_CHAT_ID,
+        text: text,
+      }),
+    }).then(function (r) {
+      if (!r.ok) throw new Error("telegram_http_" + r.status);
+      return r.json();
+    });
+  }
+
+  function submitOrderWithCustomer(customer) {
+    var lines = collectOrderLines();
+    if (!lines.length) {
+      alert("Корзина пуста.");
+      closeOrderModal();
+      return;
+    }
+    var payload = {
+      source: "62yabloka_catalog",
+      customer: customer,
+      items: lines,
+      total: lines.reduce(function (a, x) {
+        return a + x.sum;
+      }, 0),
+    };
+    var text = formatOrderText(lines, customer, payload.total);
+
+    if (els.orderFormSubmit) {
+      els.orderFormSubmit.disabled = true;
+      els.orderFormSubmit.textContent = "Отправка...";
+    }
+    if (els.orderFormError) {
+      els.orderFormError.hidden = true;
+      els.orderFormError.textContent = "";
+    }
+
+    sendMessageViaBotApi(text)
+      .then(function () {
+        alert("Заказ отправлен. Мы скоро свяжемся с вами.");
+        state.cart = {};
+        saveCart();
+        closeOrderModal();
+        if (state.screen === "cart") renderCartView();
+        else if (state.screen === "catalog") renderGrid();
+        updateCartBar();
+      })
+      .catch(function () {
+        if (tg && tg.sendData) {
+          try {
+            tg.sendData(JSON.stringify(payload));
+            tg.close();
+            return;
+          } catch (e) {}
+        }
+        showOrderFormError(
+          "Не удалось отправить в Telegram. Заполните TELEGRAM_BOT_TOKEN и TELEGRAM_GROUP_CHAT_ID в app.js."
+        );
+      })
+      .finally(function () {
+        if (els.orderFormSubmit) {
+          els.orderFormSubmit.disabled = false;
+          els.orderFormSubmit.textContent = "Отправить заказ";
+        }
+      });
   }
 
   els.backBtn.addEventListener("click", function () {
@@ -779,14 +891,50 @@
     renderGrid();
   });
 
-  els.orderBtn.addEventListener("click", submitOrder);
+  els.orderBtn.addEventListener("click", openOrderModal);
   if (els.cartViewBtn) {
     els.cartViewBtn.addEventListener("click", function () {
       if (state.screen === "cart") return;
       showCart();
     });
   }
-  if (els.cartOrderBtn) els.cartOrderBtn.addEventListener("click", submitOrder);
+  if (els.cartOrderBtn) els.cartOrderBtn.addEventListener("click", openOrderModal);
+
+  if (els.orderModalClose) {
+    els.orderModalClose.addEventListener("click", closeOrderModal);
+  }
+  if (els.orderModalBackdrop) {
+    els.orderModalBackdrop.addEventListener("click", closeOrderModal);
+  }
+  if (els.orderForm) {
+    els.orderForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var name = (els.orderName && els.orderName.value ? els.orderName.value : "").trim();
+      var phone = (els.orderPhone && els.orderPhone.value ? els.orderPhone.value : "").trim();
+      var telegram = normalizeTelegram(
+        els.orderTelegram && els.orderTelegram.value ? els.orderTelegram.value : ""
+      );
+
+      if (!name || name.length < 2) {
+        showOrderFormError("Укажите имя.");
+        return;
+      }
+      if (!phone || phone.length < 5) {
+        showOrderFormError("Укажите корректный номер телефона.");
+        return;
+      }
+      if (!/^@[A-Za-z0-9_]{4,}$/.test(telegram)) {
+        showOrderFormError("Укажите Telegram в формате @username.");
+        return;
+      }
+
+      submitOrderWithCustomer({
+        name: name,
+        phone: phone,
+        telegram: telegram,
+      });
+    });
+  }
 
   loadCart();
   goHome();

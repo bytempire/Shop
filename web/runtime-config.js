@@ -1,0 +1,1 @@
+window.__SHOP_CONFIG__ = {"TELEGRAM_BOT_TOKEN": "", "TELEGRAM_GROUP_CHAT_ID": ""};
