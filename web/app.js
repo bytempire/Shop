@@ -929,13 +929,8 @@
         tg.initDataUnsafe && tg.initDataUnsafe.user && tg.initDataUnsafe.user.id
           ? tg.initDataUnsafe.user.id
           : null;
-      if (!hasInitData || !tgUser) {
-        lastSendDataError =
-          "WebApp открыт не в контексте бота (нет initData). Откройте через кнопку Menu у @Yabloko62Bot.";
-        resetOrderFormSubmit();
-        showOrderFormError(lastSendDataError);
-        return false;
-      }
+      // Some Telegram clients may expose sendData with incomplete initData.
+      // Do not block sending; include this in diagnostics only if sendData fails.
       try {
         try {
           if (tg.HapticFeedback && typeof tg.HapticFeedback.notificationOccurred === "function") {
@@ -947,7 +942,13 @@
         saveCart();
         return true;
       } catch (e) {
-        lastSendDataError = (e && e.message) || String(e);
+        var baseErr = (e && e.message) || String(e);
+        var initInfo =
+          "initData=" +
+          (hasInitData ? "yes" : "no") +
+          ", user=" +
+          (tgUser ? "yes" : "no");
+        lastSendDataError = baseErr + " (" + initInfo + ")";
         resetOrderFormSubmit();
         showOrderFormError(lastSendDataError);
         try {
