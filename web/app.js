@@ -3,6 +3,30 @@
   var runtimeConfig = window.__SHOP_CONFIG__ || {};
   var TELEGRAM_BOT_TOKEN = String(runtimeConfig.TELEGRAM_BOT_TOKEN || "").trim();
   var TELEGRAM_GROUP_CHAT_ID = String(runtimeConfig.TELEGRAM_GROUP_CHAT_ID || "").trim();
+  var ORDER_API_URL_CFG = String(runtimeConfig.ORDER_API_URL || "").trim();
+
+  function resolveOrderApiUrl(raw) {
+    var s = String(raw || "").trim();
+    if (!s) return "";
+    try {
+      return new URL(s, location.href).href;
+    } catch (e) {
+      return s;
+    }
+  }
+
+  function defaultOrderApiUrl() {
+    try {
+      var h = location.hostname;
+      var port = String(location.port || "");
+      if ((h === "127.0.0.1" || h === "localhost") && port === "8787") {
+        return location.protocol + "//" + location.host + "/api/order";
+      }
+    } catch (e) {}
+    return "";
+  }
+
+  var ORDER_API_URL = resolveOrderApiUrl(ORDER_API_URL_CFG) || resolveOrderApiUrl(defaultOrderApiUrl());
 
   function hideTgActionButtons() {
     if (!tg) return;
@@ -785,6 +809,54 @@
     });
   }
 
+  function sendOrderViaProxy(text) {
+    if (!ORDER_API_URL) {
+      return Promise.reject(new Error("order_proxy_not_configured"));
+    }
+    return fetch(ORDER_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: text }),
+    }).then(function (r) {
+      return r.text().then(function (raw) {
+        var body = null;
+        try {
+          body = raw ? JSON.parse(raw) : {};
+        } catch (e) {
+          body = { ok: false, detail: raw };
+        }
+        if (!r.ok || !body || !body.ok) {
+          var d = body && body.detail ? JSON.stringify(body.detail) : "";
+          throw new Error("order_proxy_" + r.status + (d ? " " + d : ""));
+        }
+        return body;
+      });
+    });
+  }
+
+  function payloadForMiniApp(customer, lines, total, text) {
+    var p = {
+      source: "62yabloka_catalog",
+      customer: customer,
+      items: lines,
+      total: total,
+      text: text,
+    };
+    try {
+      if (JSON.stringify(p).length <= 4090) return p;
+    } catch (e) {
+      return { source: "62yabloka_catalog", customer: customer, total: total, text: text };
+    }
+    p = { source: "62yabloka_catalog", customer: customer, total: total, text: text };
+    try {
+      if (JSON.stringify(p).length <= 4090) return p;
+    } catch (e2) {
+      return p;
+    }
+    p.text = text.slice(0, 4000) + "\n…";
+    return p;
+  }
+
   function submitOrderWithCustomer(customer) {
     var lines = collectOrderLines();
     if (!lines.length) {
@@ -792,15 +864,77 @@
       closeOrderModal();
       return;
     }
-    var payload = {
-      source: "62yabloka_catalog",
-      customer: customer,
-      items: lines,
-      total: lines.reduce(function (a, x) {
-        return a + x.sum;
-      }, 0),
-    };
-    var text = formatOrderText(lines, customer, payload.total);
+    var total = lines.reduce(function (a, x) {
+      return a + x.sum;
+    }, 0);
+    var text = formatOrderText(lines, customer, total);
+    var payload = payloadForMiniApp(customer, lines, total, text);
+
+    function resetOrderFormSubmit() {
+      if (els.orderFormSubmit) {
+        els.orderFormSubmit.disabled = false;
+        els.orderFormSubmit.textContent = "Отправить заказ";
+      }
+    }
+
+    function onOrderSendOk() {
+      alert("Заказ отправлен. Мы скоро свяжемся с вами.");
+      state.cart = {};
+      saveCart();
+      closeOrderModal();
+      if (state.screen === "cart") renderCartView();
+      else if (state.screen === "catalog") renderGrid();
+      updateCartBar();
+      resetOrderFormSubmit();
+    }
+
+    function onOrderSendFail(hint) {
+      showOrderFormError(hint);
+      if (els.orderFormError) {
+        try {
+          els.orderFormError.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        } catch (e2) {}
+      }
+      resetOrderFormSubmit();
+    }
+
+    function orderUrlBlockedByMixedContent(url) {
+      try {
+        if (!url || location.protocol !== "https:") return false;
+        return new URL(url).protocol === "http:";
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function trySendViaTelegramMiniApp() {
+      if (!tg || typeof tg.sendData !== "function") return false;
+      try {
+        try {
+          if (tg.HapticFeedback && typeof tg.HapticFeedback.notificationOccurred === "function") {
+            tg.HapticFeedback.notificationOccurred("success");
+          }
+        } catch (h) {}
+        tg.sendData(JSON.stringify(payload));
+        state.cart = {};
+        saveCart();
+        tg.close();
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    if (trySendViaTelegramMiniApp()) return;
+
+    if (ORDER_API_URL && orderUrlBlockedByMixedContent(ORDER_API_URL)) {
+      onOrderSendFail(
+        "Сайт открыт по HTTPS, а адрес отправки — по HTTP; браузер блокирует такой запрос. " +
+          "В .env укажите ORDER_API_URL=/api/order (тот же домен, настройте прокси на сервере) или полный https://… URL бэкенда, " +
+          "затем выполните python3 scripts/build_runtime_config.py."
+      );
+      return;
+    }
 
     if (els.orderFormSubmit) {
       els.orderFormSubmit.disabled = true;
@@ -811,33 +945,19 @@
       els.orderFormError.textContent = "";
     }
 
-    sendMessageViaBotApi(text)
+    var chain = ORDER_API_URL
+      ? sendOrderViaProxy(text)
+      : sendMessageViaBotApi(text);
+
+    chain
       .then(function () {
-        alert("Заказ отправлен. Мы скоро свяжемся с вами.");
-        state.cart = {};
-        saveCart();
-        closeOrderModal();
-        if (state.screen === "cart") renderCartView();
-        else if (state.screen === "catalog") renderGrid();
-        updateCartBar();
+        onOrderSendOk();
       })
       .catch(function () {
-        if (tg && tg.sendData) {
-          try {
-            tg.sendData(JSON.stringify(payload));
-            tg.close();
-            return;
-          } catch (e) {}
-        }
-        showOrderFormError(
-          "Не удалось отправить в Telegram. Заполните TELEGRAM_BOT_TOKEN и TELEGRAM_GROUP_CHAT_ID в app.js."
-        );
-      })
-      .finally(function () {
-        if (els.orderFormSubmit) {
-          els.orderFormSubmit.disabled = false;
-          els.orderFormSubmit.textContent = "Отправить заказ";
-        }
+        var hint =
+          "Откройте каталог из Telegram (мини-приложение бота), чтобы отправить заказ. " +
+          "Либо настройте ORDER_API_URL для отправки с обычного сайта (см. .env.example).";
+        onOrderSendFail(hint);
       });
   }
 

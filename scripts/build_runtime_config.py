@@ -30,6 +30,7 @@ def main():
     payload = {
         "TELEGRAM_BOT_TOKEN": env.get("TELEGRAM_BOT_TOKEN", ""),
         "TELEGRAM_GROUP_CHAT_ID": env.get("TELEGRAM_GROUP_CHAT_ID", ""),
+        "ORDER_API_URL": env.get("ORDER_API_URL", ""),
     }
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(
