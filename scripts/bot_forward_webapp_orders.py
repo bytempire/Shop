@@ -50,6 +50,7 @@ def load_env() -> None:
         if k in (
             "TELEGRAM_BOT_TOKEN",
             "TELEGRAM_GROUP_CHAT_ID",
+            "BOT_DEBUG",
         ) and v and (k not in os.environ or not os.environ.get(k)):
             os.environ[k] = v
 
@@ -76,13 +77,17 @@ def main() -> None:
         sys.exit(1)
 
     offset = 0
-    print("Бот слушает заказы (sendData из Mini App)… Ctrl+C — выход.")
+    debug = (os.environ.get("BOT_DEBUG") or "").strip() in ("1", "true", "yes")
+    print("Бот слушает заказы (sendData из Mini App)… Ctrl+C — выход.", flush=True)
+    if debug:
+        print("DEBUG=1: в лог пишутся все входящие update.", flush=True)
     while True:
         try:
+            # Без allowed_updates — иначе часть клиентов не отдаёт web_app_data в long poll
             res = api_call(
                 token,
                 "getUpdates",
-                {"offset": offset, "timeout": 50, "allowed_updates": ["message"]},
+                {"offset": offset, "timeout": 50},
             )
         except urllib.error.HTTPError as e:
             body = ""
@@ -114,10 +119,17 @@ def main() -> None:
 
         for upd in res.get("result", []):
             offset = upd["update_id"] + 1
+            if debug:
+                print("UPDATE:", json.dumps(upd, ensure_ascii=False)[:2000], flush=True)
+
             msg = upd.get("message") or {}
             web = msg.get("web_app_data")
             if not web:
                 continue
+
+            chat_user = msg.get("chat") or {}
+            user_chat_id = chat_user.get("id")
+
             raw = web.get("data") or "{}"
             try:
                 data = json.loads(raw)
@@ -131,13 +143,41 @@ def main() -> None:
                     + json.dumps(data, ensure_ascii=False, indent=2)[:3500]
                 )
 
+            if len(text) > 4096:
+                text = text[:4090] + "…"
+
             out = api_call(
                 token,
                 "sendMessage",
                 {"chat_id": group, "text": text},
             )
             if not out.get("ok"):
-                print("sendMessage:", out, file=sys.stderr)
+                print("sendMessage в группу:", out, file=sys.stderr)
+                if user_chat_id:
+                    try:
+                        api_call(
+                            token,
+                            "sendMessage",
+                            {
+                                "chat_id": user_chat_id,
+                                "text": "Не удалось отправить заказ в группу. Проверьте, что бот в группе и TELEGRAM_GROUP_CHAT_ID верный.",
+                            },
+                        )
+                    except Exception as e:
+                        print("sendMessage пользователю:", e, file=sys.stderr)
+            else:
+                if user_chat_id:
+                    try:
+                        api_call(
+                            token,
+                            "sendMessage",
+                            {
+                                "chat_id": user_chat_id,
+                                "text": "Заказ отправлен в рабочий чат.",
+                            },
+                        )
+                    except Exception:
+                        pass
 
         time.sleep(0.1)
 

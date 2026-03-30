@@ -939,24 +939,27 @@
     }
 
     if (tg && typeof tg.sendData === "function") {
-      if (els.orderFormSubmit) {
-        els.orderFormSubmit.disabled = true;
-        els.orderFormSubmit.textContent = "Отправка...";
-      }
-      if (els.orderFormError) {
-        els.orderFormError.hidden = true;
-        els.orderFormError.textContent = "";
-      }
-
       var confirmMsg =
-        "Заказ будет передан боту. После «OK» мини-приложение закроется — это нормально.\n\n" +
-        "Сообщение в группе появится только если на сервере запущен скрипт пересылки " +
-        "(python3 scripts/bot_forward_webapp_orders.py) с тем же токеном бота.";
+        "Отправить заказ боту? После отправки мини-приложение закроется. " +
+        "В группе заказ появится, если запущен scripts/bot_forward_webapp_orders.py.";
 
-      if (typeof tg.showAlert === "function") {
+      function runMiniAppSend() {
+        if (els.orderFormSubmit) {
+          els.orderFormSubmit.disabled = true;
+          els.orderFormSubmit.textContent = "Отправка...";
+        }
+        if (els.orderFormError) {
+          els.orderFormError.hidden = true;
+          els.orderFormError.textContent = "";
+        }
+        attemptSendDataToBot();
+      }
+
+      if (typeof tg.showConfirm === "function") {
         try {
-          tg.showAlert(confirmMsg, function () {
-            attemptSendDataToBot();
+          tg.showConfirm(confirmMsg, function (ok) {
+            if (!ok) return;
+            runMiniAppSend();
           });
           return;
         } catch (e) {}
@@ -964,12 +967,11 @@
 
       try {
         if (typeof window.confirm === "function" && !window.confirm(confirmMsg)) {
-          resetOrderFormSubmit();
           return;
         }
       } catch (e3) {}
 
-      attemptSendDataToBot();
+      runMiniAppSend();
       return;
     }
 
