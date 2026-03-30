@@ -939,39 +939,15 @@
     }
 
     if (tg && typeof tg.sendData === "function") {
-      var confirmMsg =
-        "Отправить заказ боту? После отправки мини-приложение закроется. " +
-        "В группе заказ появится, если запущен scripts/bot_forward_webapp_orders.py.";
-
-      function runMiniAppSend() {
-        if (els.orderFormSubmit) {
-          els.orderFormSubmit.disabled = true;
-          els.orderFormSubmit.textContent = "Отправка...";
-        }
-        if (els.orderFormError) {
-          els.orderFormError.hidden = true;
-          els.orderFormError.textContent = "";
-        }
-        attemptSendDataToBot();
+      if (els.orderFormSubmit) {
+        els.orderFormSubmit.disabled = true;
+        els.orderFormSubmit.textContent = "Отправка...";
       }
-
-      if (typeof tg.showConfirm === "function") {
-        try {
-          tg.showConfirm(confirmMsg, function (ok) {
-            if (!ok) return;
-            runMiniAppSend();
-          });
-          return;
-        } catch (e) {}
+      if (els.orderFormError) {
+        els.orderFormError.hidden = true;
+        els.orderFormError.textContent = "";
       }
-
-      try {
-        if (typeof window.confirm === "function" && !window.confirm(confirmMsg)) {
-          return;
-        }
-      } catch (e3) {}
-
-      runMiniAppSend();
+      attemptSendDataToBot();
       return;
     }
 
