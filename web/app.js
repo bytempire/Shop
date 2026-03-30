@@ -924,6 +924,18 @@
     function attemptSendDataToBot() {
       lastSendDataError = null;
       if (!tg || typeof tg.sendData !== "function") return false;
+      var hasInitData = !!(tg.initData && String(tg.initData).trim());
+      var tgUser =
+        tg.initDataUnsafe && tg.initDataUnsafe.user && tg.initDataUnsafe.user.id
+          ? tg.initDataUnsafe.user.id
+          : null;
+      if (!hasInitData || !tgUser) {
+        lastSendDataError =
+          "WebApp открыт не в контексте бота (нет initData). Откройте через кнопку Menu у @Yabloko62Bot.";
+        resetOrderFormSubmit();
+        showOrderFormError(lastSendDataError);
+        return false;
+      }
       try {
         try {
           if (tg.HapticFeedback && typeof tg.HapticFeedback.notificationOccurred === "function") {
