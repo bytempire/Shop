@@ -921,16 +921,25 @@
       }
     }
 
+    function fallbackSendOrder() {
+      var apiChain = TELEGRAM_BOT_TOKEN && TELEGRAM_GROUP_CHAT_ID
+        ? sendMessageViaBotApi(text)
+        : ORDER_API_URL
+          ? sendOrderViaProxy(text)
+          : Promise.reject(new Error("no_fallback"));
+
+      apiChain
+        .then(function () { onOrderSendOk(); })
+        .catch(function () {
+          onOrderSendFail(
+            "Не удалось отправить заказ. Попробуйте открыть каталог через кнопку меню бота."
+          );
+        });
+    }
+
     function attemptSendDataToBot() {
       lastSendDataError = null;
       if (!tg || typeof tg.sendData !== "function") return false;
-      var hasInitData = !!(tg.initData && String(tg.initData).trim());
-      var tgUser =
-        tg.initDataUnsafe && tg.initDataUnsafe.user && tg.initDataUnsafe.user.id
-          ? tg.initDataUnsafe.user.id
-          : null;
-      // Some Telegram clients may expose sendData with incomplete initData.
-      // Do not block sending; include this in diagnostics only if sendData fails.
       try {
         try {
           if (tg.HapticFeedback && typeof tg.HapticFeedback.notificationOccurred === "function") {
@@ -938,51 +947,33 @@
           }
         } catch (h) {}
         tg.sendData(JSON.stringify(payload));
-        try {
-          if (typeof tg.close === "function") tg.close();
-        } catch (c) {}
         setTimeout(function () {
-          // If WebApp did not close, return control to user.
           if (document && document.visibilityState !== "hidden") {
-            resetOrderFormSubmit();
-            showOrderFormError(
-              "Не удалось завершить отправку. Проверьте, что бот открыт как Mini App, и попробуйте еще раз."
-            );
+            fallbackSendOrder();
           } else {
             state.cart = {};
             saveCart();
           }
-        }, 1800);
+        }, 1500);
         return true;
       } catch (e) {
-        var baseErr = (e && e.message) || String(e);
-        var initInfo =
-          "initData=" +
-          (hasInitData ? "yes" : "no") +
-          ", user=" +
-          (tgUser ? "yes" : "no");
-        lastSendDataError = baseErr + " (" + initInfo + ")";
-        resetOrderFormSubmit();
-        showOrderFormError(lastSendDataError);
-        try {
-          if (typeof tg.showAlert === "function") {
-            tg.showAlert("Не удалось отправить: " + lastSendDataError);
-          }
-        } catch (e2) {}
         return false;
       }
     }
 
+    if (els.orderFormSubmit) {
+      els.orderFormSubmit.disabled = true;
+      els.orderFormSubmit.textContent = "Отправка...";
+    }
+    if (els.orderFormError) {
+      els.orderFormError.hidden = true;
+      els.orderFormError.textContent = "";
+    }
+
     if (tg && typeof tg.sendData === "function") {
-      if (els.orderFormSubmit) {
-        els.orderFormSubmit.disabled = true;
-        els.orderFormSubmit.textContent = "Отправка...";
+      if (!attemptSendDataToBot()) {
+        fallbackSendOrder();
       }
-      if (els.orderFormError) {
-        els.orderFormError.hidden = true;
-        els.orderFormError.textContent = "";
-      }
-      attemptSendDataToBot();
       return;
     }
 
