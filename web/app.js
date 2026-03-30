@@ -938,8 +938,21 @@
           }
         } catch (h) {}
         tg.sendData(JSON.stringify(payload));
-        state.cart = {};
-        saveCart();
+        try {
+          if (typeof tg.close === "function") tg.close();
+        } catch (c) {}
+        setTimeout(function () {
+          // If WebApp did not close, return control to user.
+          if (document && document.visibilityState !== "hidden") {
+            resetOrderFormSubmit();
+            showOrderFormError(
+              "Не удалось завершить отправку. Проверьте, что бот открыт как Mini App, и попробуйте еще раз."
+            );
+          } else {
+            state.cart = {};
+            saveCart();
+          }
+        }, 1800);
         return true;
       } catch (e) {
         var baseErr = (e && e.message) || String(e);
