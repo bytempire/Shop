@@ -203,7 +203,7 @@
           name: name,
           country: p.country != null ? String(p.country) : "",
           price: price,
-          currency: p.currency != null ? String(p.currency) : "RUB",
+          currency: "RUB",
           image: img,
         };
       })
