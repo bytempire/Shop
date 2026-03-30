@@ -840,25 +840,34 @@
   }
 
   function payloadForMiniApp(customer, lines, total, text) {
-    var p = {
+    var p = { source: "62yabloka_catalog", customer: customer, total: total, text: text };
+    var maxLen = 3900;
+    function encodedLen(x) {
+      try {
+        return JSON.stringify(x).length;
+      } catch (e) {
+        return 999999;
+      }
+    }
+
+    if (encodedLen(p) <= maxLen) return p;
+
+    // Telegram WebApp sendData limit is tight; keep payload small and deterministic.
+    p = {
       source: "62yabloka_catalog",
-      customer: customer,
-      items: lines,
       total: total,
-      text: text,
+      customer: {
+        name: customer && customer.name ? String(customer.name) : "",
+        phone: customer && customer.phone ? String(customer.phone) : "",
+        telegram: customer && customer.telegram ? String(customer.telegram) : "",
+      },
+      text: String(text || ""),
     };
-    try {
-      if (JSON.stringify(p).length <= 4090) return p;
-    } catch (e) {
-      return { source: "62yabloka_catalog", customer: customer, total: total, text: text };
+
+    if (p.text.length > 3200) p.text = p.text.slice(0, 3200) + "\n…";
+    while (encodedLen(p) > maxLen && p.text.length > 200) {
+      p.text = p.text.slice(0, Math.max(200, p.text.length - 200));
     }
-    p = { source: "62yabloka_catalog", customer: customer, total: total, text: text };
-    try {
-      if (JSON.stringify(p).length <= 4090) return p;
-    } catch (e2) {
-      return p;
-    }
-    p.text = text.slice(0, 4000) + "\n…";
     return p;
   }
 
