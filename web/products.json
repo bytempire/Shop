@@ -167,7 +167,7 @@
     "sku": "",
     "name": "Apple iPhone 13 128GB Pink",
     "country": "Индия",
-    "price": 42300
+    "price": 45500
   },
   {
     "id": "n-18",
@@ -207,7 +207,7 @@
     "sku": "",
     "name": "Apple iPhone 13 128GB Starlight",
     "country": "Индия",
-    "price": 42500
+    "price": 45000
   },
   {
     "id": "n-22",
@@ -217,7 +217,7 @@
     "sku": "",
     "name": "Apple iPhone 13 128GB Midnight",
     "country": "Индия",
-    "price": 40900
+    "price": 43300
   },
   {
     "id": "n-23",
@@ -227,7 +227,7 @@
     "sku": "",
     "name": "Apple iPhone 13 512GB Red",
     "country": "США",
-    "price": 50000
+    "price": 52700
   },
   {
     "id": "n-24",
@@ -277,7 +277,7 @@
     "sku": "",
     "name": "Apple iPhone 14 128GB Blue",
     "country": "Индия",
-    "price": 41100
+    "price": 43500
   },
   {
     "id": "n-29",
@@ -317,7 +317,7 @@
     "sku": "",
     "name": "Apple iPhone 14 128GB Starlight",
     "country": "Индия",
-    "price": 42900
+    "price": 45600
   },
   {
     "id": "n-33",
@@ -367,7 +367,7 @@
     "sku": "",
     "name": "Apple iPhone 14 128GB Midnight",
     "country": "Индия",
-    "price": 42200
+    "price": 44500
   },
   {
     "id": "n-38",
@@ -397,7 +397,7 @@
     "sku": "",
     "name": "Apple iPhone 14 256GB Midnight",
     "country": "Индия",
-    "price": 45400
+    "price": 47700
   },
   {
     "id": "n-41",
@@ -417,7 +417,7 @@
     "sku": "",
     "name": "Apple iPhone 14 512GB Blue",
     "country": "США",
-    "price": 43400
+    "price": 46500
   },
   {
     "id": "n-43",
@@ -477,7 +477,7 @@
     "sku": "",
     "name": "Apple iPhone 14 512GB Starlight",
     "country": "США",
-    "price": 43400
+    "price": 46500
   },
   {
     "id": "n-49",
@@ -507,7 +507,7 @@
     "sku": "",
     "name": "Apple iPhone 14 512GB Midnight",
     "country": "США",
-    "price": 43400
+    "price": 46500
   },
   {
     "id": "n-52",
@@ -547,7 +547,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 128GB Yellow",
     "country": "Гонконг",
-    "price": 42700
+    "price": 46600
   },
   {
     "id": "n-56",
@@ -567,7 +567,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Red",
     "country": "США",
-    "price": 44700
+    "price": 47600
   },
   {
     "id": "n-58",
@@ -587,7 +587,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Blue",
     "country": "США",
-    "price": 46500
+    "price": 49600
   },
   {
     "id": "n-60",
@@ -607,7 +607,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Purple",
     "country": "США",
-    "price": 46500
+    "price": 49600
   },
   {
     "id": "n-62",
@@ -637,7 +637,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 256GB Midnight",
     "country": "США",
-    "price": 46500
+    "price": 49600
   },
   {
     "id": "n-65",
@@ -687,7 +687,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Yellow",
     "country": "США",
-    "price": 47700
+    "price": 51200
   },
   {
     "id": "n-70",
@@ -697,7 +697,7 @@
     "sku": "",
     "name": "Apple iPhone 14 Plus 512GB Yellow",
     "country": "Гонконг",
-    "price": 51200
+    "price": 54000
   },
   {
     "id": "n-71",
@@ -777,7 +777,7 @@
     "sku": "",
     "name": "Apple iPhone 15 128GB Pink",
     "country": "Индия",
-    "price": 48100
+    "price": 50800
   },
   {
     "id": "n-79",
@@ -787,7 +787,7 @@
     "sku": "",
     "name": "Apple iPhone 15 128GB Blue",
     "country": "Индия",
-    "price": 45500
+    "price": 47900
   },
   {
     "id": "n-80",
@@ -797,7 +797,7 @@
     "sku": "",
     "name": "Apple iPhone 15 128GB Black",
     "country": "Индия",
-    "price": 46300
+    "price": 49300
   },
   {
     "id": "n-81",
@@ -817,7 +817,7 @@
     "sku": "",
     "name": "Apple iPhone 15 128GB Yellow",
     "country": "Индия",
-    "price": 47200
+    "price": 49000
   },
   {
     "id": "n-83",
@@ -827,7 +827,7 @@
     "sku": "",
     "name": "Apple iPhone 15 256GB Pink",
     "country": "Индия",
-    "price": 61200
+    "price": 63500
   },
   {
     "id": "n-84",
@@ -837,7 +837,7 @@
     "sku": "",
     "name": "Apple iPhone 15 256GB Blue",
     "country": "Индия",
-    "price": 54200
+    "price": 56100
   },
   {
     "id": "n-85",
@@ -847,7 +847,7 @@
     "sku": "",
     "name": "Apple iPhone 15 256GB Black",
     "country": "Индия",
-    "price": 54200
+    "price": 56400
   },
   {
     "id": "n-86",
@@ -857,7 +857,7 @@
     "sku": "",
     "name": "Apple iPhone 15 512GB Blue",
     "country": "США",
-    "price": 57300
+    "price": 62000
   },
   {
     "id": "n-87",
@@ -867,7 +867,7 @@
     "sku": "",
     "name": "Apple iPhone 15 512GB Green",
     "country": "США",
-    "price": 57300
+    "price": 59500
   },
   {
     "id": "n-88",
@@ -877,7 +877,7 @@
     "sku": "",
     "name": "Apple iPhone 15 512GB Yellow",
     "country": "США",
-    "price": 57300
+    "price": 59500
   },
   {
     "id": "n-89",
@@ -897,7 +897,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Plus 128GB Green",
     "country": "Индия",
-    "price": 51200
+    "price": 54700
   },
   {
     "id": "n-91",
@@ -907,7 +907,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Plus 128GB Yellow",
     "country": "Индия",
-    "price": 51200
+    "price": 53600
   },
   {
     "id": "n-92",
@@ -917,7 +917,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Plus 256GB Pink",
     "country": "Индия",
-    "price": 61000
+    "price": 64500
   },
   {
     "id": "n-93",
@@ -927,7 +927,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Plus 256GB Yellow",
     "country": "Индия",
-    "price": 55600
+    "price": 62000
   },
   {
     "id": "n-94",
@@ -967,7 +967,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB Blue",
     "country": "США",
-    "price": 64700
+    "price": 68900
   },
   {
     "id": "n-98",
@@ -977,7 +977,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB Blue",
     "country": "ОАЭ",
-    "price": 70700
+    "price": 74200
   },
   {
     "id": "n-99",
@@ -987,7 +987,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB White",
     "country": "США",
-    "price": 64700
+    "price": 68900
   },
   {
     "id": "n-100",
@@ -997,7 +997,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro 128GB Natural",
     "country": "США",
-    "price": 64700
+    "price": 68900
   },
   {
     "id": "n-101",
@@ -1037,7 +1037,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro 512GB Black",
     "country": "США",
-    "price": 83500
+    "price": 89500
   },
   {
     "id": "n-105",
@@ -1067,7 +1067,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro Max 256GB Natural",
     "country": "Япония",
-    "price": 81600
+    "price": 83700
   },
   {
     "id": "n-108",
@@ -1117,7 +1117,7 @@
     "sku": "",
     "name": "Apple iPhone 15 Pro Max 512GB Natural",
     "country": "ОАЭ",
-    "price": 92200
+    "price": 94900
   },
   {
     "id": "n-113",
@@ -1177,7 +1177,7 @@
     "sku": "",
     "name": "Apple iPhone 16e 128GB White",
     "country": "Индия",
-    "price": 43900
+    "price": 49000
   },
   {
     "id": "n-119",
@@ -1217,7 +1217,7 @@
     "sku": "",
     "name": "Apple iPhone 16e 512GB White",
     "country": "Индия",
-    "price": 65000
+    "price": 71500
   },
   {
     "id": "n-123",
@@ -1227,7 +1227,7 @@
     "sku": "",
     "name": "Apple iPhone 16 128GB Teal",
     "country": "Индия",
-    "price": 54700
+    "price": 56900
   },
   {
     "id": "n-124",
@@ -1237,7 +1237,7 @@
     "sku": "",
     "name": "Apple iPhone 16 128GB Pink",
     "country": "Индия",
-    "price": 56400
+    "price": 59300
   },
   {
     "id": "n-125",
@@ -1257,7 +1257,7 @@
     "sku": "",
     "name": "Apple iPhone 16 128GB White",
     "country": "Индия",
-    "price": 55200
+    "price": 57800
   },
   {
     "id": "n-127",
@@ -1267,7 +1267,7 @@
     "sku": "",
     "name": "Apple iPhone 16 128GB Black",
     "country": "Индия",
-    "price": 55000
+    "price": 57900
   },
   {
     "id": "n-128",
@@ -1297,7 +1297,7 @@
     "sku": "",
     "name": "Apple iPhone 16 128GB Ultramarine",
     "country": "Индия",
-    "price": 55200
+    "price": 57700
   },
   {
     "id": "n-131",
@@ -1327,7 +1327,7 @@
     "sku": "",
     "name": "Apple iPhone 16 256GB Pink",
     "country": "Индия",
-    "price": 61400
+    "price": 69000
   },
   {
     "id": "n-134",
@@ -1337,7 +1337,7 @@
     "sku": "",
     "name": "Apple iPhone 16 256GB White",
     "country": "Индия",
-    "price": 63000
+    "price": 64000
   },
   {
     "id": "n-135",
@@ -1357,7 +1357,7 @@
     "sku": "",
     "name": "Apple iPhone 16 256GB Black",
     "country": "Индия",
-    "price": 63200
+    "price": 66000
   },
   {
     "id": "n-137",
@@ -1367,7 +1367,7 @@
     "sku": "",
     "name": "Apple iPhone 16 256GB Ultramarine",
     "country": "Индия",
-    "price": 65000
+    "price": 69500
   },
   {
     "id": "n-138",
@@ -1377,7 +1377,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 128GB Teal",
     "country": "Индия",
-    "price": 62200
+    "price": 65500
   },
   {
     "id": "n-139",
@@ -1387,7 +1387,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 128GB Pink",
     "country": "Индия",
-    "price": 62500
+    "price": 68500
   },
   {
     "id": "n-140",
@@ -1397,7 +1397,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 128GB White",
     "country": "Индия",
-    "price": 62200
+    "price": 68000
   },
   {
     "id": "n-141",
@@ -1417,7 +1417,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 128GB Ultramarine",
     "country": "Индия",
-    "price": 62200
+    "price": 65800
   },
   {
     "id": "n-143",
@@ -1427,7 +1427,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 256GB Teal",
     "country": "Индия",
-    "price": 69400
+    "price": 72600
   },
   {
     "id": "n-144",
@@ -1437,7 +1437,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 256GB Pink",
     "country": "Индия",
-    "price": 71200
+    "price": 75000
   },
   {
     "id": "n-145",
@@ -1447,7 +1447,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 256GB White",
     "country": "Индия",
-    "price": 69600
+    "price": 72300
   },
   {
     "id": "n-146",
@@ -1467,7 +1467,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 256GB Black",
     "country": "Индия",
-    "price": 69900
+    "price": 72900
   },
   {
     "id": "n-148",
@@ -1487,7 +1487,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 256GB Ultramarine",
     "country": "Индия",
-    "price": 69600
+    "price": 73200
   },
   {
     "id": "n-150",
@@ -1517,7 +1517,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Black",
     "country": "Индия",
-    "price": 85200
+    "price": 88500
   },
   {
     "id": "n-153",
@@ -1527,7 +1527,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Plus 512GB Ultramarine",
     "country": "Индия",
-    "price": 85500
+    "price": 92500
   },
   {
     "id": "n-154",
@@ -1537,7 +1537,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Pro 128GB White",
     "country": "Китай",
-    "price": 74800
+    "price": 76500
   },
   {
     "id": "n-155",
@@ -1557,7 +1557,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Pro 128GB White",
     "country": "Индия",
-    "price": 84400
+    "price": 87700
   },
   {
     "id": "n-157",
@@ -1567,7 +1567,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Pro 128GB Desert",
     "country": "Китай",
-    "price": 75000
+    "price": 81500
   },
   {
     "id": "n-158",
@@ -1587,7 +1587,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Pro 128GB Desert",
     "country": "Индия",
-    "price": 82300
+    "price": 86500
   },
   {
     "id": "n-160",
@@ -1607,7 +1607,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Pro 128GB Natural",
     "country": "Китай",
-    "price": 76700
+    "price": 88500
   },
   {
     "id": "n-162",
@@ -1657,7 +1657,7 @@
     "sku": "",
     "name": "Apple iPhone 16 Pro 1TB White",
     "country": "ОАЭ",
-    "price": 111400
+    "price": 114600
   },
   {
     "id": "n-167",
@@ -1847,7 +1847,7 @@
     "sku": "",
     "name": "Apple iPhone 17 256GB Blue",
     "country": "Япония",
-    "price": 63000
+    "price": 66000
   },
   {
     "id": "n-186",
@@ -1897,7 +1897,7 @@
     "sku": "",
     "name": "Apple iPhone 17 256GB White",
     "country": "Япония",
-    "price": 63500
+    "price": 64700
   },
   {
     "id": "n-191",
@@ -1927,7 +1927,7 @@
     "sku": "",
     "name": "Apple iPhone 17 256GB Black",
     "country": "Япония",
-    "price": 62600
+    "price": 64000
   },
   {
     "id": "n-194",
@@ -1957,7 +1957,7 @@
     "sku": "",
     "name": "Apple iPhone 17 256GB Lavender",
     "country": "Япония",
-    "price": 63200
+    "price": 66000
   },
   {
     "id": "n-197",
@@ -2017,7 +2017,7 @@
     "sku": "",
     "name": "Apple iPhone 17 512GB Sage",
     "country": "Япония",
-    "price": 79000
+    "price": 87500
   },
   {
     "id": "n-203",
@@ -2037,7 +2037,7 @@
     "sku": "",
     "name": "Apple iPhone 17 512GB White",
     "country": "Япония",
-    "price": 79100
+    "price": 80700
   },
   {
     "id": "n-205",
@@ -2067,7 +2067,7 @@
     "sku": "",
     "name": "Apple iPhone 17 512GB Black",
     "country": "Япония",
-    "price": 78300
+    "price": 81000
   },
   {
     "id": "n-208",
@@ -2107,7 +2107,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 256GB Blue",
     "country": "Япония",
-    "price": 70000
+    "price": 74300
   },
   {
     "id": "n-212",
@@ -2117,7 +2117,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 256GB Blue",
     "country": "Китай",
-    "price": 70300
+    "price": 73900
   },
   {
     "id": "n-213",
@@ -2127,7 +2127,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 256GB White",
     "country": "Япония",
-    "price": 72200
+    "price": 75900
   },
   {
     "id": "n-214",
@@ -2137,7 +2137,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 256GB White",
     "country": "Китай",
-    "price": 72500
+    "price": 74700
   },
   {
     "id": "n-215",
@@ -2167,7 +2167,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 256GB Black",
     "country": "Япония",
-    "price": 74300
+    "price": 84500
   },
   {
     "id": "n-218",
@@ -2187,7 +2187,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 256GB Gold",
     "country": "Япония",
-    "price": 71900
+    "price": 75200
   },
   {
     "id": "n-220",
@@ -2217,7 +2217,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 512GB Blue",
     "country": "Япония",
-    "price": 79900
+    "price": 85000
   },
   {
     "id": "n-223",
@@ -2237,7 +2237,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Air 1TB Gold",
     "country": "Япония",
-    "price": 106000
+    "price": 114500
   },
   {
     "id": "n-225",
@@ -2247,7 +2247,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 256GB Blue",
     "country": "Япония",
-    "price": 96200
+    "price": 99000
   },
   {
     "id": "n-226",
@@ -2287,7 +2287,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 256GB Silver",
     "country": "Япония",
-    "price": 97200
+    "price": 100000
   },
   {
     "id": "n-230",
@@ -2317,7 +2317,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 256GB Orange",
     "country": "Япония",
-    "price": 96000
+    "price": 98900
   },
   {
     "id": "n-233",
@@ -2347,7 +2347,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 256GB Orange",
     "country": "Китай",
-    "price": 105000
+    "price": 106500
   },
   {
     "id": "n-236",
@@ -2387,7 +2387,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 512GB Blue",
     "country": "Япония",
-    "price": 108700
+    "price": 109900
   },
   {
     "id": "n-240",
@@ -2437,7 +2437,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 512GB Silver",
     "country": "Япония",
-    "price": 115800
+    "price": 115000
   },
   {
     "id": "n-245",
@@ -2467,7 +2467,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 512GB Orange",
     "country": "Япония",
-    "price": 108000
+    "price": 109900
   },
   {
     "id": "n-248",
@@ -2497,7 +2497,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 1TB Blue",
     "country": "Япония",
-    "price": 121900
+    "price": 125700
   },
   {
     "id": "n-251",
@@ -2517,7 +2517,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 1TB Silver",
     "country": "Япония",
-    "price": 126200
+    "price": 124800
   },
   {
     "id": "n-253",
@@ -2547,7 +2547,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro 1TB Orange",
     "country": "Япония",
-    "price": 122000
+    "price": 124800
   },
   {
     "id": "n-256",
@@ -2597,7 +2597,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 256GB Blue",
     "country": "Япония",
-    "price": 105200
+    "price": 108500
   },
   {
     "id": "n-261",
@@ -2647,7 +2647,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 256GB Silver",
     "country": "Япония",
-    "price": 106200
+    "price": 108500
   },
   {
     "id": "n-266",
@@ -2697,7 +2697,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 256GB Orange",
     "country": "Япония",
-    "price": 103200
+    "price": 105200
   },
   {
     "id": "n-271",
@@ -2747,7 +2747,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 512GB Blue",
     "country": "Япония",
-    "price": 116900
+    "price": 120000
   },
   {
     "id": "n-276",
@@ -2767,7 +2767,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 512GB Silver",
     "country": "Япония",
-    "price": 121000
+    "price": 127000
   },
   {
     "id": "n-278",
@@ -2787,7 +2787,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 512GB Orange",
     "country": "Япония",
-    "price": 115000
+    "price": 117400
   },
   {
     "id": "n-280",
@@ -2817,7 +2817,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 1TB Blue",
     "country": "Япония",
-    "price": 133300
+    "price": 134600
   },
   {
     "id": "n-283",
@@ -2857,7 +2857,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 1TB Silver",
     "country": "Япония",
-    "price": 135000
+    "price": 137700
   },
   {
     "id": "n-287",
@@ -2877,7 +2877,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 1TB Orange",
     "country": "Япония",
-    "price": 130000
+    "price": 132600
   },
   {
     "id": "n-289",
@@ -2907,7 +2907,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Blue",
     "country": "Япония",
-    "price": 152200
+    "price": 154300
   },
   {
     "id": "n-292",
@@ -2957,7 +2957,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Silver",
     "country": "Япония",
-    "price": 161000
+    "price": 171500
   },
   {
     "id": "n-297",
@@ -2987,7 +2987,7 @@
     "sku": "",
     "name": "Apple iPhone 17 Pro Max 2TB Orange",
     "country": "Япония",
-    "price": 150200
+    "price": 151700
   },
   {
     "id": "n-300",
@@ -5737,7 +5737,7 @@
     "sku": "MW0W3",
     "name": "Apple MacBook Air 13 M4 16/256 Silver",
     "country": "Россия",
-    "price": 82000
+    "price": 90000
   },
   {
     "id": "macbook-4",
@@ -5747,7 +5747,7 @@
     "sku": "",
     "name": "Apple MacBook Air 13 M4 16/256 Midnight",
     "country": "США",
-    "price": 82000
+    "price": 89500
   },
   {
     "id": "macbook-5",
@@ -5757,7 +5757,7 @@
     "sku": "MW123",
     "name": "Apple MacBook Air 13 M4 16/256 Midnight",
     "country": "Россия",
-    "price": 82500
+    "price": 89500
   },
   {
     "id": "macbook-6",
@@ -5767,7 +5767,7 @@
     "sku": "MW0Y3",
     "name": "Apple MacBook Air 13 M4 16/256 Starlight",
     "country": "Россия",
-    "price": 81000
+    "price": 89000
   },
   {
     "id": "macbook-7",
@@ -5777,7 +5777,7 @@
     "sku": "MC6T4",
     "name": "Apple MacBook Air 13 M4 16/256 Blue",
     "country": "Россия",
-    "price": 82000
+    "price": 89500
   },
   {
     "id": "macbook-8",
@@ -5787,7 +5787,7 @@
     "sku": "MW133",
     "name": "Apple MacBook Air 13 M4 16/512 Midnight",
     "country": "США",
-    "price": 113000
+    "price": 113500
   },
   {
     "id": "macbook-9",
@@ -5797,7 +5797,7 @@
     "sku": "MC6U4",
     "name": "Apple MacBook Air 13 M4 16/512 Blue",
     "country": "США",
-    "price": 105500
+    "price": 108500
   },
   {
     "id": "macbook-10",
@@ -5957,7 +5957,7 @@
     "sku": "MW0W3",
     "name": "Apple MacBook Air 13 M4 16/256 Silver",
     "country": "США",
-    "price": 80000
+    "price": 90000
   },
   {
     "id": "macbook-26",
@@ -5967,7 +5967,7 @@
     "sku": "MW0Y3",
     "name": "Apple MacBook Air 13 M4 16/256 Starlight",
     "country": "США",
-    "price": 81000
+    "price": 89000
   },
   {
     "id": "macbook-27",
@@ -6097,7 +6097,7 @@
     "sku": "MDE04",
     "name": "Apple MacBook Pro 14 M5 16/512 Black",
     "country": "Индия",
-    "price": 136000
+    "price": 140500
   },
   {
     "id": "macbook-40",
@@ -6107,7 +6107,7 @@
     "sku": "MDE14",
     "name": "Apple MacBook Pro 14 M5 16/1TB Black",
     "country": "Индия",
-    "price": 148000
+    "price": 153500
   },
   {
     "id": "macbook-41",
@@ -6127,7 +6127,7 @@
     "sku": "MDE54",
     "name": "Apple MacBook Pro 14 M5 16/1TB Silver",
     "country": "Австралия",
-    "price": 149000
+    "price": 154500
   },
   {
     "id": "macbook-43",
@@ -6137,7 +6137,7 @@
     "sku": "MDE34",
     "name": "Apple MacBook Pro 14 M5 24/1TB Black",
     "country": "США",
-    "price": 171000
+    "price": 176500
   },
   {
     "id": "macbook-44",
@@ -6147,7 +6147,7 @@
     "sku": "MDE64",
     "name": "Apple MacBook Pro 14 M5 24/1TB Silver",
     "country": "США",
-    "price": 171000
+    "price": 176500
   },
   {
     "id": "macbook-45",
@@ -6207,7 +6207,7 @@
     "sku": "",
     "name": "Apple MacBook Air 15 M4 16/256 Starlight",
     "country": "США",
-    "price": 109000
+    "price": 110000
   },
   {
     "id": "macbook-51",
@@ -6217,7 +6217,7 @@
     "sku": "MC7A4",
     "name": "Apple MacBook Air 15 M4 16/256 Blue",
     "country": "США",
-    "price": 109000
+    "price": 111500
   },
   {
     "id": "macbook-52",
