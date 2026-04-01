@@ -71,26 +71,36 @@
     { family: "airpods", label: "AirPods" },
     { family: "macbook", label: "MacBook" },
     { family: "imac", label: "iMac" },
+    { family: "mac_mini", label: "Mac Mini" },
+    { family: "apple_acc", label: "Аксессуары" },
   ];
   var SAMSUNG_SUBS = [
     { family: "samsung_phone", label: "Смартфоны" },
     { family: "samsung_watch", label: "Умные часы" },
+    { family: "samsung_audio", label: "Galaxy Buds" },
   ];
   var XIAOMI_SUBS = [
+    { family: "xm_mi", label: "Mi / Xiaomi" },
     { family: "xm_redmi", label: "Redmi" },
-    { family: "xm_mi", label: "Mi" },
     { family: "xm_poco", label: "POCO" },
-    { family: "xm_realme", label: "Realme" },
+    { family: "xm_watch", label: "Часы" },
     { family: "xm_honor", label: "Honor" },
+    { family: "xm_realme", label: "Realme" },
+    { family: "xm_infinix", label: "Infinix" },
+    { family: "xm_tecno", label: "Tecno" },
+    { family: "xm_nothing", label: "Nothing" },
+    { family: "xm_vivo", label: "Vivo" },
   ];
   var HUAWEI_SUBS = [
     { family: "huawei_phone", label: "Смартфоны" },
     { family: "huawei_tablet", label: "Планшеты" },
+    { family: "huawei_watch", label: "Часы" },
   ];
   var GOOGLE_SUBS = [{ family: "pixel_phone", label: "Pixel" }];
   var GARMIN_SUBS = [{ family: "garmin_watch", label: "Часы" }];
   var GAMING_SUBS = [
     { family: "gaming_item", label: "Приставки" },
+    { family: "gaming_xbox", label: "Xbox" },
     { family: "gaming_gpu", label: "ВИДЕОКАРТЫ" },
     { family: "gaming_ssd", label: "SSD" },
     { family: "gaming_ddr5", label: "DDR5" },
@@ -101,19 +111,21 @@
     { family: "audio_sony", label: "Sony" },
     { family: "audio_yandex", label: "Яндекс" },
     { family: "audio_headphones", label: "Наушники / TWS" },
+    { family: "audio_beats", label: "Beats" },
+    { family: "audio_bose", label: "Bose" },
     { family: "audio_harman", label: "Harman/Kardon" },
-    { family: "audio_soundbars", label: "Саундбары" },
-    { family: "audio_logitech", label: "Logitech" },
-    { family: "audio_beyerdynamic", label: "Beyerdynamic" },
+    { family: "audio_other", label: "Другое" },
   ];
 
   var HOME_OFFICE_SUBS = [
+    { family: "home_office_gadgets", label: "Гаджеты / МБТ" },
     { family: "home_office_network", label: "Сетевое оборудование" },
     { family: "home_office_mfu", label: "МФУ" },
     { family: "home_office_media", label: "Медиаплееры" },
   ];
 
   var DYSON_SUBS = [
+    { family: "dyson", label: "Все товары" },
     { family: "dyson_airstrait", label: "Airstrait" },
     { family: "dyson_airwrap", label: "AirWrap" },
   ];
@@ -124,6 +136,21 @@
     { family: "photo_video_insta360", label: "Insta360" },
     { family: "photo_video_dji", label: "DJI" },
     { family: "photo_video_jetson", label: "Jetson" },
+  ];
+
+  var LAPTOPS_SUBS = [
+    { family: "laptop_asus", label: "ASUS" },
+    { family: "laptop_lenovo", label: "Lenovo" },
+    { family: "laptop_msi", label: "MSI" },
+    { family: "laptop_acer", label: "Acer" },
+    { family: "laptop_hp", label: "HP" },
+    { family: "laptop_dell", label: "Dell" },
+    { family: "laptop_honor", label: "Honor" },
+    { family: "laptop_huawei", label: "Huawei" },
+    { family: "laptop_maibenben", label: "Maibenben" },
+    { family: "laptop_chuwi", label: "Chuwi" },
+    { family: "laptop_acd", label: "ACD" },
+    { family: "laptop_other", label: "Другие" },
   ];
 
   var VR_META_SUBS = [
@@ -520,6 +547,9 @@
     } else if (brand === "vr_meta") {
       subs = VR_META_SUBS;
       title = "VR/Meta";
+    } else if (brand === "laptops") {
+      subs = LAPTOPS_SUBS;
+      title = "Ноутбуки";
     } else {
       subs = XIAOMI_SUBS;
       title = "Xiaomi";

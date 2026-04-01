@@ -423,13 +423,7 @@ def main():
         with open(PRODUCTS_JSON, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, indent=2)
 
-        js_path = PRODUCTS_JSON.with_name("catalog-data.js")
-        with open(js_path, "w", encoding="utf-8") as f:
-            f.write("window.__SHOP_CATALOG__ = ")
-            json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
-            f.write(";\n")
-
-        print(f"\n  Обновлено {len(all_updates)} цен -> {PRODUCTS_JSON.name} и {js_path.name}")
+        print(f"\n  Обновлено {len(all_updates)} цен -> {PRODUCTS_JSON.name}")
     else:
         print(f"\n  Это сухой прогон. Для применения: python3 scripts/sync_prices.py --apply")
 

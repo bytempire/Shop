@@ -126,12 +126,7 @@ def main():
     out_p.parent.mkdir(parents=True, exist_ok=True)
     with open(out_p, "w", encoding="utf-8") as f:
         json.dump(products, f, ensure_ascii=False, indent=2)
-    js_p = out_p.with_name("catalog-data.js")
-    with open(js_p, "w", encoding="utf-8") as f:
-        f.write("window.__SHOP_CATALOG__ = ")
-        json.dump(products, f, ensure_ascii=False, separators=(",", ":"))
-        f.write(";\n")
-    print(f"OK: {len(products)} товаров -> {out_p} и {js_p}")
+    print(f"OK: {len(products)} товаров -> {out_p}")
 
 
 if __name__ == "__main__":

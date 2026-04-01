@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Полный импорт каталога из Google Sheets прайса поставщика.
-Заменяет products.json и catalog-data.js целиком.
+Заменяет products.json целиком.
 
   python3 scripts/import_catalog.py              # сухой прогон
   python3 scripts/import_catalog.py --apply      # применить
@@ -90,7 +90,7 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
     if "mac mini" in low:
         return ("apple", "mac_mini", "Mac Mini")
     if "mac pro" in low or "mac studio" in low:
-        return ("apple", "mac_pro", "Mac Pro")
+        return ("apple", "mac_mini", "Mac Pro")
     if "ipad" in low:
         return ("apple", "ipad", "iPad")
     if "airpods" in low:
@@ -105,92 +105,90 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
     # Samsung
     if "samsung" in low or "galaxy" in low:
         if "watch" in low or "fit" in low:
-            return ("samsung", "samsung_watch", "Galaxy Watch")
+            return ("samsung", "samsung_watch", "Умные часы")
         if "buds" in low:
             return ("samsung", "samsung_audio", "Galaxy Buds")
         if "tab" in low:
-            return ("samsung", "samsung_tablet", "Galaxy Tab")
-        return ("samsung", "samsung_phone", "Galaxy")
+            return ("samsung", "samsung_phone", "Galaxy Tab")
+        return ("samsung", "samsung_phone", "Смартфоны")
 
     # Google
     if "pixel" in low:
         if "buds" in low:
-            return ("google", "pixel_audio", "Pixel Buds")
+            return ("audio", "audio_headphones", "Pixel Buds")
         if "watch" in low:
-            return ("google", "pixel_watch", "Pixel Watch")
-        if "tablet" in low or "tab" in low:
-            return ("google", "pixel_tablet", "Pixel Tablet")
+            return ("google", "pixel_phone", "Pixel Watch")
         return ("google", "pixel_phone", "Pixel")
 
     # Xiaomi / Redmi / POCO
     if "redmi" in low:
         if "buds" in low or "наушники" in low:
-            return ("xiaomi", "xiaomi_audio", "Xiaomi Audio")
+            return ("audio", "audio_headphones", "Redmi")
         if "pad" in low or "tab" in low:
-            return ("xiaomi", "xiaomi_tablet", "Redmi Pad")
+            return ("xiaomi", "xm_mi", "Redmi Pad")
         if "watch" in low or "band" in low:
-            return ("xiaomi", "xiaomi_watch", "Xiaomi Watch")
+            return ("xiaomi", "xm_watch", "Redmi")
         return ("xiaomi", "xm_redmi", "Redmi")
     if "poco" in low:
         return ("xiaomi", "xm_poco", "POCO")
     if "xiaomi" in low:
         if "tv" in low or "телевизор" in low:
-            return ("xiaomi", "xiaomi_tv", "Xiaomi TV")
+            return ("xiaomi", "xm_mi", "Xiaomi TV")
         if "watch" in low or "band" in low:
-            return ("xiaomi", "xiaomi_watch", "Xiaomi Watch")
+            return ("xiaomi", "xm_watch", "Xiaomi")
         if "buds" in low or "наушники" in low:
-            return ("xiaomi", "xiaomi_audio", "Xiaomi Audio")
+            return ("audio", "audio_headphones", "Xiaomi")
         if "robot" in low or "пылесос" in low:
-            return ("xiaomi", "xiaomi_home", "Xiaomi Дом")
+            return ("home_office", "home_office_gadgets", "Xiaomi Дом")
         if "pad" in low:
-            return ("xiaomi", "xiaomi_tablet", "Xiaomi Pad")
-        if "mi 1" in low or "mi 2" in low:
-            return ("xiaomi", "xm_mi", "Xiaomi")
+            return ("xiaomi", "xm_mi", "Xiaomi Pad")
         return ("xiaomi", "xm_mi", "Xiaomi")
 
-    # Honor
+    # Honor → under xiaomi brand (phones), laptops brand (laptops)
     if "honor" in low:
-        if "watch" in low or "band" in low:
-            return ("honor", "honor_watch", "Honor Watch")
-        if "pad" in low:
-            return ("honor", "honor_tablet", "Honor Pad")
-        if "buds" in low or "earbuds" in low:
-            return ("honor", "honor_audio", "Honor Audio")
         if "magicbook" in low or "book" in low:
-            return ("honor", "honor_laptop", "Honor Ноутбуки")
-        return ("honor", "honor_phone", "Honor")
+            return ("laptops", "laptop_honor", "Honor")
+        if "watch" in low or "band" in low:
+            return ("xiaomi", "xm_honor", "Honor")
+        if "pad" in low:
+            return ("xiaomi", "xm_honor", "Honor")
+        if "buds" in low or "earbuds" in low:
+            return ("audio", "audio_headphones", "Honor Audio")
+        return ("xiaomi", "xm_honor", "Honor")
 
     # Huawei
     if "huawei" in low:
-        if "watch" in low or "band" in low:
-            return ("huawei", "huawei_watch", "Huawei Watch")
-        if "matepad" in low or "pad" in low:
-            return ("huawei", "huawei_tablet", "Huawei Pad")
-        if "buds" in low or "freebuds" in low:
-            return ("huawei", "huawei_audio", "Huawei Audio")
         if "matebook" in low or "book" in low:
-            return ("huawei", "huawei_laptop", "Huawei Ноутбуки")
-        return ("huawei", "huawei_phone", "Huawei")
+            return ("laptops", "laptop_huawei", "Huawei")
+        if "watch" in low or "band" in low:
+            return ("huawei", "huawei_watch", "Часы")
+        if "matepad" in low or "pad" in low:
+            return ("huawei", "huawei_tablet", "Планшеты")
+        if "buds" in low or "freebuds" in low:
+            return ("audio", "audio_headphones", "Huawei Audio")
+        return ("huawei", "huawei_phone", "Смартфоны")
 
-    # Nothing
+    # Nothing → phones under xiaomi, audio under audio
     if "nothing" in low:
         if "ear" in low or "buds" in low:
-            return ("nothing", "nothing_audio", "Nothing Audio")
-        return ("nothing", "nothing_phone", "Nothing")
+            return ("audio", "audio_headphones", "Nothing")
+        return ("xiaomi", "xm_nothing", "Nothing")
 
-    # Realme
+    # Realme → under xiaomi
     if "realme" in low:
         if "buds" in low:
-            return ("realme", "realme_audio", "Realme Audio")
-        return ("realme", "realme_phone", "Realme")
+            return ("audio", "audio_headphones", "Realme")
+        return ("xiaomi", "xm_realme", "Realme")
 
-    # Infinix / Tecno / Itel
+    # Infinix / Tecno / Itel / Vivo → under xiaomi
     if "infinix" in low:
-        return ("infinix", "infinix_phone", "Infinix")
+        return ("xiaomi", "xm_infinix", "Infinix")
     if "tecno" in low:
-        return ("tecno", "tecno_phone", "Tecno")
+        return ("xiaomi", "xm_tecno", "Tecno")
     if "itel" in low:
-        return ("itel", "itel_phone", "Itel")
+        return ("xiaomi", "xm_itel", "Itel")
+    if re.search(r'\bvivo\b', low) and "vivobook" not in low:
+        return ("xiaomi", "xm_vivo", "Vivo")
 
     # Dyson
     if "dyson" in low or "dyson" in tab.lower():
@@ -212,11 +210,11 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
     if "bose" in low:
         return ("audio", "audio_bose", "Bose")
     if "bang" in low and "olufsen" in low:
-        return ("audio", "audio_bo", "Bang & Olufsen")
+        return ("audio", "audio_headphones", "Bang & Olufsen")
     if "sennheiser" in low:
-        return ("audio", "audio_sennheiser", "Sennheiser")
+        return ("audio", "audio_headphones", "Sennheiser")
     if "beyerdynamic" in low:
-        return ("audio", "audio_beyerdynamic", "Beyerdynamic")
+        return ("audio", "audio_headphones", "Beyerdynamic")
 
     # Yandex
     if "яндекс" in low or "yandex" in low:
@@ -228,7 +226,7 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
     if "ray-ban" in low or "rayban" in low:
         return ("vr_meta", "vr_meta_rayban", "Ray-Ban Meta")
     if "nintendo" in low:
-        return ("gaming", "gaming_nintendo", "Nintendo")
+        return ("gaming", "gaming_item", "Nintendo")
     if "ps5" in low or "playstation" in low or "dualsense" in low:
         return ("gaming", "gaming_item", "PlayStation")
     if "xbox" in low:
@@ -250,23 +248,39 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
     if "garmin" in low:
         return ("garmin", "garmin_watch", "Garmin")
 
-    # Laptops by brand
-    if "ноутбук" in tab.lower() or "laptop" in tab.lower():
-        brand_low = low.split()[0] if low else ""
-        for b in ["acer", "asus", "lenovo", "hp", "dell", "msi", "thunderobot", "maibenben", "chuwi", "acd"]:
+    # Laptops by brand (tab-based or name-based)
+    is_laptop_tab = "ноутбук" in tab.lower() or "laptop" in tab.lower()
+    is_laptop_name = any(x in low for x in ["ноутбук", "laptop", "vivobook", "zenbook", "ideapad",
+                                              "thinkpad", "thinkbook", "matebook", "magicbook",
+                                              "pavilion", "probook", "elitebook", "inspiron",
+                                              "latitude", "vostro", "bravo", "nitro", "predator",
+                                              "katana", "pulse", "raider", "creator", "prestige"])
+    if is_laptop_tab or is_laptop_name:
+        for b in ["acer", "asus", "lenovo", "hp ", "dell", "msi", "thunderobot", "maibenben", "chuwi", "acd "]:
             if b in low:
-                return ("laptops", f"laptop_{b}", f"Ноутбуки {b.title()}")
-        return ("laptops", "laptop_other", "Ноутбуки")
+                return ("laptops", f"laptop_{b.strip()}", f"{b.strip().title()}")
+        if is_laptop_tab:
+            return ("laptops", "laptop_other", "Другие")
+
+    # Roborock / Dreame / robot vacuums
+    if "roborock" in low or "dreame" in low:
+        return ("home_office", "home_office_gadgets", "Роботы-пылесосы")
+    if "maxvi" in low:
+        return ("xiaomi", "xm_mi", "Maxvi")
+    if "amazfit" in low:
+        return ("xiaomi", "xm_watch", "Amazfit")
+    if "oneplu" in low:
+        return ("xiaomi", "xm_mi", "OnePlus")
 
     # Fallback by tab
     if "audio" in tab.lower():
-        return ("audio", "audio_other", "Audio")
+        return ("audio", "audio_other", "Другое")
     if "аксессуар" in tab.lower() or "гаджет" in tab.lower():
-        return ("gadgets", "gadgets", section or "Гаджеты")
+        return ("home_office", "home_office_gadgets", section or "Гаджеты")
     if "уценен" in tab.lower():
-        return ("discount", "discount", "Уценка")
+        return ("home_office", "home_office_gadgets", "Уценка")
 
-    return ("other", "other", section or "Другое")
+    return ("home_office", "home_office_gadgets", section or "Другое")
 
 
 # ── Tab parsers ──────────────────────────────────────────────────────────
@@ -651,12 +665,7 @@ def main():
     if apply:
         with open(PRODUCTS_JSON, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, indent=2)
-        js_path = PRODUCTS_JSON.with_name("catalog-data.js")
-        with open(js_path, "w", encoding="utf-8") as f:
-            f.write("window.__SHOP_CATALOG__ = ")
-            json.dump(catalog, f, ensure_ascii=False, separators=(",", ":"))
-            f.write(";\n")
-        print(f"\n  Записано в {PRODUCTS_JSON.name} и {js_path.name}")
+        print(f"\n  Записано в {PRODUCTS_JSON.name}")
     else:
         print(f"\n  Сухой прогон. Для применения: python3 scripts/import_catalog.py --apply")
 

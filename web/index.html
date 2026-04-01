@@ -69,7 +69,7 @@
     <section class="view" id="viewHome" aria-label="Бренды">
       <p class="home-hint">Каталог техники</p>
       <p class="home-load-error" id="homeLoadError" hidden>
-        Не удалось загрузить каталог. Проверьте <code>catalog-data.js</code> / <code>products.json</code>.
+        Не удалось загрузить каталог. Проверьте <code>products.json</code>.
       </p>
       <div class="brand-grid">
         <button type="button" class="brand-card brand-card--apple" data-brand="apple">
@@ -82,11 +82,11 @@
         </button>
         <button type="button" class="brand-card brand-card--xiaomi" data-brand="xiaomi">
           <span class="brand-card__name">Xiaomi</span>
-          <span class="brand-card__hint">Redmi, POCO, Mi и др.</span>
+          <span class="brand-card__hint">Mi, Redmi, POCO, Honor</span>
         </button>
         <button type="button" class="brand-card brand-card--huawei" data-brand="huawei">
           <span class="brand-card__name">Huawei</span>
-          <span class="brand-card__hint">Смартфоны, MatePad</span>
+          <span class="brand-card__hint">Смартфоны, часы</span>
         </button>
         <button type="button" class="brand-card brand-card--google" data-brand="google">
           <span class="brand-card__name">Google</span>
@@ -96,13 +96,17 @@
           <span class="brand-card__name">Garmin</span>
           <span class="brand-card__hint">Умные часы</span>
         </button>
+        <button type="button" class="brand-card brand-card--laptops" data-brand="laptops">
+          <span class="brand-card__name">Ноутбуки</span>
+          <span class="brand-card__hint">ASUS, Lenovo, MSI и др.</span>
+        </button>
         <button type="button" class="brand-card brand-card--gaming" data-brand="gaming">
           <span class="brand-card__name">Gaming</span>
-          <span class="brand-card__hint">PlayStation</span>
+          <span class="brand-card__hint">PlayStation, Xbox</span>
         </button>
         <button type="button" class="brand-card brand-card--audio" data-brand="audio">
           <span class="brand-card__name">Аудио</span>
-          <span class="brand-card__hint">Marshall / колонки</span>
+          <span class="brand-card__hint">Marshall, JBL, Sony</span>
         </button>
         <button
           type="button"
@@ -110,7 +114,7 @@
           data-brand="home_office"
         >
           <span class="brand-card__name">Home/Office</span>
-          <span class="brand-card__hint">Сеть, TV, принтеры</span>
+          <span class="brand-card__hint">Гаджеты, МБТ, сеть</span>
         </button>
         <button
           type="button"
@@ -217,7 +221,6 @@
   </div>
 
   <script src="images-store.js?v=20260326-8"></script>
-  <script src="catalog-data.js?v=20260326-8"></script>
   <script src="runtime-config.js?v=20260330-1"></script>
   <script src="app.js?v=20260330-8"></script>
 </body>

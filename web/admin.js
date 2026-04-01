@@ -61,13 +61,16 @@
   denyEl.hidden = true;
   adminEl.hidden = false;
 
-  var products = Array.isArray(window.__SHOP_CATALOG__) ? window.__SHOP_CATALOG__ : [];
-  if (!products.length) {
-    metaEl.textContent = "Нет catalog-data.js";
-    return;
+  function bootAdmin(products) {
+    if (!products.length) {
+      metaEl.textContent = "Нет данных в products.json";
+      return;
+    }
+    metaEl.textContent = products.length + " поз. · id: " + uid;
+    initAdmin(products);
   }
 
-  metaEl.textContent = products.length + " поз. · id: " + uid;
+  function initAdmin(products) {
   var rows = [];
 
   function makeEmptyThumb() {
@@ -175,5 +178,20 @@
       URL.revokeObjectURL(a.href);
       toast("Скачано");
     });
+  }
+  }
+
+  var embedded =
+    typeof window.__SHOP_CATALOG__ !== "undefined" &&
+    Array.isArray(window.__SHOP_CATALOG__) &&
+    window.__SHOP_CATALOG__.length > 0;
+
+  if (embedded) {
+    bootAdmin(window.__SHOP_CATALOG__);
+  } else {
+    fetch("products.json", { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (d) { bootAdmin(Array.isArray(d) ? d : []); })
+      .catch(function () { metaEl.textContent = "Ошибка загрузки products.json"; });
   }
 })();
