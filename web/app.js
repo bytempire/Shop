@@ -173,10 +173,6 @@
   };
 
   function productsJsonUrl() {
-    var s = document.querySelector('script[src*="app.js"]');
-    if (s && s.src) {
-      return new URL("products.json", s.src).href;
-    }
     return new URL("products.json", location.href).href;
   }
 
