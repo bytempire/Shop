@@ -80,9 +80,18 @@ def is_subscribed(token: str, user_id: int) -> bool:
             "user_id": user_id,
         })
         status = (res.get("result") or {}).get("status", "")
+        print(f"getChatMember {user_id} → status={status!r}", flush=True)
         return status in ("creator", "administrator", "member")
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", errors="replace")[:500]
+        except Exception:
+            pass
+        print(f"getChatMember error: {e} body={body}", file=sys.stderr, flush=True)
+        return False
     except Exception as e:
-        print(f"getChatMember error: {e}", file=sys.stderr)
+        print(f"getChatMember error: {e}", file=sys.stderr, flush=True)
         return False
 
 
@@ -104,8 +113,21 @@ def send_subscribe_prompt(token: str, chat_id: int) -> None:
     })
 
 
+def set_menu_button(token: str, chat_id: int, webapp_url: str | None) -> None:
+    """Включает/выключает синюю Menu Button для конкретного чата."""
+    if webapp_url:
+        menu = {"type": "web_app", "text": "Каталог", "web_app": {"url": webapp_url}}
+    else:
+        menu = {"type": "default"}
+    try:
+        api_call(token, "setChatMenuButton", {"chat_id": chat_id, "menu_button": menu})
+    except Exception as e:
+        print(f"setChatMenuButton error: {e}", file=sys.stderr)
+
+
 def send_catalog_button(token: str, chat_id: int, webapp_url: str) -> None:
     """Отправляет inline-кнопку «Каталог» с WebApp."""
+    set_menu_button(token, chat_id, webapp_url)
     api_call(token, "sendMessage", {
         "chat_id": chat_id,
         "text": "Вы подписаны! Нажмите «Каталог», чтобы перейти к товарам.",
@@ -126,6 +148,7 @@ def handle_start(token: str, msg: dict, webapp_url: str) -> None:
         if is_subscribed(token, user_id):
             send_catalog_button(token, chat_id, webapp_url)
         else:
+            set_menu_button(token, chat_id, None)
             send_subscribe_prompt(token, chat_id)
     except Exception as e:
         print(f"handle_start error: {e}", file=sys.stderr)
