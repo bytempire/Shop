@@ -50,9 +50,13 @@ def load_env() -> None:
         if k in (
             "TELEGRAM_BOT_TOKEN",
             "TELEGRAM_GROUP_CHAT_ID",
+            "TELEGRAM_WEBAPP_URL",
             "BOT_DEBUG",
         ) and v and (k not in os.environ or not os.environ.get(k)):
             os.environ[k] = v
+
+
+REQUIRED_CHANNEL = "@yabloko62"
 
 
 def api_call(token: str, method: str, payload: dict) -> dict:
@@ -68,13 +72,96 @@ def api_call(token: str, method: str, payload: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
+def is_subscribed(token: str, user_id: int) -> bool:
+    """Проверяет, подписан ли user_id на REQUIRED_CHANNEL."""
+    try:
+        res = api_call(token, "getChatMember", {
+            "chat_id": REQUIRED_CHANNEL,
+            "user_id": user_id,
+        })
+        status = (res.get("result") or {}).get("status", "")
+        return status in ("creator", "administrator", "member")
+    except Exception as e:
+        print(f"getChatMember error: {e}", file=sys.stderr)
+        return False
+
+
+def send_subscribe_prompt(token: str, chat_id: int) -> None:
+    """Отправляет сообщение с просьбой подписаться и кнопкой проверки."""
+    api_call(token, "sendMessage", {
+        "chat_id": chat_id,
+        "text": (
+            f"👋 Добро пожаловать!\n\n"
+            f"Для доступа к каталогу подпишитесь на наш канал {REQUIRED_CHANNEL}, "
+            f"а затем нажмите «Проверить подписку»."
+        ),
+        "reply_markup": {
+            "inline_keyboard": [
+                [{"text": "📢 Подписаться", "url": f"https://t.me/{REQUIRED_CHANNEL.lstrip('@')}"}],
+                [{"text": "✅ Проверить подписку", "callback_data": "check_sub"}],
+            ]
+        },
+    })
+
+
+def send_catalog_button(token: str, chat_id: int, webapp_url: str) -> None:
+    """Отправляет кнопку «Каталог» с WebApp."""
+    api_call(token, "sendMessage", {
+        "chat_id": chat_id,
+        "text": "Вы подписаны! Нажмите «Каталог», чтобы перейти к товарам.",
+        "reply_markup": {
+            "keyboard": [
+                [{"text": "🛍 Каталог", "web_app": {"url": webapp_url}}],
+            ],
+            "resize_keyboard": True,
+        },
+    })
+
+
+def handle_start(token: str, msg: dict, webapp_url: str) -> None:
+    chat_id = (msg.get("chat") or {}).get("id")
+    if not chat_id:
+        return
+    user_id = (msg.get("from") or {}).get("id", chat_id)
+    if is_subscribed(token, user_id):
+        send_catalog_button(token, chat_id, webapp_url)
+    else:
+        send_subscribe_prompt(token, chat_id)
+
+
+def handle_callback(token: str, cb: dict, webapp_url: str) -> None:
+    data = cb.get("data", "")
+    msg = cb.get("message") or {}
+    chat_id = (msg.get("chat") or {}).get("id")
+    user_id = (cb.get("from") or {}).get("id")
+    if not chat_id or not user_id:
+        return
+
+    if data == "check_sub":
+        if is_subscribed(token, user_id):
+            api_call(token, "answerCallbackQuery", {
+                "callback_query_id": cb["id"],
+                "text": "Подписка подтверждена!",
+            })
+            send_catalog_button(token, chat_id, webapp_url)
+        else:
+            api_call(token, "answerCallbackQuery", {
+                "callback_query_id": cb["id"],
+                "text": f"Вы ещё не подписаны на {REQUIRED_CHANNEL}",
+                "show_alert": True,
+            })
+
+
 def main() -> None:
     load_env()
     token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
     group = (os.environ.get("TELEGRAM_GROUP_CHAT_ID") or "").strip()
+    webapp_url = (os.environ.get("TELEGRAM_WEBAPP_URL") or "").strip()
     if not token or not group:
         print("Нужны TELEGRAM_BOT_TOKEN и TELEGRAM_GROUP_CHAT_ID.", file=sys.stderr)
         sys.exit(1)
+    if not webapp_url:
+        print("TELEGRAM_WEBAPP_URL не задан — кнопка «Каталог» не будет работать.", file=sys.stderr)
 
     offset = 0
     debug = (os.environ.get("BOT_DEBUG") or "").strip() in ("1", "true", "yes")
@@ -83,7 +170,6 @@ def main() -> None:
         print("DEBUG=1: в лог пишутся все входящие update.", flush=True)
     while True:
         try:
-            # Без allowed_updates — иначе часть клиентов не отдаёт web_app_data в long poll
             res = api_call(
                 token,
                 "getUpdates",
@@ -122,7 +208,20 @@ def main() -> None:
             if debug:
                 print("UPDATE:", json.dumps(upd, ensure_ascii=False)[:2000], flush=True)
 
+            # --- /start ---
             msg = upd.get("message") or {}
+            text_in = (msg.get("text") or "").strip()
+            if text_in == "/start":
+                handle_start(token, msg, webapp_url)
+                continue
+
+            # --- callback (check_sub) ---
+            cb = upd.get("callback_query")
+            if cb:
+                handle_callback(token, cb, webapp_url)
+                continue
+
+            # --- web_app_data (заказ) ---
             web = msg.get("web_app_data")
             if not web:
                 continue
