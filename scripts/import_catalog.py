@@ -665,13 +665,15 @@ def strip_sim_suffix(name: str) -> str:
 
 def main():
     apply = "--apply" in sys.argv
+    quiet = "--quiet" in sys.argv
     all_products = []
     seen_keys = set()
 
     for tab in TABS:
         sheet = tab["sheet"]
         parser_name = tab["parser"]
-        print(f"\n  Загрузка: {sheet} ...")
+        if not quiet:
+            print(f"\n  Загрузка: {sheet} ...")
 
         try:
             csv_text = fetch_csv_gviz(sheet)
@@ -693,7 +695,8 @@ def main():
             all_products.append(p)
             added += 1
 
-        print(f"   Найдено: {len(products)}, добавлено (без дублей): {added}")
+        if not quiet:
+            print(f"   Найдено: {len(products)}, добавлено (без дублей): {added}")
 
     # Assign IDs
     family_counters: dict[str, int] = {}
@@ -722,18 +725,21 @@ def main():
     for p in catalog:
         cats[p["category"]] = cats.get(p["category"], 0) + 1
 
-    print(f"\n{'=' * 60}")
-    print(f"  Итого: {len(catalog)} товаров в {len(cats)} категориях")
-    print(f"{'=' * 60}")
-    for cat, cnt in sorted(cats.items(), key=lambda x: -x[1]):
-        print(f"  {cat}: {cnt}")
+    if not quiet:
+        print(f"\n{'=' * 60}")
+        print(f"  Итого: {len(catalog)} товаров в {len(cats)} категориях")
+        print(f"{'=' * 60}")
+        for cat, cnt in sorted(cats.items(), key=lambda x: -x[1]):
+            print(f"  {cat}: {cnt}")
 
     if apply:
         with open(PRODUCTS_JSON, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, indent=2)
-        print(f"\n  Записано в {PRODUCTS_JSON.name}")
+        if not quiet:
+            print(f"\n  Записано в {PRODUCTS_JSON.name}")
     else:
-        print(f"\n  Сухой прогон. Для применения: python3 scripts/import_catalog.py --apply")
+        if not quiet:
+            print(f"\n  Сухой прогон. Для применения: python3 scripts/import_catalog.py --apply")
 
 
 if __name__ == "__main__":
