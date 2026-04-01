@@ -118,7 +118,7 @@ def set_menu_button(token: str, chat_id: int, webapp_url: str | None) -> None:
     if webapp_url:
         menu = {"type": "web_app", "text": "Каталог", "web_app": {"url": webapp_url}}
     else:
-        menu = {"type": "default"}
+        menu = {"type": "commands"}
     try:
         api_call(token, "setChatMenuButton", {"chat_id": chat_id, "menu_button": menu})
     except Exception as e:
