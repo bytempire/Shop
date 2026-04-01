@@ -42,6 +42,7 @@ TABS = [
     {"sheet": "Ноутбуки", "parser": "laptops_preorder"},
     {"sheet": "Ноутбуки (2)", "parser": "laptops_preorder"},
     {"sheet": "Предзаказ аксессуары и ТВ", "parser": "preorder_tv"},
+    {"sheet": "Предзаказ аксессуары(от 150)", "parser": "preorder_150"},
 ]
 
 # ── Network helpers ──────────────────────────────────────────────────────
@@ -280,10 +281,43 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
     if "oneplu" in low:
         return ("xiaomi", "xm_mi", "OnePlus")
 
+    # Canon (photo/print)
+    if "canon" in low:
+        if any(x in low for x in ["мфу", "принтер", "sensys", "pixma", "сканер"]):
+            return ("home_office", "home_office_mfu", section or "МФУ")
+        return ("photo_video", "photo_video_canon", "Canon")
+
+    # PC Hardware — classify by section from spreadsheet
+    sec_low = section.lower()
+    if "видеокарт" in low or "видеокарт" in sec_low:
+        return ("gaming", "gaming_gpu", "Видеокарты")
+    if "ssd" in low or "твердотельн" in sec_low:
+        return ("gaming", "gaming_ssd", section or "SSD")
+    if "ddr" in low or "модули памяти" in sec_low:
+        return ("gaming", "gaming_ddr5", section or "DDR")
+    if "материнск" in low or "материнск" in sec_low:
+        return ("gaming", "gaming_pc", "Материнские платы")
+    if "процессор" in sec_low or ("cpu" in low and "ноутбук" not in low):
+        return ("gaming", "gaming_pc", "Процессоры")
+    if any(x in sec_low for x in ["блоки питания", "корпус", "охлажден", "комплектующ"]):
+        return ("gaming", "gaming_pc", section)
+    if any(x in sec_low for x in ["мфу", "принтер", "сканер", "оргтехник"]):
+        return ("home_office", "home_office_mfu", section or "МФУ")
+    if any(x in sec_low for x in ["медиапл", "apple tv"]):
+        return ("home_office", "home_office_media", section or "Медиаплееры")
+    if any(x in sec_low for x in ["hdd", "жестк", "карт памяти", "оптическ", "usb"]):
+        return ("gaming", "gaming_ssd", section)
+    if any(x in sec_low for x in ["мыш", "клавиатур", "коврик", "геймпад", "гарнитур", "наушник", "веб-камер", "микрофон"]):
+        return ("home_office", "home_office_gadgets", section)
+    if any(x in sec_low for x in ["настольн", "моноблок", "рабочие станц"]):
+        return ("gaming", "gaming_pc", section)
+    if any(x in sec_low for x in ["видеозахват", "стрим", "kvm"]):
+        return ("gaming", "gaming_pc", section)
+
     # Fallback by tab
     if "audio" in tab.lower():
         return ("audio", "audio_other", "Другое")
-    if "аксессуар" in tab.lower() or "гаджет" in tab.lower():
+    if "аксессуар" in tab.lower() or "гаджет" in tab.lower() or "предзаказ" in tab.lower():
         return ("home_office", "home_office_gadgets", section or "Гаджеты")
     if "уценен" in tab.lower():
         return ("home_office", "home_office_gadgets", "Уценка")

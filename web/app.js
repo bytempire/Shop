@@ -103,9 +103,10 @@
   var GAMING_SUBS = [
     { family: "gaming_item", label: "Приставки" },
     { family: "gaming_xbox", label: "Xbox" },
-    { family: "gaming_gpu", label: "ВИДЕОКАРТЫ" },
-    { family: "gaming_ssd", label: "SSD" },
-    { family: "gaming_ddr5", label: "DDR5" },
+    { family: "gaming_gpu", label: "Видеокарты" },
+    { family: "gaming_ssd", label: "SSD / HDD" },
+    { family: "gaming_ddr5", label: "Память (DDR)" },
+    { family: "gaming_pc", label: "Комплектующие ПК" },
   ];
   var AUDIO_SUBS = [
     { family: "marshall_speakers", label: "Marshall" },
@@ -123,7 +124,6 @@
     { family: "home_office_gadgets", label: "Гаджеты / МБТ" },
     { family: "home_office_network", label: "Сетевое оборудование" },
     { family: "home_office_mfu", label: "МФУ" },
-    { family: "home_office_media", label: "Медиаплееры" },
   ];
 
   var DYSON_SUBS = [
@@ -137,7 +137,6 @@
     { family: "photo_video_gopro", label: "GoPro" },
     { family: "photo_video_insta360", label: "Insta360" },
     { family: "photo_video_dji", label: "DJI" },
-    { family: "photo_video_jetson", label: "Jetson" },
   ];
 
   var LAPTOPS_SUBS = [
@@ -153,11 +152,6 @@
     { family: "laptop_chuwi", label: "Chuwi" },
     { family: "laptop_acd", label: "ACD" },
     { family: "laptop_other", label: "Другие" },
-  ];
-
-  var VR_META_SUBS = [
-    { family: "vr_meta_quest", label: "Meta Quest" },
-    { family: "vr_meta_rayban", label: "Meta Ray-Ban" },
   ];
 
   var lastSendDataError = null;
@@ -542,9 +536,6 @@
     } else if (brand === "photo_video") {
       subs = PHOTO_VIDEO_SUBS;
       title = "Фото/Видео";
-    } else if (brand === "vr_meta") {
-      subs = VR_META_SUBS;
-      title = "VR/Meta";
     } else if (brand === "laptops") {
       subs = LAPTOPS_SUBS;
       title = "Ноутбуки";
