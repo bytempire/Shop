@@ -31,6 +31,7 @@ MARGINS = {
 TABS = [
     {"sheet": "Apple(iPhone, Watch)", "parser": "apple_iphone_watch"},
     {"sheet": "Apple (iPad, Macbook)", "parser": "apple_ipad_macbook"},
+    {"sheet": "Смартфоны", "parser": "smartphones"},
     {"sheet": "Уцененный товар", "parser": "discount"},
     {"sheet": "Аксессуары и гаджеты в наличии", "parser": "accessories_stock"},
     {"sheet": "Гаджеты и МБТ", "parser": "gadgets"},
@@ -40,8 +41,7 @@ TABS = [
     {"sheet": "Ноутбуки (нал)", "parser": "laptops_cash"},
     {"sheet": "Ноутбуки", "parser": "laptops_preorder"},
     {"sheet": "Ноутбуки (2)", "parser": "laptops_preorder"},
-    # {"sheet": "Предзаказ аксессуары(от 150)", "parser": "preorder_150"},
-    # {"sheet": "Предзаказ аксессуары и ТВ", "parser": "preorder_tv"},
+    {"sheet": "Предзаказ аксессуары и ТВ", "parser": "preorder_tv"},
 ]
 
 # ── Network helpers ──────────────────────────────────────────────────────
@@ -109,7 +109,7 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
         if "buds" in low:
             return ("samsung", "samsung_audio", "Galaxy Buds")
         if "tab" in low:
-            return ("samsung", "samsung_phone", "Galaxy Tab")
+            return ("samsung", "samsung_tablet", "Планшеты")
         return ("samsung", "samsung_phone", "Смартфоны")
 
     # Google
@@ -192,6 +192,14 @@ def classify(name: str, tab: str = "", section: str = "") -> tuple[str, str, str
 
     # Dyson
     if "dyson" in low or "dyson" in tab.lower():
+        if "airstrait" in low:
+            return ("dyson", "dyson_airstrait", "Airstrait")
+        if "airwrap" in low:
+            return ("dyson", "dyson_airwrap", "AirWrap")
+        if "supersonic" in low:
+            return ("dyson", "dyson", "Supersonic")
+        if "corrale" in low:
+            return ("dyson", "dyson", "Corrale")
         return ("dyson", "dyson", "Dyson")
 
     # Audio brands
@@ -454,6 +462,29 @@ def parse_audio(csv_text: str) -> list[dict]:
     return products
 
 
+def parse_smartphones(csv_text: str) -> list[dict]:
+    """A=Code, B=Name, C=Price(cash), D=Price(NDS). Section headers: 'Электроника / ...'"""
+    products = []
+    section = ""
+    for row in _rows(csv_text):
+        if len(row) < 3:
+            continue
+        sec = _is_section_header(row)
+        if sec:
+            section = sec.split("/")[-1].strip()
+            continue
+        name, price_raw = row[1].strip(), row[2]
+        if not name:
+            continue
+        price = parse_price(price_raw)
+        if not price:
+            continue
+        brand, family, cat = classify(name, "Смартфоны", section)
+        products.append({"name": name, "country": "", "price": price,
+                         "brand": brand, "family": family, "category": cat})
+    return products
+
+
 def parse_dyson(csv_text: str) -> list[dict]:
     """A=Name, B=Color/country, C=Price."""
     products = []
@@ -571,6 +602,7 @@ def _is_tv(name: str, context: str = "") -> bool:
 PARSERS = {
     "apple_iphone_watch": parse_apple_iphone_watch,
     "apple_ipad_macbook": parse_apple_ipad_macbook,
+    "smartphones": parse_smartphones,
     "discount": parse_discount,
     "accessories_stock": parse_accessories_stock,
     "gadgets": parse_gadgets,

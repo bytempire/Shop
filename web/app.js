@@ -76,6 +76,7 @@
   ];
   var SAMSUNG_SUBS = [
     { family: "samsung_phone", label: "Смартфоны" },
+    { family: "samsung_tablet", label: "Планшеты" },
     { family: "samsung_watch", label: "Умные часы" },
     { family: "samsung_audio", label: "Galaxy Buds" },
   ];
@@ -90,6 +91,7 @@
     { family: "xm_tecno", label: "Tecno" },
     { family: "xm_nothing", label: "Nothing" },
     { family: "xm_vivo", label: "Vivo" },
+    { family: "xm_itel", label: "Itel" },
   ];
   var HUAWEI_SUBS = [
     { family: "huawei_phone", label: "Смартфоны" },
