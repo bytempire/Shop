@@ -105,15 +105,14 @@ def send_subscribe_prompt(token: str, chat_id: int) -> None:
 
 
 def send_catalog_button(token: str, chat_id: int, webapp_url: str) -> None:
-    """Отправляет кнопку «Каталог» с WebApp."""
+    """Отправляет inline-кнопку «Каталог» с WebApp."""
     api_call(token, "sendMessage", {
         "chat_id": chat_id,
         "text": "Вы подписаны! Нажмите «Каталог», чтобы перейти к товарам.",
         "reply_markup": {
-            "keyboard": [
+            "inline_keyboard": [
                 [{"text": "🛍 Каталог", "web_app": {"url": webapp_url}}],
             ],
-            "resize_keyboard": True,
         },
     })
 
@@ -123,10 +122,13 @@ def handle_start(token: str, msg: dict, webapp_url: str) -> None:
     if not chat_id:
         return
     user_id = (msg.get("from") or {}).get("id", chat_id)
-    if is_subscribed(token, user_id):
-        send_catalog_button(token, chat_id, webapp_url)
-    else:
-        send_subscribe_prompt(token, chat_id)
+    try:
+        if is_subscribed(token, user_id):
+            send_catalog_button(token, chat_id, webapp_url)
+        else:
+            send_subscribe_prompt(token, chat_id)
+    except Exception as e:
+        print(f"handle_start error: {e}", file=sys.stderr)
 
 
 def handle_callback(token: str, cb: dict, webapp_url: str) -> None:
@@ -137,19 +139,35 @@ def handle_callback(token: str, cb: dict, webapp_url: str) -> None:
     if not chat_id or not user_id:
         return
 
-    if data == "check_sub":
-        if is_subscribed(token, user_id):
+    if data != "check_sub":
+        return
+
+    try:
+        subscribed = is_subscribed(token, user_id)
+    except Exception as e:
+        print(f"check subscription error: {e}", file=sys.stderr)
+        subscribed = False
+
+    try:
+        if subscribed:
             api_call(token, "answerCallbackQuery", {
                 "callback_query_id": cb["id"],
                 "text": "Подписка подтверждена!",
             })
-            send_catalog_button(token, chat_id, webapp_url)
         else:
             api_call(token, "answerCallbackQuery", {
                 "callback_query_id": cb["id"],
                 "text": f"Вы ещё не подписаны на {REQUIRED_CHANNEL}",
                 "show_alert": True,
             })
+    except Exception as e:
+        print(f"answerCallbackQuery error (non-critical): {e}", file=sys.stderr)
+
+    if subscribed:
+        try:
+            send_catalog_button(token, chat_id, webapp_url)
+        except Exception as e:
+            print(f"send_catalog_button error: {e}", file=sys.stderr)
 
 
 def main() -> None:
