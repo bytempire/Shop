@@ -126,16 +126,11 @@ def set_menu_button(token: str, chat_id: int, webapp_url: str | None) -> None:
 
 
 def send_catalog_button(token: str, chat_id: int, webapp_url: str) -> None:
-    """Отправляет inline-кнопку «Каталог» с WebApp."""
+    """Активирует Menu Button «Каталог» и сообщает пользователю."""
     set_menu_button(token, chat_id, webapp_url)
     api_call(token, "sendMessage", {
         "chat_id": chat_id,
-        "text": "Вы подписаны! Нажмите «Каталог», чтобы перейти к товарам.",
-        "reply_markup": {
-            "inline_keyboard": [
-                [{"text": "🛍 Каталог", "web_app": {"url": webapp_url}}],
-            ],
-        },
+        "text": "Вы подписаны! Нажмите «Каталог» внизу слева, чтобы перейти к товарам.",
     })
 
 
